@@ -3,7 +3,7 @@ title: "Einführungsartikel"
 date: 2021-09-20
 ---
 
-Liebes Tagebuch
+**Liebes Tagebuch**
 
 Es kann losgehen, hier folgen meine Erwartungen, das Tagebuch schreiben sowie der Modulbeschrieb. 
 Auch erfährst du etwas über meinen beruflichen Werdegang und meine IT-Erfahrungen, die ich mal für dich hier aufgeschrieben habe.
@@ -24,7 +24,7 @@ Ebenfalls sollten wir in der Lage sein, Crosswalks zwischen unterschiedlichen Me
 
 **_Zu mir und meine IT-Kenntnisse_**
 
-Vor rund 13 Jahren habe ich einmal das **KV abgeschlossen das war im Jahr 2008**. Meine Kenntnisse beschränken sich auf reines Anwenden. Wir hatten im KV nur die Office-Programme wie Word, Excel, Powerpoint, Outlook und Co. behandelt. Ich habe während meiner KV-Lehre in einem Parkettunternehmen eines der **ERP-Anwendungen von SAP** kennengelernt. Das SAP ist das führende Programm im Bereich der KMU's. Das SAP wurde in allen Abteilungen gebraucht. Das heisst vom Personalbereich mit Lohnzettel bis Einkauf und Verkauf mit dem Auslösen der Bestellung und dem Verschicken der Rechnung bis hin zum Export inklusive Erfassung der Lagerbestände. Anbei der Link: https://www.sap.com/swiss/index.html
+Vor rund 13 Jahren habe ich einmal das **KV abgeschlossen** das war im Jahr 2008. Meine Kenntnisse beschränken sich auf reines Anwenden. Wir hatten im KV nur die Office-Programme wie Word, Excel, Powerpoint, Outlook und Co. behandelt. Ich habe während meiner KV-Lehre in einem Parkettunternehmen eines der **ERP-Anwendungen von SAP** kennengelernt. Das SAP ist das führende Programm im Bereich der KMU's. Das SAP wurde in allen Abteilungen gebraucht. Das heisst vom Personalbereich mit Lohnzettel bis Einkauf und Verkauf mit dem Auslösen der Bestellung und dem Verschicken der Rechnung bis hin zum Export inklusive Erfassung der Lagerbestände. Anbei der Link: https://www.sap.com/swiss/index.html
 
 Nach meiner Lehrzeit habe ich die **kaufmännische Berufsmatura** gemacht, von Sommer 2008-2009, dort hatte ich aber keinen Informatikunterricht mehr. Danach absolvierte ich noch soziale Praktika als Aupair und in einem Behindertenheim  und als Praktikantin in einem Kindergarten von 2009-2012. Dann konnte ich ein wenig Berufserfahrung im KV sammeln, ich arbeitete  von Februar 2012- Sommer 2014 während den zweieinhalb Jahren in dem Treuhandbüro haben wir mit der **Software "Abacus"** gearbeitet. Später habe ich eine Lehre als Malerin gemacht von 2014-2017 und temporär gearbeitet, dort hatte ich gar kein Informatik mehr. Bis ich dann im Jahr im Oktober 2018 an die HTW ging. 
 
@@ -39,9 +39,9 @@ Das im Dezember 2020 neu eingeführte Bibliotheksverwaltungssystem "Alma", welch
 
 Seit Herbst 2018 arbeite ich noch zu 50 Prozent in einem Altersheim, dort müssen wir auch täglich elektronisch Rapportieren. Wir haben dort ebenfalls ein Programm dafür. Das beschränkt sich aber auf Erfassung  und Schreiben des Tagesberichts pro Bewohner und anklicken der Aktivierung/Körperpflege. Das Erfassen der Vitalwerte und die Eintragung der Medikamenteneinnahme wird jedoch von Dipl. Pflegepersonal erfasst.
 
-In diversen Anwendungsprogrammen habe ich bereits Erfahrung gesammelt. Was das Programmieren, Konfigurieren und Modullieren betrifft, welche ich in diesem Kurs an Basics lernen werden, bin ich noch sehr unsicher. Die Shell, diese ist mir immer noch nicht geheur. Nichts desto trotzt versuche ich aber diesen Kurs **positiv anzugehen**. Gerade bin ich am Tutorial für das Markdown am durchgehen https://www.markdowntutorial.com/lesson/1/. 
+In diversen Anwendungsprogrammen habe ich bereits Erfahrung gesammelt. Was das Programmieren, Konfigurieren und Modullieren betrifft, welche ich in diesem Kurs an Basics lernen werden, bin ich noch sehr unsicher. Die Shell, diese ist mir immer noch nicht geheur. Nichtdestotrotz versuche ich aber diesen Kurs **positiv anzugehen**. Gerade bin ich am Tutorial für das Markdown am durchgehen https://www.markdowntutorial.com/lesson/1/. 
 
-Tschau und bis bald liebes Tagebuch!
+**Tschau und bis bald liebes Tagebuch!**
 
 ![grafik](https://user-images.githubusercontent.com/90834735/137637449-8a3e30dc-6d7b-48f9-b6b8-19895317003c.png)
 
