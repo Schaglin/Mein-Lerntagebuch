@@ -3,7 +3,7 @@ title: "Einführungsartikel"
 date: 2021-09-20
 ---
 
-**Liebes Tagebuch**
+#Liebes Tagebuch
 
 Es kann losgehen, hier folgen meine Erwartungen, das Tagebuch schreiben sowie der Modulbeschrieb. 
 Auch erfährst du etwas über meinen beruflichen Werdegang und meine IT-Erfahrungen, die ich mal für dich hier aufgeschrieben habe.
@@ -45,7 +45,14 @@ Das im Dezember 2020 neu eingeführte **Bibliotheksverwaltungssystem "Alma"**, w
 
 Seit Herbst 2018 arbeite ich als **Pflegehelferin SRK** mit einem 50 Prozent Pensum in einem Altersheim, häufig über das Wochenende plus Montag oder Freitag. Dort müssen wir auch täglich elektronisch Rapportieren. Wir haben dort ebenfalls ein Programm dafür. Das beschränkt sich aber auf Erfassung  und Schreiben des Tagesberichts pro Bewohner und anklicken der Aktivierung/Körperpflege. Das Erfassen der Vitalwerte und die Eintragung der Medikamenteneinnahme wird jedoch von Dipl. Pflegepersonal erfasst.
 
-In diversen Anwendungsprogrammen habe ich bereits Erfahrung gesammelt. Was das Programmieren, Konfigurieren und Modullieren betrifft, welche ich in diesem Kurs an Basics lernen werden, bin ich noch sehr unsicher. Die Shell, diese ist mir immer noch nicht geheur. Nichtdestotrotz versuche ich aber diesen Kurs **positiv anzugehen**. Gerade bin ich am Tutorial für das Markdown am durchgehen https://www.markdowntutorial.com/lesson/1/. 
+In diversen Anwendungsprogrammen habe ich bereits Erfahrung gesammelt. Was das Programmieren, Konfigurieren und Modullieren betrifft, welche ich in diesem Kurs an Basics lernen werden, bin ich noch sehr unsicher. Die Shell, diese ist mir immer noch nicht geheur. Nichtdestotrotz versuche ich aber diesen Kurs **positiv anzugehen**.
+Gerade bin ich am Tutorial für das Markdown am durchgehen https://www.markdowntutorial.com/lesson/1/. Nun bin ich am Header lernen.
+#Header one
+##Header two
+###Header three
+####Header four
+#####Header five
+######Header six
 
 **Tschau und bis bald liebes Tagebuch!**
 
