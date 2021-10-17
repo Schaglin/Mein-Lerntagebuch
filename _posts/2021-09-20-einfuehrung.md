@@ -2,6 +2,12 @@
 title: "Einführungsartikel"
 date: 2021-09-20
 ---
+
+Liebes Tagebuch
+
+Es kann losgehen, hier folgen meine Erwartungen, das Tagebuch schreiben sowie der Modulbeschrieb. 
+Auch erfährst du etwas über meinen beruflichen Werdegang und meine IT-Erfahrungen, die ich mal für dich hier aufgeschrieben habe.
+
 **_Erwartungen_**
 
 Ich erwarte von diesem Kurs, dass ich auf die technischen Anforderungen herangeführt werde, welche in der Welt da draussen erwartet werden. 
@@ -9,9 +15,7 @@ Ich studiere im 7. Semester Teilzeit "Bibliotheksmanagement" und hoffe dann ein 
 
 **_Tagebuch schreiben_**
 
-Tagebuch soll helfen sich selber zu reflektieren und AHA-Momente zu notieren. Das Tagebuch sollte schön gestaltet sein, daher musste zuerst mal github eingerichtet werden.
-Man könnte für ein schönes Design noch ein Plug-in installieren. Wenn ich Zeit habe, werde ich das noch versuchen, man ist zwar schon gewarnt worden, dass das schwierig sei.
-Am besten schreibe ich jeden Tag in möglichst kurzer Zeitspanne, so dass mein Erinnerungsvermögen noch frisch ist, ansonsten wird das schwierig das Vor-einem-Monat-Gelernte noch nachzuvollziehen, besonders was die AHA-Momente betrifft.
+Tagebuch soll helfen sich selber zu reflektieren und AHA-Momente zu notieren. Das Tagebuch sollte schön gestaltet sein, daher musste zuerst mal github eingerichtet werden, zum Glück gab es bereits zwei angelegte Beispielartikel.Man könnte für ein schönes Design noch ein Plug-in installieren. Wenn ich Zeit habe, werde ich das noch versuchen, man ist zwar schon gewarnt worden, dass das schwierig sei.Am besten schreibe ich jeden Tag in möglichst kurzer Zeitspanne, so dass mein Erinnerungsvermögen noch frisch ist, ansonsten wird das schwierig das Vor-einem-Monat-Gelernte noch nachzuvollziehen, besonders was die AHA-Momente betrifft.
 
 **_Modulbeschreibung_**
 
@@ -20,15 +24,26 @@ Ebenfalls sollten wir in der Lage sein, Crosswalks zwischen unterschiedlichen Me
 
 **_Zu mir und meine IT-Kenntnisse_**
 
-Vor rund 13 Jahren habe ich einmal das KV abgeschlossen das war im Jahr 2008. Meine Kenntnisse beschränken sich auf reines Anwenden. Wir hatten im KV nur die Office-Programme wie Word, Excel, Powerpoint, Outlook und Co. behandelt. Ich habe während meiner KV-Lehre in einem Parkettunternehmen eines der Anwendungen von SAP- kennengelernt. Das SAP ist das führende Programm im Bereich der KMU's. Das SAP wurde in allen Abteilungen gebraucht. Das heisst vom Personalbereich mit Lohnzettel bis Einkauf und Verkauf mit dem Auslösen der Bestellung und dem Verschicken der Rechnung bis hin zum Export inklusive Erfassung der Lagerbestände. Anbei der Link: https://www.sap.com/swiss/index.html
+Vor rund 13 Jahren habe ich einmal das KV abgeschlossen das war im Jahr 2008. Meine Kenntnisse beschränken sich auf reines Anwenden. Wir hatten im KV nur die Office-Programme wie Word, Excel, Powerpoint, Outlook und Co. behandelt. Ich habe während meiner KV-Lehre in einem Parkettunternehmen eines der ERP-Anwendungen von SAP kennengelernt. Das SAP ist das führende Programm im Bereich der KMU's. Das SAP wurde in allen Abteilungen gebraucht. Das heisst vom Personalbereich mit Lohnzettel bis Einkauf und Verkauf mit dem Auslösen der Bestellung und dem Verschicken der Rechnung bis hin zum Export inklusive Erfassung der Lagerbestände. Anbei der Link: https://www.sap.com/swiss/index.html
 
 Nach meiner Lehrzeit habe ich die kaufmännische Berufsmatura gemacht, von Sommer 2008-2009, dort hatte ich aber keinen Informatikunterricht mehr. Danach absolvierte ich noch soziale Praktika als Aupair und in einem Behindertenheim  und als Praktikantin in einem Kindergarten von 2009-2012. Dann konnte ich ein wenig Berufserfahrung im KV sammeln, ich arbeitete  von Februar 2012- Sommer 2014 während den zweieinhalb Jahren in dem Treuhandbüro haben wir mit der Software "Abacus" gearbeitet. Später habe ich eine Lehre als Malerin gemacht von 2014-2017 und temporär gearbeitet, dort hatte ich gar kein Informatik mehr. Bis ich dann im Jahr im Oktober 2018 an die HTW ging. 
 
-In der FHGR (ehemals HTW) wurde ich dann ziemlich ins kalte Wasser geschmissen, was die Informatik betrifft. Wir haben im ersten Semester mithilfe von HTML und CSS unsere erste eigene Webseite auf dem Editor kreeirt. Diese selbstgebaute Webseite ging aber nicht viral, sondern wurde nur dem Lehrer gezeigt. Auch Phyton habe ich als Programmiersprache kennen gelernt. Wir mussten jeweils die Übungen hochladen, dies geschah ebenfalls im GitLab. Das Github ist mir daher schon ein wenig bekannt. In einem Marketing-Modull haben wir eine eigene Webseite eingerichtet, dies geschah zwar auf einer der zu bezahlenden Plattform namens "Wordpress"( https://wordpress.com/de/). Die Webseite wurde dann über Google-Ads promoted und es wurde über Google analysiert, wieviel Benutzer haben die Homepage angeschaut, wie viele Leser haben die Beiträge gelesen, welche Beiträge waren am beliebtesten, wielange sind die Leute auf der Webseite verweilt.Im Modul "Aris" hatten wir erste Erfahrungen mit der Shell von Linux gesammelt. Der reine Online-Unterricht war immer am Abend von 17 Uhr bis 20 Uhr und sehr stressig, darum habe ich nicht die beste Erfahrung gesammelt mit der Shell. Die Aufgabe bestand darin "Content" über ein Thema des Bibliotheks-oder Archivswesen zu schreiben und diesen als Gruppenarbeit untereinander zu verlinken, diese musste dann den anderen Studierenden zugänglich gemacht werden. 
+In der FHGR (ehemals HTW) wurde ich dann ziemlich ins kalte Wasser geschmissen, was die Informatik betrifft. Wir haben im ersten Semester mithilfe von HTML und CSS unsere erste eigene Webseite auf dem Editor gebastelt. Diese selbstgebaute Webseite ging aber nicht viral, sondern wurde nur dem Lehrer gezeigt. Auch Phyton habe ich als Programmiersprache kennen gelernt. Wir mussten jeweils die Übungen hochladen, dies geschah ebenfalls im GitLab. 
 
-Momentan arbeite ich noch zu 50 Prozent in einem Altersheim, dort müssen wir auch täglich elektronisch rapportieren, wir haben dort ebenfalls ein Programm dafür. Das beschränkt sich aber auf Erfassung  und Schreiben des Tagesberichts pro Bewohner und anklicken der Aktivierung/Körperpflege. Das Erfassen der Vitalwerte und die Eintragung der Medikamenteneinnahme wird jedoch von Dipl. Pflegepersonal erfasst.
+Das Github ist mir daher schon ein wenig bekannt. In einem Marketing-Modull haben wir eine eigene Webseite eingerichtet, dies geschah zwar auf einer der zu bezahlenden Plattform namens "Wordpress"( https://wordpress.com/de/). Die Webseite wurde dann über Google-Ads promoted und es wurde über Google analysiert, wieviel Benutzer haben die Homepage angeschaut, wie viele Leser haben die Beiträge gelesen, welche Beiträge waren am beliebtesten, wielange sind die Leute auf der Webseite verweilt. Im Modul "Aris" hatten wir erste Erfahrungen mit der Shell von Linux gesammelt. Der reine Online-Unterricht war immer am Abend von 17 Uhr bis 20 Uhr und sehr stressig, darum habe ich nicht die beste Erfahrung gesammelt mit der Shell. Die Aufgabe bestand darin "Content" über ein Thema des Bibliotheks-oder Archivswesen zu schreiben und diesen als Gruppenarbeit untereinander zu verlinken, diese musste dann den anderen Studierenden zugänglich gemacht werden. 
 
-In diversen Anwendungsprogrammen habe ich bereits Erfahrung gesammelt. Was das Programmieren, Konfigurieren und Modullieren betrifft, welche ich in diesem Kurs an Basics lernen werden, bin ich noch sehr unsicher. Die Shell, diese ist mir immer noch nicht geheur. Nichts desto trotzt versuche ich aber diesen Kurs positiv anzugehen. Gerade bin ich am Tutorial für das Markdown am durchgehen https://www.markdowntutorial.com/lesson/1/.
+Da fällt mir ein, wir durften an der FHGR im 4. Semester im Modull "SESY" auch eine eigene Ontologie basteln, diese konnten wir dann mit einer Abfrage kontrollieren, ob diese Ontogloie überlebensfähig ist.Das Programm hiess Protegé.
+
+Und mir fällt auch ein, dass ich schon SQL-Abfragen tätigen musste in gewissen Modulen (Sesy, Prog und..?), das SQL ist mir zwar auch nicht so geläufig.
+
+Das im Dezember 2020 neu eingeführte Bibliotheksverwaltungssystem "Alma", welches das bekannte Aleph ersetzt und nun auch Cloudzugänglich ist, kenne ich nur vom Schulunterricht an der FHGR. Es gibt zwar Tutorials von der Exlibris Group, welche frei verfügbar sind unter der Kategorie "Knowledge Center" (https://knowledge.exlibrisgroup.com/) können Alma, Primo und Co. erlernt werden. Hier ein Video zu Elektronische Ressourcen in Alma: Terminologie und Bestandsmodell: http://exl-edu.com/01_Alma/Alma_Essentials/de/Resources/Electronic_Resources_in_Alma-Terminology_and_Inventory_Model/
+
+
+Seit Herbst 2018 arbeite ich noch zu 50 Prozent in einem Altersheim, dort müssen wir auch täglich elektronisch Rapportieren. Wir haben dort ebenfalls ein Programm dafür. Das beschränkt sich aber auf Erfassung  und Schreiben des Tagesberichts pro Bewohner und anklicken der Aktivierung/Körperpflege. Das Erfassen der Vitalwerte und die Eintragung der Medikamenteneinnahme wird jedoch von Dipl. Pflegepersonal erfasst.
+
+In diversen Anwendungsprogrammen habe ich bereits Erfahrung gesammelt. Was das Programmieren, Konfigurieren und Modullieren betrifft, welche ich in diesem Kurs an Basics lernen werden, bin ich noch sehr unsicher. Die Shell, diese ist mir immer noch nicht geheur. Nichts desto trotzt versuche ich aber diesen Kurs positiv anzugehen. Gerade bin ich am Tutorial für das Markdown am durchgehen https://www.markdowntutorial.com/lesson/1/. 
+
+Tschau und bis bald liebes Tagebuch!
 
 
 
