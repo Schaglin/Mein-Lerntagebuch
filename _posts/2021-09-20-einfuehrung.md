@@ -10,7 +10,7 @@ Auch erfährst du etwas über meinen beruflichen Werdegang und meine IT-Erfahrun
 
 **_Erwartungen_**
 
-Ich erwarte von diesem Kurs, dass ich auf die **technischen Anforderungen** herangeführt werde, welche **in der Welt da draussen** erwartet werden. 
+Ich erwarte von diesem Kurs, dass ich auf die **technischen Anforderungen** herangeführt werde, welche **in der Welt im Bereich _Bibliothekswesen_ da draussen** erwartet werden. 
 Ich studiere im 7. Semester Teilzeit "Bibliotheksmanagement" und hoffe dann ein wenig Einblick zu bekommen, wie das jetzt geht mit einem Bibliotheksprogramm und wie die Metadaten von einem Programm in das nächste genommen werden können. Konkret wäre interessant zu erfahren, wie sich diese Metadaten (Titel, Autor, Verlag...) eines einzelnen Mediums (z. b. Buch) kopieren lassen. Das heisst **über welche Schnittstellen**, Repositories oder über Cloud-Systeme oder was es da sonst noch gibt usw..Während dem Praktika in einer öffentlichen Bibliothek habe ich erfahren, dass die meisten Medien in der Schweiz alle von der SBD-Bibliotheksservice katalogisiert/ einmal erfasst werden und diese Metadaten dann von den öffentlichen Bibliotheken übernommen werden können. Wichtig scheint mir, technische Einblicke zu bekommen, so dass ich mit den Informatikern ein wenig reden kann, dabei hilft dieser Kurs sicher. 
 
 **_Tagebuch schreiben_**
@@ -19,8 +19,13 @@ Tagebuch soll helfen sich selber zu reflektieren und **AHA-Momente** zu notieren
 
 **_Modulbeschreibung_**
 
-Die Modulbeschreibug tönt interessant: Im Modul Bibliotheks- und Archivinformatik lernen wir die in Bibliotheken und Archiven eingesetzten Softwares und Technologien kennen. Funktionsweisen von Bibliothekskatalogen (**bis hin zu Cloud-Konzepten**), von Publikationsplattformen, Repositories etc. werden erläutert. Verschiedene Suchtechnologien werden analysiert und im Einsatz über unterschiedliche Datenbestände angewandt. Es wird gezeigt, wie **Metadatenstandards und Austauschprotokolle eingesetzt und genutzt werden**. Nach erfolgreicher Teilnahme am Modul sind oder sollten wir dann in der Lage sein die Funktionsweise spezifischer Bibliothekssoftware zu verstehen und die passende Software für eine spezifische Aufgabe auch zu evaluieren. Zudem sollten wir dazu fähig sein, **Suchmaschinen zu konfigurieren** und Bibliothekarische und archivarische **Metadaten** (z.B. MARC, MARCXML, MODS, Dublin Core, EAD, BIBFRAME) **zu modellieren**. Diese Metadaten lassen sich dann mit entsprechenden Protokollen oder Anwendungen übertragen.
-Ebenfalls sollten wir in der Lage sein, Crosswalks zwischen unterschiedlichen Metadatenformaten zu programmieren.
+Die Modulbeschreibung tönt erstmals nützlich und interessant: 
+- Im Modul "BAIN" lernen wir die in Bibliotheken und Archiven eingesetzten **Softwares** **&** **Technologien** kennen. 
+- Funktionsweisen von Bibliothekskatalogen (**bis hin zu Cloud-Konzepten**), von Publikationsplattformen, Repositories etc. werden erläutert. 
+- Verschiedene Suchtechnologien werden analysiert und im Einsatz über unterschiedliche Datenbestände angewandt. Es wird gezeigt, wie **Metadatenstandards und Austauschprotokolle eingesetzt und genutzt werden**. 
+- Nach erfolgreicher Teilnahme am Modul sind oder sollten wir dann in der Lage sein die Funktionsweise spezifischer **Bibliothekssoftware zu verstehen** und die passende Software für eine spezifische Aufgabe auch zu evaluieren.
+- Zudem sollten wir dazu fähig sein, **Suchmaschinen zu konfigurieren** und Bibliothekarische und archivarische **Metadaten** (z.B. MARC, MARCXML, MODS, Dublin Core, EAD, BIBFRAME) **zu modellieren**. Diese Metadaten lassen sich dann mit entsprechenden Protokollen oder Anwendungen übertragen.
+- Ebenfalls sollten wir in der Lage sein, **Crosswalks** zwischen unterschiedlichen **Metadatenformaten zu programmieren**.
 
 **_Zu mir und meine IT-Kenntnisse_**
 
