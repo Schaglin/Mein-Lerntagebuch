@@ -4,7 +4,7 @@ date: 2021-09-20
 ---
 _Erwartungen_
 Ich erwarte von diesem Kurs, dass ich auf die technischen Anforderungen herangeführt werde, welche in der Welt da draussen erwartet werden. 
-Ich studieren Bibliotheksmanagement und hoffe dann ein wenig Einblick zu bekommen, wie das jetzt geht mit einem Bibliotheksprogramm und wie die Metadaten von einem Programm, in das nächste genommen werden könnnen. Wichtig scheint mir, technische Einblicke zu bekommen, so dass ich mit den Informatiker ein wenig reden kann, dabei hilft dieser Kurs sicher.
+Ich studiere im 7. Semester Teilzeit "Bibliotheksmanagement" und hoffe dann ein wenig Einblick zu bekommen, wie das jetzt geht mit einem Bibliotheksprogramm und wie die Metadaten von einem Programm, in das nächste genommen werden könnnen. Wichtig scheint mir, technische Einblicke zu bekommen, so dass ich mit den Informatiker ein wenig reden kann, dabei hilft dieser Kurs sicher.
 
 _Tagebuch_schreiben_
 Tagebuch soll helfen sich selber zu reflektieren und AHA-Momente zu notieren. Das Tagebuch sollte schön gestaltet sein, daher musste zuerst mal github eingerichtet werden.
@@ -16,9 +16,8 @@ Die Modulbeschreibug tönt interessant: Im Modul Bibliotheks- und Archivinformat
 Ebenfalls sollten wir in der Lage sein, Crosswalks zwischen unterschiedlichen Metadatenformaten zu programmieren.
 
 _Zu mir und meine IT-Kenntnisse_
-Vor rund 10 Jahren habe ich einmal das KV abgeschlossen und danach noch zwei einhalb Jahre daraufgearbeitet. Meine Kenntnisse beschränken sich auf reines Anwenden. Ich habe während meiner Lehre das SAP- Anwendungsprogramm kennengelernt und währen den zwei Jahren in dem Treuhandbüro mit der Software "Abacus" gearbeitet.
-In der FHGR (ehemals HTW) haben wir dann im HTML und CSS unsere erste eigene Webseite auf dem Editor kreeirt. Phyton habe ich als Programmiersprache kennen gelernt.
-Im Modul Aris hatten wir erste Erfahrungen mit der Shell von Linux gesammelt.
+Vor rund 13 Jahren habe ich einmal das KV abgeschlossen das war im Jahr 2008. Meine Kenntnisse beschränken sich auf reines Anwenden. Ich habe während meiner Lehre  eines der Anwendungen von SAP- kennengelernt. Das SAP ist das führende Programm im Bereich der KMUS. Anbei der Link: https://www.sap.com/swiss/index.html
+Nach meiner Lehrzeit habe ich die kaufmännische Berufsmatura gemacht, dort hatte ich aber keinen Informatikunterricht mehr. Danach absolvierte ich noch soziale Praktika als Aupair und in einem Behindertenheim von 2010-2012. Dann konnte ich ein wenig Berufserfahrung im KV sammeln, ich arbeitete  von 2012- 2014 während den zwei Jahren in dem Treuhandbüro haben wir mit der Software "Abacus" gearbeitet. Später habe ich eine Lehre als Malerin gemacht von 2014-2017 und temporär gearbeitet, dort hatte ich gar kein Informatik mehr. Bis ich dann im Jahr 2018 an die HTW ging. In der FHGR (ehemals HTW) haben wir dann im HTML und CSS unsere erste eigene Webseite auf dem Editor kreeirt, diese ging aber nicht viral, sondern wurde nur dem Lehrer gezeigt. Phyton habe ich als Programmiersprache kennen gelernt. Im Modul Aris hatten wir erste Erfahrungen mit der Shell von Linux gesammelt. Der Unterricht war sehr stressig, darum habe ich nicht die beste Erfahrung gesammelt mit der Shell.
 
 
 
