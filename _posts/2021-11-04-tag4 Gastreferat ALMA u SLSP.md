@@ -11,6 +11,7 @@ date: 2021-11-04
 ![grafik](https://user-images.githubusercontent.com/90834735/140959464-6b462add-cd3a-4309-879c-ce573bc0c1d1.png)
 
 **_ALMA Topologie_**
+
 **Community Zone- Gemeinschaftszone**
 Hier werden die E-Ressourcen, Normdaten verwaltet und hier findet sich auch die ALMA-Community.
 In der Gemeinschaftszone können alle Metadaten für die Katalogisierung übernommen werden.
@@ -78,14 +79,19 @@ Diese können auch im Detail angeschaut/überwacht werden mit Nutzungsbedingunge
 
 **Beispiel E-Book anlegen/aktivieren**: 
 
-Das geht w![grafik](https://user-images.githubusercontent.com/90834735/140965320-e4e85fdb-0238-4b50-91e9-1eee150783d4.png)
-ieder über die Netzwerkzone.Hier können einzelne E-Books aktiviert werden. Wenn man das "Haus" sieht, hat man hat dort bei dem Verlag "Vandenhoeck" schon mal gekauft. Am Schluss einfach auf Button klicken "aktivieren".
+![grafik](https://user-images.githubusercontent.com/90834735/140965320-e4e85fdb-0238-4b50-91e9-1eee150783d4.png)
+Das geht wieder über die Netzwerkzone.Hier können einzelne E-Books aktiviert werden. Wenn man das "Haus" sieht, hat man hat dort bei dem Verlag "Vandenhoeck" schon mal gekauft. Am Schluss einfach auf Button klicken "aktivieren".
 Dann kann man das kontrollieren, wenn jetzt das Haus erscheint= dieser Titel ist jetzt in der IZ Windisch auch verfügbar
 
 
 **Beispiel mit der Zeitschrift anlegen/aktivieren:**
 Das geht ähnlich wie das E-Book auch zuerst muss man in die Netzwerkzone dann dort aktivierne. Dann am Schluss wieder in Institutionszone, ob es geklappt hat (Männchen erscheint). 
 ![grafik](https://user-images.githubusercontent.com/90834735/140965992-ce10fb9f-3c9b-402d-81c6-99542cfa94a6.png)
+
+man könnte hier auch noch das Portfolio der Zeitschrift bearbeiten, wenn z.b. die Bandnummer oder das Erschienungsjahr (1999) nicht stimmt. Kann man das ändern. Dann kann man noch bestimmen ob es global oder nur lokal geändert werden soll, das heisst ob es für den Benutzer lokal oder globale Ansicht angezeigt werden soll. Man könnte die 1999 überschreiben, aber bleibt mit Gemeinschaftszone verknüpft.
+![grafik](https://user-images.githubusercontent.com/90834735/140966700-78bdff23-cb04-4ee2-a060-b1631bba9687.png)
+
+
 
 
 
