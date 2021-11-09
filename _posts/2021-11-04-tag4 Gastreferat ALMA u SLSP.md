@@ -101,17 +101,18 @@ Zum Beispiel der Bookreturn (automatische Rückgabemaschine) kann keine Wiederei
 ![grafik](https://user-images.githubusercontent.com/90834735/140973080-72a050ca-8b10-441e-a03b-af4d30b2cc3f.png)
 ![grafik](https://user-images.githubusercontent.com/90834735/140973179-ff1cb4a0-c41c-4433-ac7a-a3b1c875f404.png)
 
-**_Die meisten Konfiguration (z. Erwerbung) werden auf der IZ -Ebene gemacht:_**
-![grafik](https://user-images.githubusercontent.com/90834735/140974301-35a837a0-fb27-4955-bceb-0af5922ab899.png)
+**Die meisten Konfiguration (z. Erwerbung) werden auf der IZ -Ebene gemacht:**
+-  **_Statistiken_**: Diese Codes sind für alle Bibliotheken, kann man eine Statistik machen.
+-   **_Regeln für Rechnungsprüfung* auf Ebene für IZ gelöst_. 
+-   **_Und auch Lizenzen auf IZ-Ebene gelöst-_**
+-   **_Suchkonfiguration_**
+-   **_Metadatenkonfiguration_**
+-   **_Konfiguration der Briefe_** (Briefe und Mails für Kunden, Benutzer, an Lieferanten) Briefe sind für alle und ein paar kann man anpassen. 
+-![grafik](https://user-images.githubusercontent.com/90834735/140974301-35a837a0-fb27-4955-bceb-0af5922ab899.png)
 
 ![grafik](https://user-images.githubusercontent.com/90834735/140974148-8e45378d-c98d-4842-8fbe-587149c0c028.png)
--  **Statistiken**: Diese Codes für alle Bibliotheken, kann man eine Statistik machen.
--   Regeln für Rechnugnsprüfung auf Ebene für IZ gelöst. Und auch Lizenzen auf IZ-Ebene gelöst
--    Suchkonfiguration
--    Metadatenkonfiguration
--    Konfiguration der Briefe (Briefe und Mails für Kunden, Benutzer, an Lieferanten) Briefe sind für alle und ein paar kann man anpassen. 
-- 
-- *z.B. Ausleihbeleg 
+
+- **z.B. ein Ausleihbeleg** 
 -   Sprache kann man auch anpassen.  Der Brief wird als xml File so definiert. Es gibt auch eine Vorschau.
 ![grafik](https://user-images.githubusercontent.com/90834735/140974417-f5c066d8-e2ed-4332-af0c-56d5b51cdb8b.png)
 ![grafik](https://user-images.githubusercontent.com/90834735/140974650-2dc82224-cc19-4eb5-8b70-480467c7ccc5.png)
