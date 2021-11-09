@@ -77,10 +77,8 @@ Diese können auch im Detail angeschaut/überwacht werden mit Nutzungsbedingunge
 
 - -Benutzerverwaltung: Hier gibt es Rollenvorlagen für Mitarbeiter z.b . Admin Berechtigung ohne Rollen separat zu verteilen.
 - Erwerbung
-- 
+
 - **Erschliessung**
-
-
 
 
 
@@ -101,13 +99,13 @@ Zum Beispiel der Bookreturn (automatische Rückgabemaschine) kann keine Wiederei
 ![grafik](https://user-images.githubusercontent.com/90834735/140973080-72a050ca-8b10-441e-a03b-af4d30b2cc3f.png)
 ![grafik](https://user-images.githubusercontent.com/90834735/140973179-ff1cb4a0-c41c-4433-ac7a-a3b1c875f404.png)
 
-**Die meisten Konfiguration (z. Erwerbung) werden auf der IZ -Ebene gemacht:**
+**Die meisten Konfiguration (z.B Erwerbung) werden auf der IZ -Ebene (Institutionsebene) gemacht:**
 -  **_Statistiken_**: Diese Codes sind für alle Bibliotheken, kann man eine Statistik machen.
--   **_Regeln für Rechnungsprüfung* auf Ebene für IZ gelöst_. 
--   **_Und auch Lizenzen auf IZ-Ebene gelöst-_**
+-   **_Regeln für Rechnungsprüfung werden auf der Ebene für IZ gelöst_. 
+-   **_Und auch die Lizenzen werden auf der IZ-Ebene gelöst_**
 -   **_Suchkonfiguration_**
 -   **_Metadatenkonfiguration_**
--   **_Konfiguration der Briefe_** (Briefe und Mails für Kunden, Benutzer, an Lieferanten) Briefe sind für alle und ein paar kann man anpassen. 
+-   **_Konfiguration der Briefe_** (Briefe und Mails für Kunden, Benutzer, an Lieferanten) Briefe sind für alle und ein paar kann man anpassen. Bestellungen, Formulare etc.
 -![grafik](https://user-images.githubusercontent.com/90834735/140974301-35a837a0-fb27-4955-bceb-0af5922ab899.png)
 
 ![grafik](https://user-images.githubusercontent.com/90834735/140974148-8e45378d-c98d-4842-8fbe-587149c0c028.png)
@@ -118,6 +116,64 @@ Zum Beispiel der Bookreturn (automatische Rückgabemaschine) kann keine Wiederei
 ![grafik](https://user-images.githubusercontent.com/90834735/140974650-2dc82224-cc19-4eb5-8b70-480467c7ccc5.png)
 ![grafik](https://user-images.githubusercontent.com/90834735/140974758-7674bfee-ccb5-4904-a638-e8d287844ae2.png)
 
+**auch die Primo- Ansicht für die Kunden wird auf der Konfiguration bearbeitet:**
+- Gelb typisch  für FHWN
+- Lokale Texte von der FHNW Windisch werden genommen.
+- Verlinken auf  E-Ressourcen der FHWN 
+- ![grafik](https://user-images.githubusercontent.com/90834735/140976314-0cf02a54-ee6e-4db0-aa9e-72691f39f3ae.png)
+
+Weitere Konfigurationen: Registerkarten, Timeout, Standardsprache
+
+**Das Zentrale Paket ist das Masterpaket als Grundlage für alle Bibliotheken, durch kundenspezifisches Paket können noch Anpassungen gemacht werden können (Hilfeseite, Anpassungen)**
+![grafik](https://user-images.githubusercontent.com/90834735/140976490-e8e159bb-1bed-4358-b8ed-c13a42ced927.png)
+**Hilfeseite, Homepage , Link kann noch individuell angepasst werden**
+Einzelne Links kann man so anpassen für Homepage auf eigene IZ. und dann diese hochladen. Aber z. b.keine Javascript, da wird alles genommen von SLSP.
+![grafik](https://user-images.githubusercontent.com/90834735/140976702-92aaa95e-d5b5-481c-b492-5ad5da9b2241.png)
+![grafik](https://user-images.githubusercontent.com/90834735/140976807-3f363ba2-2e0c-4828-ab21-ede6fd742e1a.png)
+**Anpassungen anschauen, Test-Views zuerst machen**
+
+
+Im Alma hat uns gezeigt:
+Grundaufbau, Suche, E-Ressourcen über Gemeinschaftszone, Verwaltung der Bibliotheken, Beispiel von übergreifenden Bibliothek
+
+
+
+**Frage":Einkaufen über Lieferantensystem, könnte auch über Alma zeigen**?
+- Ja das wäre auch möglich über Alma. Im Bespiel war die E-Ressource schon eingekauft.
+- kann auf Bestellung klicken
+![grafik](https://user-images.githubusercontent.com/90834735/140977117-a2a2272f-b333-4c5a-949b-cfac96a81bad.png)
+
+
+
+
+
+
+
+- Katalogisierung:
+Katalogisierung auf der Netzwerkzone (printbestände)
+eRessourcen nur für spezifische Institution zugänglich
+Katalogisierung nicht von Grund auf aber nehme über Gemeinschaftzszone.
+**Frage kam zu Printmedien wer diese katalogisiert?**
+- Printmedien machen immer noch der erste, der das eingekauft hat vom Verbund, man kann sich an diese Aufnahme hängen dann aber auch da gibt es Fremddatenübernahme.
+![grafik](https://user-images.githubusercontent.com/90834735/140977497-bb7a4fd9-878c-4e6e-8618-a515934463fe.png)
+![grafik](https://user-images.githubusercontent.com/90834735/140977546-b9d633c7-e133-4ace-83ed-af668b1f43bf.png)
+
+![grafik](https://user-images.githubusercontent.com/90834735/140977627-38f67617-858d-43e3-b627-aad792b5a4d1.png)
+
+- WorldCAt
+- Oder Library of Congress das übernehmen
+Aber printmedien werden immer noch von Bibliotheken  selber katalgoisiert, und andere Bibliotheken könne über Gemeinschaftszone übernehmen.
+
+**Metadateneditor**
+Man katalgoisiert immer noch über RDA im Vergleich zu Aleph ist das noch gleich
+Aber Felder sind anders aber mit Dollar und Buchstaben. Feldinformationen von Marc 21 sieht man gleich, Warnungen, Beispiele,Vorlagen
+![grafik](https://user-images.githubusercontent.com/90834735/140977955-5d41c8f4-f675-48e7-8682-dd96f9fe833e.png)
+
+Kann direkt neuen Bestand erstellen: ![grafik](https://user-images.githubusercontent.com/90834735/140978068-8768cb30-2e27-467e-9f96-39965e989a7c.png)
+
+**Frage von Lohmeier Felix*": Wielange Marc 21 noch lebt und Bibframe kommt das nicht noch oder moderne linked data?  Wahrscheinlich Marc 21 wird im Hintergrund in Bibframe konvertiert wird, aber dass alma immer noch drin ist, aber dann kommt Bibframe drüber..
+- Ja man kann Bibframe nur anzeigen, aber man nutzt Marc 21 noch alles noch auf Marc 21 aufgerichtet.
+- Marc 21 haben wir im Kurs die Hypothese aufgestellt, dass noch lange Bedeutung haben wird. Ja das sei alles noch über Marc 21.
 
 
 
@@ -128,7 +184,6 @@ Zum Beispiel der Bookreturn (automatische Rückgabemaschine) kann keine Wiederei
 
 
 
-- Katalogisierung
 
 
 **Beispiele wurden gemacht**:
