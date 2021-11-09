@@ -53,12 +53,12 @@ Es gab eine LIVE-Demo über: (die fett gedruckten wurden noch genauer angeschaut
 ![grafik](https://user-images.githubusercontent.com/90834735/140962884-a8cc735c-689d-4f37-9f3b-749e96d773e6.png)
 Kategorien: Ausleihen und Rückgabe, Vormerkungen, Listeraturlisten
 Ausleihe: Bei den Ausleihen sind Benutzerkonfiguration, Mahnungen, Offline Ausleihe hinterlegt. 
-Vormerkungen: Aus dem REgal nehmen, Exemplare Scannen, Abgelaufene Bestellungen, Exemplar-Prozesse überwachen
+Vormerkungen: Aus dem Regal nehmen, Exemplare Scannen, Abgelaufene Bestellungen, Exemplar-Prozesse überwachen. Strichcode einlesen, Vormerkung, Rückgabe machen.Pro Benutzer: Bestellung, Mahnen, Rechnung, Kaufbestellung, Lieferanten bearbeiten, Kontos bearbeiten.
 ![grafik](https://user-images.githubusercontent.com/90834735/140963653-43d9bb8b-6b8d-474b-b605-ac3123710b39.png)
-Strichcode einlesen, Vormerkung, Rückgabe machen
+
 ![grafik](https://user-images.githubusercontent.com/90834735/140963809-488267c5-ec8c-4a98-985f-e33e0390c3b3.png)
 
-pro Benutzer: Bestellung, Mahnen, Rechnung, Kaufbestellung, Lieferanten bearbeiten, Kontos
+
 
 - **E-Ressourcen**: Bei E-Ressourcen sind Lizenzen drin, sogenannte Konsortiumlizenzen 
 
@@ -75,12 +75,13 @@ Diese können auch im Detail angeschaut/überwacht werden mit Nutzungsbedingunge
 
 
 
-- -Benuterverwaltung: Hier gibt es Rollenvorlagen z.b . Admin Berechtigung ohne Rollen separat zu verteilen
+- -Benutzerverwaltung: Hier gibt es Rollenvorlagen für Mitarbeiter z.b . Admin Berechtigung ohne Rollen separat zu verteilen.
 - Erwerbung
+- 
 - **Erschliessung**
 
 
-- Statistiken
+
 
 
 - **Konfiguration**: Eine Konfiguration kann über ganze IZ oder nur einzelne Bibliothek machen.
@@ -90,7 +91,7 @@ Bibliothek Brugg -Windisch. Pro Bibliothek kann man auf der Bibliotheksebene ein
 Auch eine Liste der physischen Standorte für die gedruckten Medien pro Bibliothek kann hier gefunden werden:
 ![grafik](https://user-images.githubusercontent.com/90834735/140972520-bcbbd573-b43c-4ee8-98bb-0824399c322a.png)
 
-Jeder Standort einen Code, einen Namen, Typ etc. Welche Leihstelle dieser Standort verwaltet werden kann und was sie tun kann.
+Jeder Standort hat einen Code, einen Namen, Typ etc. Welche Leihstelle dieser Standort verwaltet werden kann und was sie tun kann.
 ![grafik](https://user-images.githubusercontent.com/90834735/140972661-413e93b1-3e42-41f2-a609-6f6ef77cbf0c.png)
 
 Zum Beispiel der Bookreturn (automatische Rückgabemaschine) kann keine Wiedereinstellung vornehmen.
@@ -99,6 +100,25 @@ Zum Beispiel der Bookreturn (automatische Rückgabemaschine) kann keine Wiederei
 **Theke 1** kann Rückgabe, Neuberechtigungen, kann für studentische Hilfskräfte Berechtigungen reduzieren. Zahlungsinfo hat es keine, weil keine Kasse an dieser Theke 1 haben. Auch welcher Drucker soll Zugriff haben, kann hier definiert werden. RFID ist auch hinterlegt.
 ![grafik](https://user-images.githubusercontent.com/90834735/140973080-72a050ca-8b10-441e-a03b-af4d30b2cc3f.png)
 ![grafik](https://user-images.githubusercontent.com/90834735/140973179-ff1cb4a0-c41c-4433-ac7a-a3b1c875f404.png)
+
+**_Die meisten Konfiguration (z. Erwerbung) werden auf der IZ -Ebene gemacht:_**
+![grafik](https://user-images.githubusercontent.com/90834735/140974301-35a837a0-fb27-4955-bceb-0af5922ab899.png)
+
+![grafik](https://user-images.githubusercontent.com/90834735/140974148-8e45378d-c98d-4842-8fbe-587149c0c028.png)
+- **Statistiken**: Diese Codes für alle Bibliotheken, kann man eine Statistik machen.
+- Regeln für Rechnugnsprüfung auf Ebene für IZ gelöst. Und auch Lizenzen auf IZ-Ebene gelöst
+- Suchkonfiguration
+- Metadatenkonfiguration
+- Konfiguration der Briefe (Briefe und Mails für Kunden, Benutzer, an Lieferanten) Briefe sind für alle und ein paar kann man anpassen. 
+- 
+- *z.B. Ausleihbeleg 
+- Sprache kann man auch anpassen.  Der Brief wird als xml File so definiert. Es gibt auch eine Vorschau.
+![grafik](https://user-images.githubusercontent.com/90834735/140974417-f5c066d8-e2ed-4332-af0c-56d5b51cdb8b.png)
+![grafik](https://user-images.githubusercontent.com/90834735/140974650-2dc82224-cc19-4eb5-8b70-480467c7ccc5.png)
+![grafik](https://user-images.githubusercontent.com/90834735/140974758-7674bfee-ccb5-4904-a638-e8d287844ae2.png)
+
+
+
 
 
 
