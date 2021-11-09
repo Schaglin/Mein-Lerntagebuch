@@ -180,13 +180,7 @@ Kann direkt neuen Bestand erstellen: ![grafik](https://user-images.githubusercon
 
 
 
-
-
-
-
-
-
-**Beispiele wurden gemacht**:
+**Live- Demo: Beispiele wurden gemacht**:
 
 **Beispiel E-Book anlegen/aktivieren**: 
 
@@ -213,6 +207,48 @@ Naxos Music Library = Referenzdatenbank, hat keine Portfolio, hat aber auch CDI 
 ![grafik](https://user-images.githubusercontent.com/90834735/140971936-b476541f-148f-446a-aa4c-0dd3534392ff.png)
 
 
+
+**Strategische Spielereien:**
+Gruppe 1: **Argumentation gegenüber Träger / Direktion**
+Wie rechtfertigen wir den sehr viel höheren Mitteleinsatz?
+ - ggf. Kosten sparen bei Katalogisierung durch Teilnahme am Verbund
+ - um Personalkürzungen zu vermeiden neue Aufgaben betonen z.B. in der Systemadministration oder in neuen Diensten außerhalb von ALMA/SLSP
+ -Stetige Innovation (monatliche Updates)
+ -viel nachnutzen können
+ - Mehrwerte für die Benutzenden durch zusätzliche Recherchemöglichkeiten (z.B. Fernleihe einfacher)
+ Frage: Performance im Arbeitsbetrieb
+       - bei guter Internetverbindung in der Regel sehr gut
+    -Für Akkreditierung von Studiengängen Verbundteilnahme nachzuweisen
+
+Gruppe 2: **Motivation und Kommunikation der beteiligten Bibliotheken**
+
+    Wie würdet Ihr die Bibliotheken miteinbeziehen?
+        -alle Bibliotheken ins Boot holen
+        -umfassend über das neue System informieren
+    Wie würdet Ihr den Change begleiten?
+        -individuelle Bedürfnisse abfragen und berücksichtigen
+        -Begleitung durch Schulungen
+    Welche Kommunikationskanäle würdet Ihr nutzen?
+        -Kommunikationswege transparent machen und kurz halten
+       - kein Unterschied zwischen Aktionären und Nicht-Aktionären
+
+Gruppe 3: **Technische Alternativen Pro und Contra**
+
+    Welche Vor- und Nachteile gibt es bei einem cloudbasierten System?
+        -Nachteile:
+            -Internetabhängig
+            -Browserabhängig (funktioniert nicht bei allen gleich gut)
+       - Vorteile:
+            -von jedem Gerät darauf zugreifen, keine Software installieren
+            erleichterte Updates
+    Gibt es Alternativen zu ALMA / SLSP
+       - als wissenschaftliche Bibliothek musste man fast bei SLSP mitmachen
+        -bei alter Lösung bleiben, z.B. Aleph
+            von Ex Libris abgekündigt, ALMA als Nachfolgeprodukt vorgesehen
+        Open-Source Lösungen wie Koha
+    Wie beurteilt ihr die Konfigurationsmöglichkeiten?
+        -Individualisierung möglich, aber einiges nur über Gesamt-IZ
+    -Aktuell evaluieren Kantonsbibliotheken welches System
 
 
 
