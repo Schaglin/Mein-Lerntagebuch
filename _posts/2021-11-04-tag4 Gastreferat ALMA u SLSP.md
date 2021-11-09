@@ -234,17 +234,13 @@ Welche Kommunikationskanäle würdet Ihr nutzen?
 Gruppe 3: **Technische Alternativen Pro und Contra**
 
 Welche Vor- und Nachteile gibt es bei einem cloudbasierten System?
-   -Nachteile:
-      -Internetabhängig
-      -Browserabhängig (funktioniert nicht bei allen gleich gut)
-   - Vorteile:
-      -von jedem Gerät darauf zugreifen, keine Software installieren, erleichterte Updates
+   -Nachteile: -Internetabhängig, -Browserabhängig (funktioniert nicht bei allen gleich gut)
+   - Vorteile: -von jedem Gerät darauf zugreifen, keine Software installieren, erleichterte Updates
    Gibt es Alternativen zu ALMA / SLSP
      - als wissenschaftliche Bibliothek musste man fast bei SLSP mitmachen
      -bei alter Lösung bleiben, z.B. Aleph von Ex Libris abgekündigt, ALMA als Nachfolgeprodukt vorgesehen Open-Source Lösungen wie Koha
    Wie beurteilt ihr die Konfigurationsmöglichkeiten?
-   -Individualisierung möglich, aber einiges nur über Gesamt-IZ
-   -Aktuell evaluieren Kantonsbibliotheken welches System
+   -Individualisierung möglich, aber einiges nur über Gesamt-IZ, -Aktuell evaluieren Kantonsbibliotheken welches System
 
 
 
