@@ -217,8 +217,8 @@ Gruppe 1: **Argumentation gegenüber Träger / Direktion**
    -viel nachnutzen können
    - Mehrwerte für die Benutzenden durch zusätzliche Recherchemöglichkeiten (z.B. Fernleihe einfacher)
  Frage: Performance im Arbeitsbetrieb
-       - bei guter Internetverbindung in der Regel sehr gut
-    -Für Akkreditierung von Studiengängen Verbundteilnahme nachzuweisen
+   - bei guter Internetverbindung in der Regel sehr gut
+   -Für Akkreditierung von Studiengängen Verbundteilnahme nachzuweisen
 
 Gruppe 2: **Motivation und Kommunikation der beteiligten Bibliotheken**
 Wie würdet Ihr die Bibliotheken miteinbeziehen?
