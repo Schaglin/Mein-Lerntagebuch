@@ -7,6 +7,18 @@ date: 2021-11-04
 
 **Liebes Tagebuch**
 
+Wir hatten heute ein Gastreferat von der FHNW in Windisch. Die Systembibliothekarin (Selina Hodel) hat uns die Grundlagen von Alma erklärt und präsentiert mit einer Live-Demo und Beispielen. Die Leiterin der E-Ressourcen (Charlotte Frauchlinger) hat den gesamten Aufgau der SLSP (Swiss Library Service Plattform)  und die Entwicklung erklärt. Dann gabe es noch strategische Spielereien und Fragen wurden geklärt.
+
+**SLSP- Swiss Library Service Plattform**
+Die Idee kam 2014, danach 2017 intensive Umsetzung, 2020 konnte es eingesetzt werden. Durch die SLSP wurde die Einführung von Alma gemacht. Es ist ein nichtgewinnorientieres Unternehmen. Es bidlet die Grundlage für das Swisscovery, die nationale Rechercheplattform der Schweiz. Darunter sind 475 Mitgliederbibliotheken vertreten mit 50 Mio Medien. Die SLSP hat 38 Mitarbeitende, 15 Aktionäre und eine Geschäftsleitung und einen Verwaltungsrat.
+
+
+
+
+**ALMA - das Cloudgestütztes Bibliothekssystem von Ex-Libris**
+Das Rechenzentrum liegt in Amsterdam. Alma wird betreut durch Ex-Libris. Das heisst es gibt monatliche Releases von Ex-Libris. Cool ist, dass die einzelnen Institutionen ebenfalls eine Mitsprache haben durch die Idea Exchange Plattform, können sie ihre Ideen und Vorschläge anbringen zur Verbesserung von Alma. Es ist ein URM (Infified Resource Management System).
+Alma hat ein ERM (Elektronische Ressourcenverwaltung), einen Link-Resolver, eine Verwaltung der digitalen Bestände, ein ILS (integriertes  Bibliothekssystem) und für das Discovery (also für die Benutzer) gibt es das Primo. Das Primo wird über Alma verwaltet.
+
 
 ![grafik](https://user-images.githubusercontent.com/90834735/140959464-6b462add-cd3a-4309-879c-ce573bc0c1d1.png)
 
@@ -91,7 +103,9 @@ Das geht ähnlich wie das E-Book auch zuerst muss man in die Netzwerkzone dann d
 man könnte hier auch noch das Portfolio der Zeitschrift bearbeiten, wenn z.b. die Bandnummer oder das Erschienungsjahr (1999) nicht stimmt. Kann man das ändern. Dann kann man noch bestimmen ob es global oder nur lokal geändert werden soll, das heisst ob es für den Benutzer lokal oder globale Ansicht angezeigt werden soll. Man könnte die 1999 überschreiben, aber bleibt mit Gemeinschaftszone verknüpft.
 ![grafik](https://user-images.githubusercontent.com/90834735/140966700-78bdff23-cb04-4ee2-a060-b1631bba9687.png)
 
+--> **Man kann eben die Daten von Gemeinschaftszone eben nutzen, muss man keine eigenen Aufnahmen mehr erstellen für E-Medien.**
 
+Datenbanken: Es gibt Volltext, keinen Volltext, Referenzdatenbanken.
 
 
 
