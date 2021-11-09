@@ -105,14 +105,14 @@ Zum Beispiel der Bookreturn (automatische Rückgabemaschine) kann keine Wiederei
 ![grafik](https://user-images.githubusercontent.com/90834735/140974301-35a837a0-fb27-4955-bceb-0af5922ab899.png)
 
 ![grafik](https://user-images.githubusercontent.com/90834735/140974148-8e45378d-c98d-4842-8fbe-587149c0c028.png)
-- **Statistiken**: Diese Codes für alle Bibliotheken, kann man eine Statistik machen.
-- Regeln für Rechnugnsprüfung auf Ebene für IZ gelöst. Und auch Lizenzen auf IZ-Ebene gelöst
-- Suchkonfiguration
-- Metadatenkonfiguration
-- Konfiguration der Briefe (Briefe und Mails für Kunden, Benutzer, an Lieferanten) Briefe sind für alle und ein paar kann man anpassen. 
+-  **Statistiken**: Diese Codes für alle Bibliotheken, kann man eine Statistik machen.
+-   Regeln für Rechnugnsprüfung auf Ebene für IZ gelöst. Und auch Lizenzen auf IZ-Ebene gelöst
+-    Suchkonfiguration
+-    Metadatenkonfiguration
+-    Konfiguration der Briefe (Briefe und Mails für Kunden, Benutzer, an Lieferanten) Briefe sind für alle und ein paar kann man anpassen. 
 - 
 - *z.B. Ausleihbeleg 
-- Sprache kann man auch anpassen.  Der Brief wird als xml File so definiert. Es gibt auch eine Vorschau.
+-   Sprache kann man auch anpassen.  Der Brief wird als xml File so definiert. Es gibt auch eine Vorschau.
 ![grafik](https://user-images.githubusercontent.com/90834735/140974417-f5c066d8-e2ed-4332-af0c-56d5b51cdb8b.png)
 ![grafik](https://user-images.githubusercontent.com/90834735/140974650-2dc82224-cc19-4eb5-8b70-480467c7ccc5.png)
 ![grafik](https://user-images.githubusercontent.com/90834735/140974758-7674bfee-ccb5-4904-a638-e8d287844ae2.png)
