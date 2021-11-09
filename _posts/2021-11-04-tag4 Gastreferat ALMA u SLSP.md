@@ -7,10 +7,10 @@ date: 2021-11-04
 
 **Liebes Tagebuch**
 
-Wir hatten heute ein Gastreferat von der FHNW in Windisch. Die Systembibliothekarin (Selina Hodel) hat uns die Grundlagen von Alma erklärt und präsentiert mit einer Live-Demo und Beispielen. Die Leiterin der E-Ressourcen (Charlotte Frauchlinger) hat den gesamten Aufgau der SLSP (Swiss Library Service Plattform)  und die Entwicklung erklärt. Dann gabe es noch strategische Spielereien und Fragen wurden geklärt.
+Wir hatten heute ein Gastreferat von der FHNW in Windisch. Die Systembibliothekarin (Selina Hodel) hat uns die Grundlagen von Alma erklärt und präsentiert mit einer Live-Demo und Beispielen. Die Leiterin der E-Ressourcen (Charlotte Frauchlinger) hat den gesamten Aufbau der SLSP (Swiss Library Service Plattform) und deren Entwicklung erklärt. Dann gabe es noch "strategische Spielereien" und Fragen wurden geklärt.
 
 **SLSP- Swiss Library Service Plattform**
-Die Idee kam 2014, danach 2017 intensive Umsetzung, 2020 konnte es eingesetzt werden. Durch die SLSP wurde die Einführung von Alma gemacht. Es ist ein nichtgewinnorientieres Unternehmen. Es bidlet die Grundlage für das Swisscovery, die nationale Rechercheplattform der Schweiz. Darunter sind 475 Mitgliederbibliotheken vertreten mit 50 Mio Medien. Die SLSP hat 38 Mitarbeitende, 15 Aktionäre und eine Geschäftsleitung und einen Verwaltungsrat.
+Die Idee kam 2014, danach im 2017 erfolgte die intensive Umsetzung,im Jahr 2020 konnte SLSP eingesetzt werden. Durch die SLSP wurde die Einführung von Alma im Dezember 2020 gemacht. Es ist ein nichtgewinnorientieres Unternehmen. Es bildet die Grundlage für das Swisscovery, die nationale Rechercheplattform der Schweiz. Darunter sind 475 Mitgliederbibliotheken vertreten mit 50 Mio Medien. Die SLSP hat 38 Mitarbeitende, 15 Aktionäre und eine Geschäftsleitung und einen Verwaltungsrat.
 
 
 
@@ -40,13 +40,9 @@ Bei den BIbliohteken selbst kann auf Drucker, Öffnungszeiten, Budget Anpassunge
 ![grafik](https://user-images.githubusercontent.com/90834735/140961441-0b06b854-a620-4608-b94f-894bd1df0fb9.png)
 
 Primo= Discovery Lösung von Exlibris, wird über Alma verwaltet
-Vorteil wird nicht noch ein System für Verwaltung benötigt. Auch ein Vorteil für Benutzer, wenn Ebook etwas ändere, dann dauert 2-3 Minuten dann wieder sichtbar.
-E-Ressourcen muss ich mich einloggen in der IZ oder suchen.
-CDI wenn ich ein E-Journal über Gemeinschaft aktiviere, dass in CDI vorhanden ist, dann wird das eingespielt die Kataloge.
-Jede IZ kann lokal seine eigene Ansicht haben, alle E-Ressourcen oder lokalen Ressourcen werden so abgebildet
-Damit nicht jede View komplett neu aufgebaut werden muss, wird mit einem Master Template gearbietet, man kann beispielsweise die Farbe, Logo und eigene Texte, lokale Ressourcen oder Texte ändern jede eigene IZ kann das machen, aber Grundgerüst ist von ExLibris gegeben.
+Vorteil wird nicht noch ein System für Verwaltung benötigt. Auch ein Vorteil für Benutzer, wenn Ebook etwas ändere, dann dauert 2-3 Minuten dann wieder sichtbar.E-Ressourcen muss ich mich einloggen in der IZ oder suchen.CDI wenn ich ein E-Journal über Gemeinschaft aktiviere, dass in CDI vorhanden ist, dann wird das eingespielt die Kataloge.Jede IZ kann lokal seine eigene Ansicht haben, alle E-Ressourcen oder lokalen Ressourcen werden so abgebildet.Damit nicht jede View komplett neu aufgebaut werden muss, wird mit einem Master Template gearbietet, man kann beispielsweise die Farbe, Logo und eigene Texte, lokale Ressourcen oder Texte ändern jede eigene IZ kann das machen, aber Grundgerüst ist von ExLibris gegeben.
 
-Es gab eine LIVE-Demo über: (die fett gedruckten wurden noch genauer angeschaut):
+Es gab eine LIVE-Demo über: (die fett gedruckten wurden noch genauer angeschaut)
 
 - **Aufbau und Grundlagen**
 - Recherche in Alma: Jede IZ ( IZ= Institutionszone) hat eigene URL um ALMA über Browser aufzurufen. Suche alle physischen Exemplare mit dem Status "vermisst". Dann diese noch einschränken nur Bibliothek FHNW AG (Windisch).Als Discovery anzeigen lassen, dass man sieht wie es aussieht.
@@ -64,7 +60,7 @@ Strichcode einlesen, Vormerkung, Rückgabe machen
 
 pro Benutzer: Bestellung, Mahnen, Rechnung, Kaufbestellung, Lieferanten bearbeiten, Kontos
 
-- **E-REssourcen**: Bei E-Ressourcen sind Lizenzen drin, sogenannte Konsortiumlizenzen 
+- **E-Ressourcen**: Bei E-Ressourcen sind Lizenzen drin, sogenannte Konsortiumlizenzen 
 
 ![grafik](https://user-images.githubusercontent.com/90834735/140964025-50e995f6-1d86-440d-a123-e542cbcddd53.png)
 
@@ -82,8 +78,35 @@ Diese können auch im Detail angeschaut/überwacht werden mit Nutzungsbedingunge
 - -Benuterverwaltung: Hier gibt es Rollenvorlagen z.b . Admin Berechtigung ohne Rollen separat zu verteilen
 - Erwerbung
 - **Erschliessung**
+
+
 - Statistiken
-- Konfiguration
+
+
+- **Konfiguration**: Eine Konfiguration kann über ganze IZ oder nur einzelne Bibliothek machen.
+Bibliothek Brugg -Windisch. Pro Bibliothek kann man auf der Bibliotheksebene einstellen, Drucker, Öffnungszeiten…. Die Öffnungszeiten sind imt den Leihfristen verknüpft. DIE FHN will zum Beispiel keine Leihfristen auf den Samstag festlegen, obwohl die Bibliohthek auch am Samstag offen ist. Oder Weihnachtsferien, da sollen die Fristen auch nicht weiterlaufen, sondern erst wieder ab dem 1.1.
+![grafik](https://user-images.githubusercontent.com/90834735/140972388-9f0ba977-83af-4d56-a80e-a7d44e4c27e6.png)
+
+Auch eine Liste der physischen Standorte für die gedruckten Medien pro Bibliothek kann hier gefunden werden:
+![grafik](https://user-images.githubusercontent.com/90834735/140972520-bcbbd573-b43c-4ee8-98bb-0824399c322a.png)
+
+Jeder Standort einen Code, einen Namen, Typ etc. Welche Leihstelle dieser Standort verwaltet werden kann und was sie tun kann.
+![grafik](https://user-images.githubusercontent.com/90834735/140972661-413e93b1-3e42-41f2-a609-6f6ef77cbf0c.png)
+
+Zum Beispiel der Bookreturn (automatische Rückgabemaschine) kann keine Wiedereinstellung vornehmen.
+![grafik](https://user-images.githubusercontent.com/90834735/140972822-59a373e5-c821-4095-97bb-2585769566a6.png)
+
+**Theke 1** kann Rückgabe, Neuberechtigungen, kann für studentische Hilfskräfte Berechtigungen reduzieren. Zahlungsinfo hat es keine, weil keine Kasse an dieser Theke 1 haben. Auch welcher Drucker soll Zugriff haben, kann hier definiert werden. RFID ist auch hinterlegt.
+![grafik](https://user-images.githubusercontent.com/90834735/140973080-72a050ca-8b10-441e-a03b-af4d30b2cc3f.png)
+![grafik](https://user-images.githubusercontent.com/90834735/140973179-ff1cb4a0-c41c-4433-ac7a-a3b1c875f404.png)
+
+
+
+
+
+
+
+
 - Katalogisierung
 
 
@@ -105,7 +128,17 @@ man könnte hier auch noch das Portfolio der Zeitschrift bearbeiten, wenn z.b. d
 
 --> **Man kann eben die Daten von Gemeinschaftszone eben nutzen, muss man keine eigenen Aufnahmen mehr erstellen für E-Medien.**
 
-Datenbanken: Es gibt Volltext, keinen Volltext, Referenzdatenbanken.
+**Beispiel Datenbanken**
+Es gibt verschiedene Datenbanken: Es gibt Volltext, keinen Volltext, Referenzdatenbanken.
+ABI ist ein Aggregator Datenbank, beinhaltet einzelene Portfolios, Volltext-Datenbank kann man im Primo absuchen. Journals kann man via Swisscovery so suchbar machen.
+"**CDI*:Auch die CDI ist integriert. Das heisst gibt eine detailliertere Suche: _Wenn es ein E-Journal ist, können ihre einzelne Artikel über CDI gesucht werden_.*
+![grafik](https://user-images.githubusercontent.com/90834735/140971601-48d5582b-c888-4fef-815b-4ee510518a6d.png)
+Naxos Music Library = Referenzdatenbank, hat keine Portfolio, hat aber auch CDI für detailierte Suche, aber dieser Datenbank ist so auf Discovery auffindbar
+![grafik](https://user-images.githubusercontent.com/90834735/140971936-b476541f-148f-446a-aa4c-0dd3534392ff.png)
+
+
+
+
 
 
 
