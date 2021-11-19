@@ -62,3 +62,18 @@ Heute ist auch ein schönes Bild vom Skript zu Harry Potter auf DSpace Demo ersc
 
 
 ![Screenshot from 2021-11-19 14-47-31](https://user-images.githubusercontent.com/90834735/142634245-859a15df-70ec-4f4b-a62d-5a3b6d14f328.png)
+
+
+mehr zu dieser ÜBUNG_ Import und Export
+
+    DSpace bietet auch dateibasierten Import, besonders relevant sind im Kontext von Repositorien aber die Schnittstellen:
+        SWORD ermöglicht die Publikation in DSpace auf anderen Webseiten.
+        OAI-PMH ermöglicht es externen Systemen die in DSpace verzeichneten Metadaten abzurufen.
+    OAI-PMH-Schnittstelle der DSpace-Demo (Daten erscheinen dort zeitverzögert): http://demo.dspace.org/oai/request?verb=ListSets
+    Beispiel für Portal auf Basis von OAI-PMH: Die Bielefeld Academic Search Engine (BASE) “erntet” weltweit OAI-PMH-Schnittstellen und verzeichnet damit weit über 250 Mio. Dokumente.
+
+Note:
+
+    SWORD ist eine Schnittstelle, um Publikationen in einem Repository abzuliefern. Damit kann ein Formular mit Dateiupload auf einer Webseite (außerhalb der Repository-Webseite) angeboten werden.
+    Um Daten aus dem Repository auf Webseiten anzuzeigen, z.B. eine Publikationsliste, werden andere Schnittstellen wie RSS-Feeds verwendet.
+
