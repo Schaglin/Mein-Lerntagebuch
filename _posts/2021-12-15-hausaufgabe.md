@@ -90,9 +90,11 @@ Hier gab es bei mir auch einen **AHA-Moment!** Das ; Semikolon davor setzen und 
 oder das - Minus davor setzen und ein Stern*, dann gibt es einen Kasten zum anhäkeln. Ich versuchte es nachzumachen. ich war mir jedoch unsicher wieder.
 Mit ls habe ich mal alle Verzeichnisse angeschaut, und festgestellt, dass ich 3 Versionen von VuFind daraufhabe. Das deckte sich auch mit meinen Ordnern.
 
-![Screenshot from 2021-12-15 15-31-35](https://user-images.githubusercontent.com/90834735/146205631-59fe6545-3b8c-4ed8-9bbe-5a581ab8717b.png)
-Der Damiankatz war jetzt im Ordner /usr/local/vufind drin, um überhaupt dann nacher mit den Befehlen die config-DAteien abzufrufen.
+
+Der Damianka
+tz war jetzt im Ordner /usr/local/vufind drin, um überhaupt dann nacher mit den Befehlen die config-Dateien abzufrufen.
 Also musste ich auch in diesen Ordner kommen. Ich versuchte nun mit der Commandozeile Cd in diesen /usr/local/vufind reinzukommen.
+![Screenshot from 2021-12-15 15-41-13](https://user-images.githubusercontent.com/90834735/146207073-1436cade-1843-46b4-9ad4-a9f0a178330e.png)
 
 Die vorgeschlagenen Konfigurationen von DemianKatz habe ich einmal hier notiert.
 **Beim Searching**:
