@@ -3,7 +3,7 @@ Hausaufgabe war es das Suchprogramm VuFind für Bibliotheken von Bibliotheken zu
 Dazu bekamen wir wieder einen Satz von Shell-Befehlen zur Verfügung, diese konnte man einfach copy/pasten:
 **wget https://github.com/vufind-org/vufind/releases/download/v8.0.2/vufind_8.0.2.deb
 sudo dpkg -i vufind_8.0.2.deb
-sudo apt-get update   -(Nachtrag vom 14.12.21, dank diesem Befehl hat es bei mir dann tatsächlich funktioniert)
+sudo apt-get update   -(Nachtrag vom 14.12.21, dank diesem Befehl hat es bei mir dann tatsächlich funktioniert- Vielen Dank dafür 🦖)
 sudo apt-get install -f**
 
 Maria DB mussten wir auch installieren mit Befehl:
