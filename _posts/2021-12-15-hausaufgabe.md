@@ -103,10 +103,15 @@ ich versuche es weiter... ist ja Hausaufgabe...
 ![Screenshot from 2021-12-15 16-56-44](https://user-images.githubusercontent.com/90834735/146220478-c198ee89-eb11-471d-b84a-2614b4719fcb.png)
 
 
+weiter Versuche hier, ich komme einfach nicht in das richtige Verzeichnis rein!!
+application.config.php komme ich nicht rein, weil es keine directory ist. weiss nicht mal ob das das richtige verzeichnis ist.
+bei demiankatz war es ganz eine andere ordnung und ich finde auch keine config dateien, bei ihm waren diese ja schon ohne befehle ersichtlich als texteditordateien oder so etwas Ähnliches.
+![Screenshot from 2021-12-15 17-24-10](https://user-images.githubusercontent.com/90834735/146225086-3cb109ee-8c24-42d0-8f0b-d2fe2bc585ab.png)
 
 
 
-Die vorgeschlagenen Konfigurationen von DemianKatz habe ich einmal hier notiert.
+
+Die vorgeschlagenen Konfigurationen von DemianKatz aus dem Video zu "Searching und  Facet Settings" habe ich einmal hier notiert.
 
 **Beim Searching**:
 - 40 Resultate anzeigen lassen, anstatt nur 20 Suchresultate
