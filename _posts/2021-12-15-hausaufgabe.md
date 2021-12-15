@@ -91,15 +91,17 @@ oder das - Minus davor setzen und ein Stern*, dann gibt es einen Kasten zum anh�
 Mit ls habe ich mal alle Verzeichnisse angeschaut, und festgestellt, dass ich 3 Versionen von VuFind daraufhabe. Das deckte sich auch mit meinen Ordnern.
 
 
-Der Damianka
-tz war jetzt im Ordner /usr/local/vufind drin, um 체berhaupt dann nacher mit den Befehlen die config-Dateien abzufrufen.
+Der Demiankatz war jetzt im Ordner /usr/local/vufind drin, um 체berhaupt dann nacher mit den Befehlen die config-Dateien abzufrufen.
 Also musste ich auch in diesen Ordner kommen. Ich versuchte nun mit der Commandozeile Cd in diesen /usr/local/vufind reinzukommen.
 ![Screenshot from 2021-12-15 15-41-13](https://user-images.githubusercontent.com/90834735/146207073-1436cade-1843-46b4-9ad4-a9f0a178330e.png)
+
 
 Gem채ss Demiankatz w채re der Befehl zum 채ndern der Search-Config-Dateien so gewesen, leider hat es nicht funktioniert.
 ![Screenshot from 2021-12-15 16-07-58](https://user-images.githubusercontent.com/90834735/146213450-505b7373-8c8a-4ef9-872a-49ade46d2f1e.png)
 
 ich versuche es weiter... ist ja Hausaufgabe...
+![Screenshot from 2021-12-15 15-41-13](https://user-images.githubusercontent.com/90834735/146207073-1436cade-1843-46b4-9ad4-a9f0a178330e.png)
+
 
 
 
