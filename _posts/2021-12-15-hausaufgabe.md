@@ -1,10 +1,11 @@
-Hausaufgabe war es das VuFind zu installieren.
+Hausaufgabe war es das Suchprogramm VuFind für Bibliotheken von Bibliotheken zu installieren. Hausaufgabe war es das VuFind zu installieren.
 
 Dazu bekamen wir wieder einen Satz von Shell-Befehle:
-wget https://github.com/vufind-org/vufind/releases/download/v8.0.2/vufind_8.0.2.deb
+**wget https://github.com/vufind-org/vufind/releases/download/v8.0.2/vufind_8.0.2.deb
 sudo dpkg -i vufind_8.0.2.deb
 sudo apt-get update   -Nachtrag, hat dann tatsächlich funktioniert
-sudo apt-get install -f    
+sudo apt-get install -f  **
+
 Maria DB mussten wir auch installieren mit Befehl:
 ***sudo /usr/bin/mysql_secure_installation**
 mussten wir ein neues Passwort festlegen, Maria DB ist = My Sql
@@ -85,20 +86,24 @@ Wer hat eigentlich VUFind entwickelt? War das dieser demiankatz?
 
 Die vorgeschlagenen Konfigurationen habe ich zum Teil umgesetzt.
 
-*Beim Searching*:
+**Beim Searching**:
 - 40 Resultate anzeigen lassen, anstatt nur 20
 - Autor geändert= Person who created  (aber aufpassen, wenn ich Sprache ändere, sollte es automatisch auch ändern?)
 - Reihenfolge ändern der Suchtherme z.b. Titel vor Autor
 - OCLC Nummer hinzufügen
 
 
-*Bei den Facetten*:
+**Bei den Facetten**:
 ;Instructor wegnehmen, in Confi-Datei einfach das Semikolon davor schreiben
 ;Building wegnehmen, in Config-Datei einfach das Semikolon davor schreiben
 - Autor *no author* , ich möchte alle Suchresultate rausnehmen, die keinen Autor haben
 
-*YAML*
+**YAML für Advanced Searched**
 für advanced searched sei das gemäss demiankatz
 hier kann man sogar Checkboxen erstellen zum Beispiel: ich möchte Formate selbst auswählen, z. b . Bücher, Zeitschriften, ...
 und davon soll es 10 Stück zur Auswahl haben
+
+
+
+
 
