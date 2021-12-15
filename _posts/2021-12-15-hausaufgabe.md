@@ -108,6 +108,10 @@ application.config.php komme ich nicht rein, weil es keine directory ist. weiss 
 bei demiankatz war es ganz eine andere ordnung und ich finde auch keine config dateien, bei ihm waren diese ja schon ohne befehle ersichtlich als texteditordateien oder so etwas Ähnliches.
 ![Screenshot from 2021-12-15 17-24-10](https://user-images.githubusercontent.com/90834735/146225086-3cb109ee-8c24-42d0-8f0b-d2fe2bc585ab.png)
 
+über die Shell habe ich es danna ufgegeben, ich habe einen Tipp bekommen von Barbora, die auch diesen Kurs besucht. Nun versuche ich meine Glück manuell über den Ordnern zu konfigurerien.
+
+![Screenshot from 2021-10-07 10-47-01](https://user-images.githubusercontent.com/90834735/146233291-d9d0a738-2a08-457a-81fc-957e608058e5.png)
+
 
 
 
