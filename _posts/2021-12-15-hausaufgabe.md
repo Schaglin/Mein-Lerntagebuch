@@ -152,7 +152,7 @@ Ich möchte nun den Instructor und die Building für die Narrow Search rausnehme
 ;Institution wegnehmen, in Confi-Datei einfach das Semikolon (;)davor schreiben
 ;Building wegnehmen, in Config-Datei einfach das Semikolon (;) davor schreiben
 
-**Vorher:** hier war die Institution und das Building noch bei Narrow Section drin:
+**Vorher:** hier war die Institution und das Building noch bei Narrow Search drin:
 ![Screenshot from 2021-12-15 19-02-54](https://user-images.githubusercontent.com/90834735/146241189-7c08d2e7-cb46-477c-9d6e-f4d3ed5155fe.png)
 **Nachher**: jetzt sind die Institution und das Gebäude enfernt oder deaktiviert in den Resultaten:
 ![Screenshot from 2021-12-15 19-03-30](https://user-images.githubusercontent.com/90834735/146241350-87d0e6cc-7b3e-4fcc-9970-c92750e432ec.png)
