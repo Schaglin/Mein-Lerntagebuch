@@ -172,6 +172,10 @@ Dazu ändere ich die Config-Datei namens **"facetes.ini"**
 **Nachher**: jetzt sind die Institution und das Gebäude enfernt oder deaktiviert in den Resultaten:
 ![Screenshot from 2021-12-15 19-03-30](https://user-images.githubusercontent.com/90834735/146241350-87d0e6cc-7b3e-4fcc-9970-c92750e432ec.png)
 
+**Suggested Topics**in der Sidebar bei Narrow Search: Demiankatz, meint es sei noch nützlich diese in der Sidebar zu erscheinen lassen. 
+Das ändere ich es auch wieder und es erscheint in der sidebar bei der Narrow Search.
+![Screenshot from 2021-12-15 19-45-27](https://user-images.githubusercontent.com/90834735/146246510-acfd1fa4-05ed-40c9-a457-1f7f4acd474f.png)
+
 
 
 
