@@ -133,7 +133,14 @@ ich habe es noch mit 100 ausprobiert, ob es jetzt wirklich funktioniert hat und 
 
 
 
-- Reihenfolge ändern der Suchtherme z.b. Titel vor Autor
+
+- Reihenfolge ändern der Suchtherme z.b. Titel vor Autor , konnte man einfach mit copy/paste machen. nun schaue ich im vufind ob es tatsächlich geändert hat oder nicht
+![Screenshot from 2021-12-15 18-43-20](https://user-images.githubusercontent.com/90834735/146238202-af949680-c7e3-46f6-92de-3a64cbd35c0c.png)
+
+der Autor habe ich gmäss Demiankatz auch noch geändert zu "Person who created this stuff" das hat mir Spass gemacht die Verzeichnisse umzuändern, wie es mir beliebt.:-)
+![Screenshot from 2021-12-15 18-50-15](https://user-images.githubusercontent.com/90834735/146239027-738fce42-df6f-4ca2-9b54-6519b06d646e.png)
+
+
 - OCLC Nummer hinzufügen
 
 
