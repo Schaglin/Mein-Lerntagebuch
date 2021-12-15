@@ -85,10 +85,16 @@ als alles gefixt war, sah es dann so aus. Ich freute mich darüber :-).
 Ein Youtube Video erklärt von demiankatz, der Meister in VuFind: https://www.youtube.com/watch?v=qFbW8u9UQyM
 Wer hat eigentlich VUFind entwickelt? War das dieser demiankatz?
 
-Die vorgeschlagenen Konfigurationen habe ich zum Teil umgesetzt.
-Hier gab es bei mir auch einen **AHA-Moment!** Das ; Semikolon davor setzen und die nicht benötigten Suchtherme verschwinden!
-oder das - Minus davor setzen und ein Stern*, dann gibt es einen Kasten zum anhäkeln. Ich versuchte es nachzumachen.
 
+Hier gab es bei mir auch einen **AHA-Moment!** Das ; Semikolon davor setzen und die nicht benötigten Suchtherme verschwinden!
+oder das - Minus davor setzen und ein Stern*, dann gibt es einen Kasten zum anhäkeln. Ich versuchte es nachzumachen. ich war mir jedoch unsicher wieder.
+Mit ls habe ich mal alle Verzeichnisse angeschaut, und festgestellt, dass ich 3 Versionen von VuFind daraufhabe. Das deckte sich auch mit meinen Ordnern.
+
+![Screenshot from 2021-12-15 15-31-35](https://user-images.githubusercontent.com/90834735/146205631-59fe6545-3b8c-4ed8-9bbe-5a581ab8717b.png)
+Der Damiankatz war jetzt im Ordner /usr/local/vufind drin, um überhaupt dann nacher mit den Befehlen die config-DAteien abzufrufen.
+Also musste ich auch in diesen Ordner kommen. Ich versuchte nun mit der Commandozeile Cd in diesen /usr/local/vufind reinzukommen.
+
+Die vorgeschlagenen Konfigurationen von DemianKatz habe ich einmal hier notiert.
 **Beim Searching**:
 - 40 Resultate anzeigen lassen, anstatt nur 20 Suchresultate
 - Namen der Suchtherme ändern zum Beipsiel anstatt Autor zu "Person who created" ändern. (aber man müsse aufpassen, wenn ich Sprache ändere, sollte es automatisch auch wieder richtig übersetzen?)
