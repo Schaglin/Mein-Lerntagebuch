@@ -68,7 +68,7 @@ sudo gedit /usr/local/vufind/local/config/vufind/NoILS.ini
     In Zeile 3 ils-offline in ils-none ändern und speichern.
 
 Nun musste ich nur noch die Auto-Konfigurationen fixen. Das ging auch gut,mithilfe des Videos von Hr. Lohmeier.
-Die schwierigste Auto-Konfiguration war wohl die wo man in die Config-Datei selbst etwas umschreiben musste nämlich diese
+Die schwierigste Auto-Konfiguration war wohl die, wo man in die Config-Datei selbst etwas umschreiben musste nämlich diese
 vorher musst man NoiLs auswählen. Aber eigentlich wollen wir gar keine NoiLS (ist ein ILS Driver).
 von **ils offline zu ils none* abändern, damit es gar keine ILS Driver nimmt:
 
@@ -87,11 +87,11 @@ Wer hat eigentlich VUFind entwickelt? War das dieser demiankatz?
 
 Die vorgeschlagenen Konfigurationen habe ich zum Teil umgesetzt.
 Hier gab es bei mir auch einen **AHA-Moment!** Das ; Semikolon davor setzen und die nicht benötigten Suchtherme verschwinden!
-oder das - davor setzen und eine *, dann gibt es einen Kasten zum anhäkeln. Ich versuchte es nachzumachen.
+oder das - Minus davor setzen und ein Stern*, dann gibt es einen Kasten zum anhäkeln. Ich versuchte es nachzumachen.
 
 **Beim Searching**:
 - 40 Resultate anzeigen lassen, anstatt nur 20 Suchresultate
-- Autor geändert= Person who created  (aber aufpassen, wenn ich Sprache ändere, sollte es automatisch auch ändern?)
+- Namen der Suchtherme ändern zum Beipsiel anstatt Autor zu "Person who created" ändern. (aber man müsse aufpassen, wenn ich Sprache ändere, sollte es automatisch auch wieder richtig übersetzen?)
 - Reihenfolge ändern der Suchtherme z.b. Titel vor Autor
 - OCLC Nummer hinzufügen
 
@@ -101,10 +101,13 @@ oder das - davor setzen und eine *, dann gibt es einen Kasten zum anhäkeln. Ich
 ;Building wegnehmen, in Config-Datei einfach das Semikolon (;) davor schreiben
 - Autor *no author* , ich möchte alle Suchresultate rausnehmen, die keinen Autor haben
 
-**YAML für Advanced Searched**
+**YAML für Advanced Searched und Homepage ändern**
 für advanced searched sei das gemäss demiankatz
 hier kann man sogar Checkboxen erstellen zum Beispiel: ich möchte Formate selbst auswählen durch anklicken z. b . Bücher, Zeitschriften, ...
 und davon soll es 10 Formate zur Auswahl haben.
+So konnte man auch die Homepage anpassen zum Beispiel Sprache ändern oder Browser by Format
+
+
 
 
 
