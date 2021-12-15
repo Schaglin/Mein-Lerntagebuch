@@ -100,7 +100,8 @@ Gemäss Demiankatz wäre der Befehl zum ändern der Search-Config-Dateien so gew
 ![Screenshot from 2021-12-15 16-07-58](https://user-images.githubusercontent.com/90834735/146213450-505b7373-8c8a-4ef9-872a-49ade46d2f1e.png)
 
 ich versuche es weiter... ist ja Hausaufgabe...
-![Screenshot from 2021-12-15 15-41-13](https://user-images.githubusercontent.com/90834735/146207073-1436cade-1843-46b4-9ad4-a9f0a178330e.png)
+![Screenshot from 2021-12-15 16-56-44](https://user-images.githubusercontent.com/90834735/146220478-c198ee89-eb11-471d-b84a-2614b4719fcb.png)
+
 
 
 
