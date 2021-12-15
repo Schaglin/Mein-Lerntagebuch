@@ -99,7 +99,8 @@ Also musste ich auch in diesen Ordner kommen. Ich versuchte nun mit der Commando
 Gemäss Demiankatz wäre der Befehl zum ändern der Search-Config-Dateien so gewesen, leider hat es nicht funktioniert.
 ![Screenshot from 2021-12-15 16-07-58](https://user-images.githubusercontent.com/90834735/146213450-505b7373-8c8a-4ef9-872a-49ade46d2f1e.png)
 
-Ich werde bei nächster Gelegenheit das nocheinmal ausprobieren. Für heute lasse ich es jetzt so sein.
+ich versuche es weiter... ist ja Hausaufgabe...
+
 
 
 Die vorgeschlagenen Konfigurationen von DemianKatz habe ich einmal hier notiert.
