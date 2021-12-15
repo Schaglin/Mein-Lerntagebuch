@@ -149,8 +149,13 @@ ja es hat sogar geklappt!
 
 **Bei den Facetten**
 Ich möchte nun den Instructor und die Building für die Narrow Search rausnehmen, so wie es Demiankatz vorschlägt, dazu muss ich nur die Semikolon davor setzten und das ganze wird nicht mehr grün angezeigt und somit auch in der Narrwo Search nicht mehr angezeigt.
-;Institution wegnehmen, in Confi-Datei einfach das Semikolon (;)davor schreiben
+;Institution wegnehmen, in Config-Datei einfach das Semikolon (;)davor schreiben
 ;Building wegnehmen, in Config-Datei einfach das Semikolon (;) davor schreiben
+
+
+Dazu ändere ich die Config-Datei namens **"facetes.ini"**
+![Screenshot from 2021-12-15 19-14-22](https://user-images.githubusercontent.com/90834735/146242479-ec4194f8-0bce-4bac-bc49-e934d57c2052.png)
+
 
 **Vorher:** hier war die Institution und das Building noch bei Narrow Search drin:
 ![Screenshot from 2021-12-15 19-02-54](https://user-images.githubusercontent.com/90834735/146241189-7c08d2e7-cb46-477c-9d6e-f4d3ed5155fe.png)
