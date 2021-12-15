@@ -124,6 +124,10 @@ Die vorgeschlagenen Konfigurationen von DemianKatz aus dem Video zu "Searching u
 nun habe ich die Anzahl von *20 auf 40 erhöht für die Suchresultate bezogen*. nun bin ich gespannt, ob es meine Änderungen genommen hat und schaue im vufind im Browser.
 ![Screenshot from 2021-12-15 18-24-29](https://user-images.githubusercontent.com/90834735/146235080-9ec96984-149b-44c8-90f7-610e5681d436.png)
 
+**Meine AHA-Moment** Ja es sieht gut aus, vorher erschienen nur 20 Suchresultate und nun erscheinen tatsächlich 40 Suchresultate, die ich vorher konfiguriert habe!
+![Screenshot from 2021-12-15 18-29-44](https://user-images.githubusercontent.com/90834735/146236011-f4fb85b4-7775-45d1-a0ac-ac38f10a7f99.png)
+
+
 
 - 
 - Reihenfolge ändern der Suchtherme z.b. Titel vor Autor
