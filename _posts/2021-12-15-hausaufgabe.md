@@ -83,7 +83,7 @@ als alles gefixt war, sah es dann so aus. Ich freute mich darüber :-).
 
 **Übung: Konfigurationen anpassen / Searching and Facet Settings**
 Ein Youtube Video erklärt von demiankatz, der Meister in VuFind: https://www.youtube.com/watch?v=qFbW8u9UQyM
-Wer hat eigentlich VUFind entwickelt? War das dieser demiankatz?
+Wer hat eigentlich VUFind entwickelt? War das dieser demiankatz? als beim Harvester Vufind war auf jeden Fall der Daminakatz involiert, wie ich gerade in den Dateien im Editor herausgefunden habe..
 
 
 Hier gab es bei mir auch einen **AHA-Moment!** Das ; Semikolon davor setzen und die nicht benötigten Suchtherme verschwinden!
@@ -110,7 +110,7 @@ bei demiankatz war es ganz eine andere ordnung und ich finde auch keine config d
 
 über die Shell habe ich es danna ufgegeben, ich habe einen Tipp bekommen von Barbora, die auch diesen Kurs besucht. Nun versuche ich meine Glück manuell über den Ordnern zu konfigurerien.
 
-![Screenshot from 2021-10-07 10-47-01](https://user-images.githubusercontent.com/90834735/146233291-d9d0a738-2a08-457a-81fc-957e608058e5.png)
+![Screenshot from 2021-12-15 18-12-08](https://user-images.githubusercontent.com/90834735/146233490-a77c58aa-b1e9-4652-8fc7-320f9e7170cb.png)
 
 
 
@@ -120,6 +120,7 @@ Die vorgeschlagenen Konfigurationen von DemianKatz aus dem Video zu "Searching u
 **Beim Searching**:
 - 40 Resultate anzeigen lassen, anstatt nur 20 Suchresultate
 - Namen der Suchtherme ändern zum Beipsiel anstatt Autor zu "Person who created" ändern. (aber man müsse aufpassen, wenn ich Sprache ändere, sollte es automatisch auch wieder richtig übersetzen?)
+- 
 - Reihenfolge ändern der Suchtherme z.b. Titel vor Autor
 - OCLC Nummer hinzufügen
 
