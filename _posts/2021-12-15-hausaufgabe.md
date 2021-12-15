@@ -96,7 +96,13 @@ tz war jetzt im Ordner /usr/local/vufind drin, um überhaupt dann nacher mit den
 Also musste ich auch in diesen Ordner kommen. Ich versuchte nun mit der Commandozeile Cd in diesen /usr/local/vufind reinzukommen.
 ![Screenshot from 2021-12-15 15-41-13](https://user-images.githubusercontent.com/90834735/146207073-1436cade-1843-46b4-9ad4-a9f0a178330e.png)
 
+Gemäss Demiankatz wäre der Befehl zum ändern der Search-Config-Dateien so gewesen, leider hat es nicht funktioniert.
+![Screenshot from 2021-12-15 15-41-13](https://user-images.githubusercontent.com/90834735/146207073-1436cade-1843-46b4-9ad4-a9f0a178330e.png)
+Ich werde bei nächster Gelegenheit das nocheinmal ausprobieren. Für heute lasse ich es jetzt so sein.
+
+
 Die vorgeschlagenen Konfigurationen von DemianKatz habe ich einmal hier notiert.
+
 **Beim Searching**:
 - 40 Resultate anzeigen lassen, anstatt nur 20 Suchresultate
 - Namen der Suchtherme ändern zum Beipsiel anstatt Autor zu "Person who created" ändern. (aber man müsse aufpassen, wenn ich Sprache ändere, sollte es automatisch auch wieder richtig übersetzen?)
@@ -117,7 +123,10 @@ So konnte man auch die Homepage anpassen zum Beispiel Sprache ändern oder Brows
 **bei den searchaspects**: bei Yaml könne man auch die Wichtigkeit ändern z.b  der erste Autor ist viel wichtiger als der zweite Autor, also kann man den boosten.
 er hat aus den ursprünglichen 300 dann 3000 gemacht, um  die Wichtigkeit zu erhöhen.autor fuller hat er auf auf 1500 geboostet, so dass er wichtiger erscheint.
 
+zum Schluss habe ich noch die Suche ein wenig ausprobiert mit advanced Search bekam ich zuerst gar keine Treffer (limit nur German und das Jahr grenzte ich ein 1990- 2020), da musste ich die Suche öffnen und ohne Limitierungen bekam ich 3 Treffer, jedoch ist das ja nur eine Beispieldatenbank:
 
+
+![Screenshot from 2021-12-15 16-15-00](https://user-images.githubusercontent.com/90834735/146212897-d37eae11-8c4f-4809-9124-845c6fdf66c1.png)
 
 
 
