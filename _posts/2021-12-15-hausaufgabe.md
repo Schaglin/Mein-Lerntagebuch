@@ -20,7 +20,25 @@ http://localhost/vufind/Install/Home
 Jetzt sollte VuFind bereits aufrufbar sein, und die Auto-Konfigurationen sollten sichtbar sein.
 Leider hatte ich nur eine leere Seite mit. Browser nicht findbar.
 
+so versuchte ich dann die vorgeschlagene Fehlerbehebung Nr. 1, weil es mir das VUFind im Browser gar nicht angezeigt hatte:
+Fehlerbehebung
 
+Falls etwas schief geht, können die folgenden Befehle helfen die Installation teilweise oder ganz zurückzusetzen.
+Fall 1: Auto Configuration ist nicht mehr erreichbar
+
+    Problem: Die Seite “Auto Configuration” unter http://localhost/vufind/Install/Home war schon einmal aufrufbar, aber kann nun nicht mehr geladen werden.
+
+    Ursache: Die Konfiguration ist defekt und kann von VuFind nicht mehr gelesen werden.
+
+    Lösung:
+
+        Die lokale Konfiguration (im Verzeichnis /usr/local/vufind/local/) manuell löschen.
+
+        sudo rm /usr/local/vufind/local/config/vufind/config.ini
+
+        Datenbank und Nutzer löschen (bei der folgenden Abfrage das Root-Passwort für MariaDB eingeben, das oben festgelegt wurde)
+
+        sudo mysql -uroot -p -e "DROP DATABASE IF EXISTS vufind; DROP USER IF EXISTS vufi
 
 **Zur Installation**:
 bei mir klappte es leider nicht auf Anhieb.
