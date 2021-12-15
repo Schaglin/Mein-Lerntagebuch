@@ -3,8 +3,8 @@ Hausaufgabe war es das Suchprogramm VuFind für Bibliotheken von Bibliotheken zu
 Dazu bekamen wir wieder einen Satz von Shell-Befehlen zur Verfügung, diese konnte man einfach copy/pasten:
 **wget https://github.com/vufind-org/vufind/releases/download/v8.0.2/vufind_8.0.2.deb
 sudo dpkg -i vufind_8.0.2.deb
-sudo apt-get update   -Nachtrag, hat dann tatsächlich funktioniert
-sudo apt-get install -f  **
+sudo apt-get update   -(Nachtrag vom 14.12.21, dank diesem Befehl hat es bei mir dann tatsächlich funktioniert)
+sudo apt-get install -f**
 
 Maria DB mussten wir auch installieren mit Befehl:
 ***sudo /usr/bin/mysql_secure_installation**
@@ -86,6 +86,8 @@ Ein Youtube Video erklärt von demiankatz, der Meister in VuFind: https://www.yo
 Wer hat eigentlich VUFind entwickelt? War das dieser demiankatz?
 
 Die vorgeschlagenen Konfigurationen habe ich zum Teil umgesetzt.
+Hier gab es bei mir auch einen **AHA-Moment!** Das ; Semikolon davor setzen und die nicht benötigten Suchtherme verschwinden!
+oder das - davor setzen und eine *, dann gibt es einen Kasten zum anhäkeln. Ich versuchte es nachzumachen.
 
 **Beim Searching**:
 - 40 Resultate anzeigen lassen, anstatt nur 20 Suchresultate
