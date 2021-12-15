@@ -114,6 +114,9 @@ für advanced searched sei das gemäss demiankatz
 hier kann man sogar Checkboxen erstellen zum Beispiel: ich möchte Formate selbst auswählen durch anklicken z. b . Bücher, Zeitschriften, ...
 und davon soll es 10 Formate zur Auswahl haben.
 So konnte man auch die Homepage anpassen zum Beispiel Sprache ändern oder Browser by Format
+**bei den searchaspects**: bei Yaml könne man auch die Wichtigkeit ändern z.b  der erste Autor ist viel wichtiger als der zweite Autor, also kann man den boosten.
+er hat aus den ursprünglichen 300 dann 3000 gemacht, um  die Wichtigkeit zu erhöhen.autor fuller hat er auf auf 1500 geboostet, so dass er wichtiger erscheint.
+
 
 
 
