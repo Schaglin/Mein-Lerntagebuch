@@ -127,9 +127,12 @@ nun habe ich die Anzahl von *20 auf 40 erhöht für die Suchresultate bezogen*. 
 **Meine AHA-Moment** Ja es sieht gut aus, vorher erschienen nur 20 Suchresultate und nun erscheinen tatsächlich 40 Suchresultate, die ich vorher konfiguriert habe!
 ![Screenshot from 2021-12-15 18-29-44](https://user-images.githubusercontent.com/90834735/146236011-f4fb85b4-7775-45d1-a0ac-ac38f10a7f99.png)
 
+ich habe es noch mit 100 ausprobiert, ob es jetzt wirklich funktioniert hat und es hat funktioniert. das freute mich sehr !🦖
+![Screenshot from 2021-12-15 18-38-12](https://user-images.githubusercontent.com/90834735/146237080-a759a9e3-9fff-4a62-9445-acfc1254bc7e.png)
 
 
-- 
+
+
 - Reihenfolge ändern der Suchtherme z.b. Titel vor Autor
 - OCLC Nummer hinzufügen
 
