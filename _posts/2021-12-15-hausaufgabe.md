@@ -143,10 +143,8 @@ ja es hat sogar geklappt!
 ![Screenshot from 2021-12-15 18-50-15](https://user-images.githubusercontent.com/90834735/146239027-738fce42-df6f-4ca2-9b54-6519b06d646e.png)
 
 
--default top recommended = top facettes würde der demiank!
-atz auch ra
-usnehmen mit semikolon, aber das finde ich zwar noch gut, nehme sie jetzt einfach für die übung raus und zwar auch wieder mit dem Semikolon davor.
-[Screenshot from 2021-12-15 19-14-22](https://user-images.githubusercontent.com/90834735/146244502-082fd588-3380-47ba-9adf-6b0e498ae634.png)
+-**default top recommended = top facettes** würde der demiankatz auch rausnehmen mit semikolon, aber das finde ich zwar noch gut, nehme sie jetzt einfach für die übung raus und zwar auch wieder mit dem Semikolon davor.
+![Screenshot from 2021-12-15 19-14-22](https://user-images.githubusercontent.com/90834735/146244502-082fd588-3380-47ba-9adf-6b0e498ae634.png)
 
 **Vorher**
 ![Screenshot from 2021-12-15 19-28-39](https://user-images.githubusercontent.com/90834735/146244647-946d8457-308e-479e-90ac-025804d20f23.png)
@@ -180,9 +178,13 @@ Das ändere ich es auch wieder und es erscheint in der sidebar bei der Narrow Se
 
 
 
+- alle anzeigen wo keinen Autor haben, ich möchte alle Suchresultate rausnehmen, die keinen Autor haben, das kann ich hier sogar mit einer Checkbox machen. Dazu muss ich
 
-
-- Autor *no author* , ich möchte alle Suchresultate rausnehmen, die keinen Autor haben
+ das Script umändern: **-Autor:*= " No author" *
+ ![Screenshot from 2021-12-15 20-08-11](https://user-images.githubusercontent.com/90834735/146249560-9ed85e3f-07ca-4109-9763-ab0e11156d33.png)
+ 
+- jetzt kommen alle Medien mit keinem Autor vor. Ich kann einfach das **Häklein anklicken. Es hat geklappt ☑️**
+![Screenshot from 2021-12-15 20-05-49](https://user-images.githubusercontent.com/90834735/146249464-e0798254-616d-4005-9250-560302f269e8.png)
 
 
 **YAML für Advanced Searched und Homepage ändern**
