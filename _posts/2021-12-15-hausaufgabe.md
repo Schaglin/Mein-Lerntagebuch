@@ -1,6 +1,6 @@
-Hausaufgabe war es das Suchprogramm VuFind für Bibliotheken von Bibliotheken zu installieren. Hausaufgabe war es das VuFind zu installieren.
+Hausaufgabe war es das Suchprogramm VuFind für Bibliotheken von Bibliotheken zu installieren. 
 
-Dazu bekamen wir wieder einen Satz von Shell-Befehle:
+Dazu bekamen wir wieder einen Satz von Shell-Befehlen zur Verfügung, diese konnte man einfach copy/pasten:
 **wget https://github.com/vufind-org/vufind/releases/download/v8.0.2/vufind_8.0.2.deb
 sudo dpkg -i vufind_8.0.2.deb
 sudo apt-get update   -Nachtrag, hat dann tatsächlich funktioniert
@@ -8,7 +8,8 @@ sudo apt-get install -f  **
 
 Maria DB mussten wir auch installieren mit Befehl:
 ***sudo /usr/bin/mysql_secure_installation**
-mussten wir ein neues Passwort festlegen, Maria DB ist = My Sql
+mussten wir ein neues Passwort festlegen, Maria DB ist = My Sql 
+hierbei mussten wir noch einige Angaben mit y (yes) bestätigen.
 dann für den Root das Passwort bestätigen:**sudo mysql -uroot -p -e "UPDATE mysql.user SET plugin='' WHERE User='root'; FLUSH PRIVILEGES;"**
 Ein Neustart war in unserem Fall nicht erforderlich. Es reichte aus, den genannten Befehl einzugeben:**source /etc/profile**
 Um das SOlr zu starten mussten wir vorher noch Dateirechte festlegen fürdas Cache- und das Config-Verzeichnis beim Account des Webservers (www-data).
@@ -87,21 +88,21 @@ Wer hat eigentlich VUFind entwickelt? War das dieser demiankatz?
 Die vorgeschlagenen Konfigurationen habe ich zum Teil umgesetzt.
 
 **Beim Searching**:
-- 40 Resultate anzeigen lassen, anstatt nur 20
+- 40 Resultate anzeigen lassen, anstatt nur 20 Suchresultate
 - Autor geändert= Person who created  (aber aufpassen, wenn ich Sprache ändere, sollte es automatisch auch ändern?)
 - Reihenfolge ändern der Suchtherme z.b. Titel vor Autor
 - OCLC Nummer hinzufügen
 
 
 **Bei den Facetten**:
-;Instructor wegnehmen, in Confi-Datei einfach das Semikolon davor schreiben
-;Building wegnehmen, in Config-Datei einfach das Semikolon davor schreiben
+;Instructor wegnehmen, in Confi-Datei einfach das Semikolon (;)davor schreiben
+;Building wegnehmen, in Config-Datei einfach das Semikolon (;) davor schreiben
 - Autor *no author* , ich möchte alle Suchresultate rausnehmen, die keinen Autor haben
 
 **YAML für Advanced Searched**
 für advanced searched sei das gemäss demiankatz
-hier kann man sogar Checkboxen erstellen zum Beispiel: ich möchte Formate selbst auswählen, z. b . Bücher, Zeitschriften, ...
-und davon soll es 10 Stück zur Auswahl haben
+hier kann man sogar Checkboxen erstellen zum Beispiel: ich möchte Formate selbst auswählen durch anklicken z. b . Bücher, Zeitschriften, ...
+und davon soll es 10 Formate zur Auswahl haben.
 
 
 
