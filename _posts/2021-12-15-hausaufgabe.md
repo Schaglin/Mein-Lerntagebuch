@@ -174,6 +174,8 @@ Dazu ändere ich die Config-Datei namens **"facetes.ini"**
 
 **Suggested Topics**in der Sidebar bei Narrow Search: Demiankatz, meint es sei noch nützlich diese in der Sidebar zu erscheinen lassen. 
 Das ändere ich es auch wieder und es erscheint in der sidebar bei der Narrow Search.
+![Screenshot from 2021-12-15 19-43-59](https://user-images.githubusercontent.com/90834735/146247047-988e61af-e129-4445-bc35-b9415dbc40ef.png)
+
 ![Screenshot from 2021-12-15 19-45-27](https://user-images.githubusercontent.com/90834735/146246510-acfd1fa4-05ed-40c9-a457-1f7f4acd474f.png)
 
 
@@ -191,10 +193,9 @@ So konnte man auch die Homepage anpassen zum Beispiel Sprache ändern oder Brows
 **bei den searchaspects**: bei Yaml könne man auch die Wichtigkeit ändern z.b  der erste Autor ist viel wichtiger als der zweite Autor, also kann man den boosten.
 er hat aus den ursprünglichen 300 dann 3000 gemacht, um  die Wichtigkeit zu erhöhen.autor fuller hat er auf auf 1500 geboostet, so dass er wichtiger erscheint.
 
-zum Schluss habe ich noch die Suche ein wenig ausprobiert mit advanced Search bekam ich zuerst gar keine Treffer (limit nur German und das Jahr grenzte ich ein 1990- 2020), da musste ich die Suche öffnen und ohne Limitierungen bekam ich 3 Treffer, jedoch ist das ja nur eine Beispieldatenbank:
+zum Schluss habe ich noch die Suche ein wenig ausprobiert mit advanced Search bekam ich zuerst gar keine Treffer (limit nur German und das Jahr grenzte ich ein 1990- 2020), da musste ich die Suche öffnen und ohne Limitierungen bekam ich 3 Treffer, jedoch ist das ja nur eine Beispieldatenbank.
 
 
-![Screenshot from 2021-12-15 16-15-00](https://user-images.githubusercontent.com/90834735/146212897-d37eae11-8c4f-4809-9124-845c6fdf66c1.png)
 
 
 
