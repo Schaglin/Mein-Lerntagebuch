@@ -120,6 +120,11 @@ Die vorgeschlagenen Konfigurationen von DemianKatz aus dem Video zu "Searching u
 **Beim Searching**:
 - 40 Resultate anzeigen lassen, anstatt nur 20 Suchresultate
 - Namen der Suchtherme ändern zum Beipsiel anstatt Autor zu "Person who created" ändern. (aber man müsse aufpassen, wenn ich Sprache ändere, sollte es automatisch auch wieder richtig übersetzen?)
+
+nun habe ich die Anzahl von *20 auf 40 erhöht für die Suchresultate bezogen*. nun bin ich gespannt, ob es meine Änderungen genommen hat und schaue im vufind im Browser.
+![Screenshot from 2021-12-15 18-24-29](https://user-images.githubusercontent.com/90834735/146235080-9ec96984-149b-44c8-90f7-610e5681d436.png)
+
+
 - 
 - Reihenfolge ändern der Suchtherme z.b. Titel vor Autor
 - OCLC Nummer hinzufügen
