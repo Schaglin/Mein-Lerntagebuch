@@ -147,6 +147,7 @@ ja es hat sogar geklappt!
 atz auch ra
 usnehmen mit semikolon, aber das finde ich zwar noch gut, nehme sie jetzt einfach für die übung raus und zwar auch wieder mit dem Semikolon davor.
 [Screenshot from 2021-12-15 19-14-22](https://user-images.githubusercontent.com/90834735/146244502-082fd588-3380-47ba-9adf-6b0e498ae634.png)
+
 **Vorher**
 ![Screenshot from 2021-12-15 19-28-39](https://user-images.githubusercontent.com/90834735/146244647-946d8457-308e-479e-90ac-025804d20f23.png)
 
