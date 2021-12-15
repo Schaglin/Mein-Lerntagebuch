@@ -143,8 +143,17 @@ ja es hat sogar geklappt!
 ![Screenshot from 2021-12-15 18-50-15](https://user-images.githubusercontent.com/90834735/146239027-738fce42-df6f-4ca2-9b54-6519b06d646e.png)
 
 
+-default top recommended = top facettes würde der demiank!
+atz auch ra
+usnehmen mit semikolon, aber das finde ich zwar noch gut, nehme sie jetzt einfach für die übung raus und zwar auch wieder mit dem Semikolon davor.
+[Screenshot from 2021-12-15 19-14-22](https://user-images.githubusercontent.com/90834735/146244502-082fd588-3380-47ba-9adf-6b0e498ae634.png)
+**Vorher**
+![Screenshot from 2021-12-15 19-28-39](https://user-images.githubusercontent.com/90834735/146244647-946d8457-308e-479e-90ac-025804d20f23.png)
 
-- OCLC Nummer hinzufügen
+**Nachher**
+![Screenshot from 2021-12-15 19-29-08](https://user-images.githubusercontent.com/90834735/146244617-24a2d9c2-0dd0-457c-aa32-733fe77bc8a5.png)
+
+- demiankatz möchte nun auch noch die OCLC Nummer zu den Suchthermen hinzufügen. das lasse ich jetzt weg.
 
 
 **Bei den Facetten**
