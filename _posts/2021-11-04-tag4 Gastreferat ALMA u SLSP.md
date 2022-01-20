@@ -101,16 +101,14 @@ Zum Beispiel der Bookreturn (automatische Rückgabemaschine) kann keine Wiederei
 
 
 - **z.B. ein Ausleihbeleg** 
--   Sprache kann man auch anpassen.  Der Brief wird als xml File so definiert. Es gibt auch eine Vorschau.
+-   Sprache kann man auch anpassen. Der Brief wird als xml File so definiert. Es gibt auch eine Vorschau.
 
 
 **auch die Primo- Ansicht für die Kunden wird auf der Konfiguration bearbeitet:**
 - Gelb typisch  für FHWN
 - Lokale Texte von der FHNW Windisch werden genommen.
 - Verlinken auf  E-Ressourcen der FHWN 
-
-
-Weitere Konfigurationen: Registerkarten, Timeout, Standardsprache
+- Weitere Konfigurationen: Registerkarten, Timeout, Standardsprache
 
 **Das Zentrale Paket ist das Masterpaket als Grundlage für alle Bibliotheken, durch kundenspezifisches Paket können noch Anpassungen gemacht werden können (Hilfeseite, Anpassungen)**
 
@@ -128,11 +126,6 @@ Grundaufbau, Suche, E-Ressourcen über Gemeinschaftszone, Verwaltung der Bibliot
 **Frage":Einkaufen über Lieferantensystem, könnte auch über Alma zeigen**?
 - Ja das wäre auch möglich über Alma. Im Bespiel war die E-Ressource schon eingekauft.
 - kann auf Bestellung klicken
-![grafik](https://user-images.githubusercontent.com/90834735/140977117-a2a2272f-b333-4c5a-949b-cfac96a81bad.png)
-
-
-
-
 
 
 
@@ -151,7 +144,7 @@ Aber printmedien werden immer noch von Bibliotheken  selber katalgoisiert, und a
 Man katalgoisiert immer noch über RDA im Vergleich zu Aleph ist das noch gleich
 Aber Felder sind anders aber mit Dollar und Buchstaben. Feldinformationen von Marc 21 sieht man gleich, Warnungen, Beispiele,Vorlagen
 
-Kann direkt neuen Bestand erstellen: ![grafik](https://user-images.githubusercontent.com/90834735/140978068-8768cb30-2e27-467e-9f96-39965e989a7c.png)
+Kann direkt neuen Bestand erstellen.
 
 **Frage von Lohmeier Felix*": Wielange Marc 21 noch lebt und Bibframe kommt das nicht noch oder moderne linked data?  Wahrscheinlich Marc 21 wird im Hintergrund in Bibframe konvertiert wird, aber dass alma immer noch drin ist, aber dann kommt Bibframe drüber..
 - Ja man kann Bibframe nur anzeigen, aber man nutzt Marc 21 noch alles noch auf Marc 21 aufgerichtet.
@@ -162,7 +155,7 @@ Kann direkt neuen Bestand erstellen: ![grafik](https://user-images.githubusercon
 
 
 
-**Live- Demo: Beispiele wurden gemacht**:
+**Live- Demo: Beispiele wurden gemacht**
 
 **Beispiel E-Book anlegen/aktivieren**: 
 
@@ -178,15 +171,14 @@ Das geht ähnlich wie das E-Book auch zuerst muss man in die Netzwerkzone dann d
 man könnte hier auch noch das Portfolio der Zeitschrift bearbeiten, wenn z.b. die Bandnummer oder das Erschienungsjahr (1999) nicht stimmt. Kann man das ändern. Dann kann man noch bestimmen ob es global oder nur lokal geändert werden soll, das heisst ob es für den Benutzer lokal oder globale Ansicht angezeigt werden soll. Man könnte die 1999 überschreiben, aber bleibt mit Gemeinschaftszone verknüpft.
 
 
---> **Man kann eben die Daten von Gemeinschaftszone eben nutzen, muss man keine eigenen Aufnahmen mehr erstellen für E-Medien.**
+**_AHA-Moment_**--> **Man kann eben die Daten von Gemeinschaftszone nutzen, muss man keine eigenen Aufnahmen mehr erstellen für E-Medien.**
 
 **Beispiel Datenbanken**
 Es gibt verschiedene Datenbanken: Es gibt Volltext, keinen Volltext, Referenzdatenbanken.
 ABI ist ein Aggregator Datenbank, beinhaltet einzelene Portfolios, Volltext-Datenbank kann man im Primo absuchen. Journals kann man via Swisscovery so suchbar machen.
 "**CDI*:Auch die CDI ist integriert. Das heisst gibt eine detailliertere Suche: _Wenn es ein E-Journal ist, können ihre einzelne Artikel über CDI gesucht werden_.*
-![grafik](https://user-images.githubusercontent.com/90834735/140971601-48d5582b-c888-4fef-815b-4ee510518a6d.png)
+
 Naxos Music Library = Referenzdatenbank, hat keine Portfolio, hat aber auch CDI für detailierte Suche, aber dieser Datenbank ist so auf Discovery auffindbar
-![grafik](https://user-images.githubusercontent.com/90834735/140971936-b476541f-148f-446a-aa4c-0dd3534392ff.png)
 
 
 
