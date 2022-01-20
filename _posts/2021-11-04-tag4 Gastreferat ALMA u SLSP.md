@@ -176,23 +176,19 @@ Gruppe 1: **Argumentation gegenüber Träger / Direktion**
 
 Gruppe 2: **Motivation und Kommunikation der beteiligten Bibliotheken**
 *Wie würdet Ihr die Bibliotheken miteinbeziehen?*
-   -alle Bibliotheken ins Boot holen
-   -umfassend über das neue System informieren
+   -alle Bibliotheken ins Boot holen, umfassend über das neue System informieren
 *Wie würdet Ihr den Change begleiten?*
-   -individuelle Bedürfnisse abfragen und berücksichtigen
-   -Begleitung durch Schulungen
+   -individuelle Bedürfnisse abfragen und berücksichtigen,Begleitung durch Schulungen
 *Welche Kommunikationskanäle würdet Ihr nutzen?*
-    -Kommunikationswege transparent machen und kurz halten
-    -kein Unterschied zwischen Aktionären und Nicht-Aktionären
+    -Kommunikationswege transparent machen und kurz halten, kein Unterschied zwischen Aktionären und Nicht-Aktionären
 
 Gruppe 3: **Technische Alternativen Pro und Contra**
-
 *Welche Vor- und Nachteile gibt es bei einem cloudbasierten System?*
    -Nachteile: -Internetabhängig, -Browserabhängig (funktioniert nicht bei allen gleich gut)
    - Vorteile: -von jedem Gerät darauf zugreifen, keine Software installieren, erleichterte Updates
-   *3Gibt es Alternativen zu ALMA / SLSP?*
-   - als wissenschaftliche Bibliothek musste man fast bei SLSP mitmachen
-   -bei alter Lösung bleiben, z.B. Aleph von Ex Libris abgekündigt, ALMA als Nachfolgeprodukt vorgesehen Open-Source Lösungen wie Koha
+   *Gibt es Alternativen zu ALMA / SLSP?* Als wissenschaftliche Bibliothek musste man fast bei SLSP mitmachen.
+   -Bei alter Lösung bleiben, z.B. Aleph von Ex Libris abgekündigt, ALMA als Nachfolgeprodukt vorgesehen.
+   Open-Source Lösungen wie Koha
    *Wie beurteilt ihr die Konfigurationsmöglichkeiten?*
    -Individualisierung möglich, aber einiges nur über Gesamt-IZ, 
    -Aktuell evaluieren Kantonsbibliotheken welches System gewählt wird.
