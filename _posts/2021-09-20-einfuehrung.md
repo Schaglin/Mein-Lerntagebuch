@@ -3,7 +3,7 @@ title: "Einführungsartikel"
 date: 2021-09-20
 ---
 
-#Liebes Tagebuch
+_Liebes Tagebuch_,
 
 Es kann losgehen, hier folgen meine Erwartungen, das Tagebuch schreiben sowie der Modulbeschrieb. 
 Auch erfährst du etwas über meinen beruflichen Werdegang und meine IT-Erfahrungen, die ich mal für dich hier aufgeschrieben habe.
@@ -43,10 +43,9 @@ Hier die Abfrage in unserer selbsterstellten Ontologie mit dem Reasoner: ![grafi
 Das im Dezember 2020 neu eingeführte **Bibliotheksverwaltungssystem "Alma"**, welches das bekannte Aleph ersetzt und nun auch Cloudzugänglich ist, kenne ich nur vom Schulunterricht an der FHGR. Es gibt zwar Tutorials von der **Exlibris Group**, welche frei verfügbar sind unter der Kategorie **"Knowledge Center"** (https://knowledge.exlibrisgroup.com/) können Alma, Primo und Co. erlernt werden. Hier ein Video zu Elektronischen Ressourcen in Alma: Terminologie und Bestandsmodell: http://exl-edu.com/01_Alma/Alma_Essentials/de/Resources/Electronic_Resources_in_Alma-Terminology_and_Inventory_Model/
 
 
-Seit Herbst 2018 arbeite ich als **Pflegehelferin SRK** mit einem 50 Prozent Pensum in einem Altersheim, häufig über das Wochenende plus Montag oder Freitag. Dort müssen wir auch täglich elektronisch Rapportieren. Wir haben dort ebenfalls ein Programm dafür. Das beschränkt sich aber auf Erfassung  und Schreiben des Tagesberichts pro Bewohner und anklicken der Aktivierung/Körperpflege. Das Erfassen der Vitalwerte und die Eintragung der Medikamenteneinnahme wird jedoch von Dipl. Pflegepersonal erfasst.
+Seit Herbst 2018 arbeite ich als **Pflegehelferin SRK** mit einem 50-Prozent Pensum in einem Altersheim, häufig über das Wochenende plus Montag oder Freitag. Dort müssen wir auch täglich elektronisch Rapportieren. Wir haben dort ebenfalls ein Programm dafür. Das beschränkt sich aber auf Erfassung  und Schreiben des Tagesberichts pro Bewohner und anklicken der Aktivierung/Körperpflege. Das Erfassen der Vitalwerte und die Eintragung der Medikamenteneinnahme wird jedoch von Dipl. Pflegepersonal erfasst.
 
-In diversen Anwendungsprogrammen habe ich bereits Erfahrung gesammelt. Was das Programmieren, Konfigurieren und Modullieren betrifft, welche ich in diesem Kurs an Basics lernen werden, bin ich noch sehr unsicher. Die Shell, diese ist mir immer noch nicht geheur. Nichtdestotrotz versuche ich aber diesen Kurs **positiv anzugehen**.
-Gerade bin ich am Tutorial für das Markdown am durchgehen https://www.markdowntutorial.com/lesson/1/. Nun bin ich am Header lernen und Links einfügen [go to] (https://dailykitten.com/2021/05/galen/).
+In diversen Anwendungsprogrammen habe ich bereits Erfahrung gesammelt. Was das Programmieren, Konfigurieren und Modullieren betrifft, welche ich in diesem Kurs an Basics lernen werden, bin ich noch sehr unsicher. Die Shell, diese ist mir immer noch nicht geheur. Nichtdestotrotz versuche ich aber diesen Kurs **positiv anzugehen**. Soeben bin ich am Tutorial für das Markdown am durchgehen https://www.markdowntutorial.com/lesson/1/. Nun bin ich am Header lernen und Links einfügen [go to] (https://dailykitten.com/2021/05/galen/).
 
 
 **Tschau und bis bald liebes Tagebuch!**
