@@ -1,6 +1,6 @@
 ---
 title: "Einführungsartikel"
-date: 2021-09-20
+date: 2021-09-14
 ---
 
 _Liebes Tagebuch_,
