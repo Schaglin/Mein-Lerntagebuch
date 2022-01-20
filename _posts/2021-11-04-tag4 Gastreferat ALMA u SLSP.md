@@ -46,29 +46,25 @@ Es gab eine LIVE-Demo über: (die fett gedruckten wurden noch genauer angeschaut
 
 - **Aufbau und Grundlagen**
 - Recherche in Alma: Jede IZ ( IZ= Institutionszone) hat eigene URL um ALMA über Browser aufzurufen. Suche alle physischen Exemplare mit dem Status "vermisst". Dann diese noch einschränken nur Bibliothek FHNW AG (Windisch).Als Discovery anzeigen lassen, dass man sieht wie es aussieht.
-![grafik](https://user-images.githubusercontent.com/90834735/140962317-be58775d-6744-42ba-9f24-7acb017e927a.png)
 
 
 - Ausleihe und Rückgabe: Buch ausleihen erst wenn bei Windisch in Theke einlogge erst dann kann man es machen
-![grafik](https://user-images.githubusercontent.com/90834735/140962884-a8cc735c-689d-4f37-9f3b-749e96d773e6.png)
+
 Kategorien: Ausleihen und Rückgabe, Vormerkungen, Listeraturlisten
 Ausleihe: Bei den Ausleihen sind Benutzerkonfiguration, Mahnungen, Offline Ausleihe hinterlegt. 
 Vormerkungen: Aus dem Regal nehmen, Exemplare Scannen, Abgelaufene Bestellungen, Exemplar-Prozesse überwachen. Strichcode einlesen, Vormerkung, Rückgabe machen.Pro Benutzer: Bestellung, Mahnen, Rechnung, Kaufbestellung, Lieferanten bearbeiten, Kontos bearbeiten.
-![grafik](https://user-images.githubusercontent.com/90834735/140963653-43d9bb8b-6b8d-474b-b605-ac3123710b39.png)
 
-![grafik](https://user-images.githubusercontent.com/90834735/140963809-488267c5-ec8c-4a98-985f-e33e0390c3b3.png)
+
+
 
 
 
 - **E-Ressourcen**: Bei E-Ressourcen sind Lizenzen drin, sogenannte Konsortiumlizenzen 
 
-![grafik](https://user-images.githubusercontent.com/90834735/140964025-50e995f6-1d86-440d-a123-e542cbcddd53.png)
+
 
 Diese können auch im Detail angeschaut/überwacht werden mit Nutzungsbedingungen z. b. Fernleihe erlaubt oder nicht. Download erlaubt oder nicht.
 
-![grafik](https://user-images.githubusercontent.com/90834735/140964173-52ba43da-9cee-42eb-b299-23b740ec7ec8.png)
-
-![grafik](https://user-images.githubusercontent.com/90834735/140964327-44302124-83d1-446b-8e60-6af92a7a5e5f.png)
 
 
 
@@ -84,20 +80,16 @@ Diese können auch im Detail angeschaut/überwacht werden mit Nutzungsbedingunge
 
 - **Konfiguration**: Eine Konfiguration kann über ganze IZ oder nur einzelne Bibliothek machen.
 Bibliothek Brugg -Windisch. Pro Bibliothek kann man auf der Bibliotheksebene einstellen, Drucker, Öffnungszeiten…. Die Öffnungszeiten sind imt den Leihfristen verknüpft. DIE FHN will zum Beispiel keine Leihfristen auf den Samstag festlegen, obwohl die Bibliohthek auch am Samstag offen ist. Oder Weihnachtsferien, da sollen die Fristen auch nicht weiterlaufen, sondern erst wieder ab dem 1.1.
-![grafik](https://user-images.githubusercontent.com/90834735/140972388-9f0ba977-83af-4d56-a80e-a7d44e4c27e6.png)
 
 Auch eine Liste der physischen Standorte für die gedruckten Medien pro Bibliothek kann hier gefunden werden:
-![grafik](https://user-images.githubusercontent.com/90834735/140972520-bcbbd573-b43c-4ee8-98bb-0824399c322a.png)
+
 
 Jeder Standort hat einen Code, einen Namen, Typ etc. Welche Leihstelle dieser Standort verwaltet werden kann und was sie tun kann.
-![grafik](https://user-images.githubusercontent.com/90834735/140972661-413e93b1-3e42-41f2-a609-6f6ef77cbf0c.png)
+
 
 Zum Beispiel der Bookreturn (automatische Rückgabemaschine) kann keine Wiedereinstellung vornehmen.
-![grafik](https://user-images.githubusercontent.com/90834735/140972822-59a373e5-c821-4095-97bb-2585769566a6.png)
 
 **Theke 1** kann Rückgabe, Neuberechtigungen, kann für studentische Hilfskräfte Berechtigungen reduzieren. Zahlungsinfo hat es keine, weil keine Kasse an dieser Theke 1 haben. Auch welcher Drucker soll Zugriff haben, kann hier definiert werden. RFID ist auch hinterlegt.
-![grafik](https://user-images.githubusercontent.com/90834735/140973080-72a050ca-8b10-441e-a03b-af4d30b2cc3f.png)
-![grafik](https://user-images.githubusercontent.com/90834735/140973179-ff1cb4a0-c41c-4433-ac7a-a3b1c875f404.png)
 
 **Die meisten Konfiguration (z.B Erwerbung) werden auf der IZ -Ebene (Institutionsebene) gemacht:**
 -  **_Statistiken_**: Diese Codes sind für alle Bibliotheken, kann man eine Statistik machen.
@@ -106,30 +98,25 @@ Zum Beispiel der Bookreturn (automatische Rückgabemaschine) kann keine Wiederei
 -   **_Suchkonfiguration_**
 -   **_Metadatenkonfiguration_**
 -   **_Konfiguration der Briefe_** (Briefe und Mails für Kunden, Benutzer, an Lieferanten) Briefe sind für alle und ein paar kann man anpassen. Bestellungen, Formulare etc.
--![grafik](https://user-images.githubusercontent.com/90834735/140974301-35a837a0-fb27-4955-bceb-0af5922ab899.png)
 
-![grafik](https://user-images.githubusercontent.com/90834735/140974148-8e45378d-c98d-4842-8fbe-587149c0c028.png)
 
 - **z.B. ein Ausleihbeleg** 
 -   Sprache kann man auch anpassen.  Der Brief wird als xml File so definiert. Es gibt auch eine Vorschau.
-![grafik](https://user-images.githubusercontent.com/90834735/140974417-f5c066d8-e2ed-4332-af0c-56d5b51cdb8b.png)
-![grafik](https://user-images.githubusercontent.com/90834735/140974650-2dc82224-cc19-4eb5-8b70-480467c7ccc5.png)
-![grafik](https://user-images.githubusercontent.com/90834735/140974758-7674bfee-ccb5-4904-a638-e8d287844ae2.png)
+
 
 **auch die Primo- Ansicht für die Kunden wird auf der Konfiguration bearbeitet:**
 - Gelb typisch  für FHWN
 - Lokale Texte von der FHNW Windisch werden genommen.
 - Verlinken auf  E-Ressourcen der FHWN 
-- ![grafik](https://user-images.githubusercontent.com/90834735/140976314-0cf02a54-ee6e-4db0-aa9e-72691f39f3ae.png)
+
 
 Weitere Konfigurationen: Registerkarten, Timeout, Standardsprache
 
 **Das Zentrale Paket ist das Masterpaket als Grundlage für alle Bibliotheken, durch kundenspezifisches Paket können noch Anpassungen gemacht werden können (Hilfeseite, Anpassungen)**
-![grafik](https://user-images.githubusercontent.com/90834735/140976490-e8e159bb-1bed-4358-b8ed-c13a42ced927.png)
+
 **Hilfeseite, Homepage , Link kann noch individuell angepasst werden**
 Einzelne Links kann man so anpassen für Homepage auf eigene IZ. und dann diese hochladen. Aber z. b.keine Javascript, da wird alles genommen von SLSP.
-![grafik](https://user-images.githubusercontent.com/90834735/140976702-92aaa95e-d5b5-481c-b492-5ad5da9b2241.png)
-![grafik](https://user-images.githubusercontent.com/90834735/140976807-3f363ba2-2e0c-4828-ab21-ede6fd742e1a.png)
+
 **Anpassungen anschauen, Test-Views zuerst machen**
 
 
@@ -155,10 +142,6 @@ eRessourcen nur für spezifische Institution zugänglich
 Katalogisierung nicht von Grund auf aber nehme über Gemeinschaftzszone.
 **Frage kam zu Printmedien wer diese katalogisiert?**
 - Printmedien machen immer noch der erste, der das eingekauft hat vom Verbund, man kann sich an diese Aufnahme hängen dann aber auch da gibt es Fremddatenübernahme.
-![grafik](https://user-images.githubusercontent.com/90834735/140977497-bb7a4fd9-878c-4e6e-8618-a515934463fe.png)
-![grafik](https://user-images.githubusercontent.com/90834735/140977546-b9d633c7-e133-4ace-83ed-af668b1f43bf.png)
-
-![grafik](https://user-images.githubusercontent.com/90834735/140977627-38f67617-858d-43e3-b627-aad792b5a4d1.png)
 
 - WorldCAt
 - Oder Library of Congress das übernehmen
@@ -167,7 +150,6 @@ Aber printmedien werden immer noch von Bibliotheken  selber katalgoisiert, und a
 **Metadateneditor**
 Man katalgoisiert immer noch über RDA im Vergleich zu Aleph ist das noch gleich
 Aber Felder sind anders aber mit Dollar und Buchstaben. Feldinformationen von Marc 21 sieht man gleich, Warnungen, Beispiele,Vorlagen
-![grafik](https://user-images.githubusercontent.com/90834735/140977955-5d41c8f4-f675-48e7-8682-dd96f9fe833e.png)
 
 Kann direkt neuen Bestand erstellen: ![grafik](https://user-images.githubusercontent.com/90834735/140978068-8768cb30-2e27-467e-9f96-39965e989a7c.png)
 
@@ -184,17 +166,17 @@ Kann direkt neuen Bestand erstellen: ![grafik](https://user-images.githubusercon
 
 **Beispiel E-Book anlegen/aktivieren**: 
 
-![grafik](https://user-images.githubusercontent.com/90834735/140965320-e4e85fdb-0238-4b50-91e9-1eee150783d4.png)
+
 Das geht wieder über die Netzwerkzone.Hier können einzelne E-Books aktiviert werden. Wenn man das "Haus" sieht, hat man hat dort bei dem Verlag "Vandenhoeck" schon mal gekauft. Am Schluss einfach auf Button klicken "aktivieren".
 Dann kann man das kontrollieren, wenn jetzt das Haus erscheint= dieser Titel ist jetzt in der IZ Windisch auch verfügbar
 
 
 **Beispiel mit der Zeitschrift anlegen/aktivieren:**
 Das geht ähnlich wie das E-Book auch zuerst muss man in die Netzwerkzone dann dort aktivierne. Dann am Schluss wieder in Institutionszone, ob es geklappt hat (Männchen erscheint). 
-![grafik](https://user-images.githubusercontent.com/90834735/140965992-ce10fb9f-3c9b-402d-81c6-99542cfa94a6.png)
+
 
 man könnte hier auch noch das Portfolio der Zeitschrift bearbeiten, wenn z.b. die Bandnummer oder das Erschienungsjahr (1999) nicht stimmt. Kann man das ändern. Dann kann man noch bestimmen ob es global oder nur lokal geändert werden soll, das heisst ob es für den Benutzer lokal oder globale Ansicht angezeigt werden soll. Man könnte die 1999 überschreiben, aber bleibt mit Gemeinschaftszone verknüpft.
-![grafik](https://user-images.githubusercontent.com/90834735/140966700-78bdff23-cb04-4ee2-a060-b1631bba9687.png)
+
 
 --> **Man kann eben die Daten von Gemeinschaftszone eben nutzen, muss man keine eigenen Aufnahmen mehr erstellen für E-Medien.**
 
