@@ -33,61 +33,45 @@ In der Netzwerkzone werden die einzelnen TItel der Werke/E-Medien aufgenommen un
 
 **Institution Zone- Institutionszone (IZ)**
 Hier kann man für die einzelnen Bibliotheken indiviuell anpassen z. B. Aktivierungen, Konfigurationen.
-Bei den BIbliohteken selbst kann auf Drucker, Öffnungszeiten, Budget Anpassungen gemacht werden. Bei den Beständen können Exemplare, Signaturen hinzugefügt werden. Man könnte hier auch einen Campus machen, FHN hat das aber nicht nehmen alle gleiche IP- Range.
+Bei den Bibliotheken selbst kann auf Drucker, Öffnungszeiten, Budget Anpassungen gemacht werden. Bei den Beständen können Exemplare, Signaturen hinzugefügt werden. Man könnte hier auch einen Campus machen, FHN hat das aber nicht, sie nehmen alle gleiche IP- Range.
 
 
 
 ![grafik](https://user-images.githubusercontent.com/90834735/140961441-0b06b854-a620-4608-b94f-894bd1df0fb9.png)
 
-Primo= Discovery Lösung von Exlibris, wird über Alma verwaltet
-Vorteil wird nicht noch ein System für Verwaltung benötigt. Auch ein Vorteil für Benutzer, wenn Ebook etwas ändere, dann dauert 2-3 Minuten dann wieder sichtbar.E-Ressourcen muss ich mich einloggen in der IZ oder suchen.CDI wenn ich ein E-Journal über Gemeinschaft aktiviere, dass in CDI vorhanden ist, dann wird das eingespielt die Kataloge.Jede IZ kann lokal seine eigene Ansicht haben, alle E-Ressourcen oder lokalen Ressourcen werden so abgebildet.Damit nicht jede View komplett neu aufgebaut werden muss, wird mit einem Master Template gearbietet, man kann beispielsweise die Farbe, Logo und eigene Texte, lokale Ressourcen oder Texte ändern jede eigene IZ kann das machen, aber Grundgerüst ist von ExLibris gegeben.
+**Primo= Discovery-Lösung von Exlibris, wird über Alma verwaltet**
+Der Vorteil ist, es wird nicht noch ein System für Verwaltung benötigt. Auch ein Vorteil für Benutzer, wenn beim Ebook etwas ändere, dann dauert es 2-3 Minuten und es ist dann wieder sichtbar. E-Ressourcen muss ich mich einloggen in der IZ oder suchen.CDI wenn ich ein E-Journal über Gemeinschaft aktiviere, dass in CDI vorhanden ist, dann wird das eingespielt für die Kataloge.Jede IZ kann lokal seine eigene Ansicht haben, alle E-Ressourcen oder lokalen Ressourcen werden so abgebildet.Damit nicht jede View komplett neu aufgebaut werden muss, wird mit einem Master Template gearbeitet, man kann beispielsweise die Farbe, Logo und eigene Texte, lokale Ressourcen oder Texte ändern. Jede eigene IZ kann das machen, aber das Grundgerüst ist von ExLibris gegeben.
 
-Es gab eine LIVE-Demo über: (die fett gedruckten wurden noch genauer angeschaut)
+Es gab eine LIVE-Demo über: (die fett gedruckten Titel wurden noch genauer angeschaut)
 
 - **Aufbau und Grundlagen**
 - Recherche in Alma: Jede IZ ( IZ= Institutionszone) hat eigene URL um ALMA über Browser aufzurufen. Suche alle physischen Exemplare mit dem Status "vermisst". Dann diese noch einschränken nur Bibliothek FHNW AG (Windisch).Als Discovery anzeigen lassen, dass man sieht wie es aussieht.
 
 
-- Ausleihe und Rückgabe: Buch ausleihen erst wenn bei Windisch in Theke einlogge erst dann kann man es machen
+- Ausleihe und Rückgabe: Buch ausleihen erst wenn bei Windisch in Theke einlogge erst dann kann man es machen.
 
-Kategorien: Ausleihen und Rückgabe, Vormerkungen, Listeraturlisten
+Kategorien: Ausleihen und Rückgabe, Vormerkungen, Listeraturlisten sind da drin.
 Ausleihe: Bei den Ausleihen sind Benutzerkonfiguration, Mahnungen, Offline Ausleihe hinterlegt. 
 Vormerkungen: Aus dem Regal nehmen, Exemplare Scannen, Abgelaufene Bestellungen, Exemplar-Prozesse überwachen. Strichcode einlesen, Vormerkung, Rückgabe machen.Pro Benutzer: Bestellung, Mahnen, Rechnung, Kaufbestellung, Lieferanten bearbeiten, Kontos bearbeiten.
 
 
 
+- **E-Ressourcen**: Bei E-Ressourcen sind Lizenzen drin, sogenannte Konsortiumlizenzen.Diese können auch im Detail angeschaut/überwacht werden mit Nutzungsbedingungen z. b. Fernleihe erlaubt oder nicht. Download erlaubt oder nicht.
 
 
-
-- **E-Ressourcen**: Bei E-Ressourcen sind Lizenzen drin, sogenannte Konsortiumlizenzen 
-
-
-
-Diese können auch im Detail angeschaut/überwacht werden mit Nutzungsbedingungen z. b. Fernleihe erlaubt oder nicht. Download erlaubt oder nicht.
-
-
-
-
-
-
-
-- -Benutzerverwaltung: Hier gibt es Rollenvorlagen für Mitarbeiter z.b . Admin Berechtigung ohne Rollen separat zu verteilen.
+- Benutzerverwaltung: Hier gibt es Rollenvorlagen für Mitarbeiter z.b Admin Berechtigung ohne Rollen separat zu verteilen.
 - Erwerbung
 
 - **Erschliessung**
 
 
-
-- **Konfiguration**: Eine Konfiguration kann über ganze IZ oder nur einzelne Bibliothek machen.
-Bibliothek Brugg -Windisch. Pro Bibliothek kann man auf der Bibliotheksebene einstellen, Drucker, Öffnungszeiten…. Die Öffnungszeiten sind imt den Leihfristen verknüpft. DIE FHN will zum Beispiel keine Leihfristen auf den Samstag festlegen, obwohl die Bibliohthek auch am Samstag offen ist. Oder Weihnachtsferien, da sollen die Fristen auch nicht weiterlaufen, sondern erst wieder ab dem 1.1.
+- **Konfiguration**: Eine Konfiguration kann über die ganze IZ oder nur über einzelne Bibliothek machen.
+Bibliothek Brugg -Windisch. Pro Bibliothek kann man auf der Bibliotheksebene einstellen, Drucker, Öffnungszeiten etc. Die Öffnungszeiten sind imt den Leihfristen verknüpft. Die FHN will zum Beispiel keine Leihfristen auf den Samstag festlegen, obwohl die Bibliohthek auch am Samstag offen ist. Oder Weihnachtsferien, da sollen die Fristen auch nicht weiterlaufen, sondern erst wieder ab dem 1.1.
 
 Auch eine Liste der physischen Standorte für die gedruckten Medien pro Bibliothek kann hier gefunden werden:
-
-
 Jeder Standort hat einen Code, einen Namen, Typ etc. Welche Leihstelle dieser Standort verwaltet werden kann und was sie tun kann.
 
-
-Zum Beispiel der Bookreturn (automatische Rückgabemaschine) kann keine Wiedereinstellung vornehmen.
+Zum Beispiel der Book-Return (automatische Rückgabemaschine) kann keine Wiedereinstellung vornehmen.
 
 **Theke 1** kann Rückgabe, Neuberechtigungen, kann für studentische Hilfskräfte Berechtigungen reduzieren. Zahlungsinfo hat es keine, weil keine Kasse an dieser Theke 1 haben. Auch welcher Drucker soll Zugriff haben, kann hier definiert werden. RFID ist auch hinterlegt.
 
@@ -110,7 +94,7 @@ Zum Beispiel der Bookreturn (automatische Rückgabemaschine) kann keine Wiederei
 - Verlinken auf  E-Ressourcen der FHWN 
 - Weitere Konfigurationen: Registerkarten, Timeout, Standardsprache
 
-**Das Zentrale Paket ist das Masterpaket als Grundlage für alle Bibliotheken, durch kundenspezifisches Paket können noch Anpassungen gemacht werden können (Hilfeseite, Anpassungen)**
+**Das Zentrale Paket ist das Masterpaket als Grundlage für alle Bibliotheken, durch kundenspezifisches Paket können noch Anpassungen gemacht werden (Hilfeseite, Anpassungen).**
 
 **Hilfeseite, Homepage , Link kann noch individuell angepasst werden**
 Einzelne Links kann man so anpassen für Homepage auf eigene IZ. und dann diese hochladen. Aber z. b.keine Javascript, da wird alles genommen von SLSP.
@@ -118,8 +102,7 @@ Einzelne Links kann man so anpassen für Homepage auf eigene IZ. und dann diese 
 **Anpassungen anschauen, Test-Views zuerst machen**
 
 
-Im Alma hat uns gezeigt:
-Grundaufbau, Suche, E-Ressourcen über Gemeinschaftszone, Verwaltung der Bibliotheken, Beispiel von übergreifenden Bibliothek
+Im Alma wurde uns gezeigt: Grundaufbau, Suche, E-Ressourcen über Gemeinschaftszone, Verwaltung der Bibliotheken, Beispiel von übergreifenden Bibliothek
 
 
 
@@ -134,19 +117,19 @@ Katalogisierung auf der Netzwerkzone (printbestände)
 eRessourcen nur für spezifische Institution zugänglich
 Katalogisierung nicht von Grund auf aber nehme über Gemeinschaftzszone.
 **Frage kam zu Printmedien wer diese katalogisiert?**
-- Printmedien machen immer noch der erste, der das eingekauft hat vom Verbund, man kann sich an diese Aufnahme hängen dann aber auch da gibt es Fremddatenübernahme.
+- Printmedien machen immer noch der erste, der das eingekauft hat vom Verbund, man kann sich an diese Aufnahme hängen, aber auch da gibt es Fremddatenübernahme.
 
 - WorldCAt
 - Oder Library of Congress das übernehmen
-Aber printmedien werden immer noch von Bibliotheken  selber katalgoisiert, und andere Bibliotheken könne über Gemeinschaftszone übernehmen.
+**Aber printmedien werden immer noch von Bibliotheken selber katalogisiert, und andere Bibliotheken könne über Gemeinschaftszone übernehmen.**
 
 **Metadateneditor**
-Man katalgoisiert immer noch über RDA im Vergleich zu Aleph ist das noch gleich
-Aber Felder sind anders aber mit Dollar und Buchstaben. Feldinformationen von Marc 21 sieht man gleich, Warnungen, Beispiele,Vorlagen
+Man katalgoisiert immer noch über RDA im Vergleich zu Aleph ist das noch gleich.
+Aber Felder sind anders aber mit Dollar und Buchstaben. Feldinformationen von Marc 21 sieht man gleich, Warnungen, Beispiele,Vorlagen.
+Es kann direkt ein neuer Bestand erstellt werden.
 
-Kann direkt neuen Bestand erstellen.
-
-**Frage von Lohmeier Felix*": Wielange Marc 21 noch lebt und Bibframe kommt das nicht noch oder moderne linked data?  Wahrscheinlich Marc 21 wird im Hintergrund in Bibframe konvertiert wird, aber dass alma immer noch drin ist, aber dann kommt Bibframe drüber..
+**Frage von Lohmeier Felix*": Wielange Marc 21 noch lebt und Bibframe kommt das nicht noch oder moderne linked data?  
+- Antwort: Wahrscheinlich Marc 21 wird im Hintergrund in Bibframe konvertiert wird, aber dass alma immer noch drin ist, aber dann kommt Bibframe drüber..
 - Ja man kann Bibframe nur anzeigen, aber man nutzt Marc 21 noch alles noch auf Marc 21 aufgerichtet.
 - Marc 21 haben wir im Kurs die Hypothese aufgestellt, dass noch lange Bedeutung haben wird. Ja das sei alles noch über Marc 21.
 
@@ -165,10 +148,7 @@ Dann kann man das kontrollieren, wenn jetzt das Haus erscheint= dieser Titel ist
 
 
 **Beispiel mit der Zeitschrift anlegen/aktivieren:**
-Das geht ähnlich wie das E-Book auch zuerst muss man in die Netzwerkzone dann dort aktivierne. Dann am Schluss wieder in Institutionszone, ob es geklappt hat (Männchen erscheint). 
-
-
-man könnte hier auch noch das Portfolio der Zeitschrift bearbeiten, wenn z.b. die Bandnummer oder das Erschienungsjahr (1999) nicht stimmt. Kann man das ändern. Dann kann man noch bestimmen ob es global oder nur lokal geändert werden soll, das heisst ob es für den Benutzer lokal oder globale Ansicht angezeigt werden soll. Man könnte die 1999 überschreiben, aber bleibt mit Gemeinschaftszone verknüpft.
+Das geht ähnlich wie das E-Book auch zuerst muss man in die Netzwerkzone dann dort aktivierne. Dann am Schluss wieder in Institutionszone, ob es geklappt hat (Männchen erscheint). Man könnte hier auch noch das Portfolio der Zeitschrift bearbeiten, wenn z.Bsp. die Bandnummer oder das Erschienungsjahr (1999) nicht stimmt. Kann man das ändern. Dann kann man noch bestimmen ob es global oder nur lokal geändert werden soll, das heisst ob es für den Benutzer lokal oder globale Ansicht angezeigt werden soll. Man könnte die 1999 überschreiben, aber bleibt mit Gemeinschaftszone verknüpft.
 
 
 **_AHA-Moment_**--> **Man kann eben die Daten von Gemeinschaftszone nutzen, muss man keine eigenen Aufnahmen mehr erstellen für E-Medien.**
@@ -184,37 +164,38 @@ Naxos Music Library = Referenzdatenbank, hat keine Portfolio, hat aber auch CDI 
 
 **Strategische Spielereien:**
 Gruppe 1: **Argumentation gegenüber Träger / Direktion**
-   Wie rechtfertigen wir den sehr viel höheren Mitteleinsatz?
+   *Wie rechtfertigen wir den sehr viel höheren Mitteleinsatz?*
       - ggf. Kosten sparen bei Katalogisierung durch Teilnahme am Verbund
       - um Personalkürzungen zu vermeiden neue Aufgaben betonen z.B. in der Systemadministration oder in neuen Diensten außerhalb von ALMA/SLSP
        -Stetige Innovation (monatliche Updates)
        -viel nachnutzen können
        - Mehrwerte für die Benutzenden durch zusätzliche Recherchemöglichkeiten (z.B. Fernleihe einfacher)
- Frage: Performance im Arbeitsbetrieb
+ *Frage: Performance im Arbeitsbetrieb?*
       - bei guter Internetverbindung in der Regel sehr gut
       -Für Akkreditierung von Studiengängen Verbundteilnahme nachzuweisen
 
 Gruppe 2: **Motivation und Kommunikation der beteiligten Bibliotheken**
-Wie würdet Ihr die Bibliotheken miteinbeziehen?
+*Wie würdet Ihr die Bibliotheken miteinbeziehen?*
    -alle Bibliotheken ins Boot holen
    -umfassend über das neue System informieren
-Wie würdet Ihr den Change begleiten?
+*Wie würdet Ihr den Change begleiten?*
    -individuelle Bedürfnisse abfragen und berücksichtigen
    -Begleitung durch Schulungen
-Welche Kommunikationskanäle würdet Ihr nutzen?
+*Welche Kommunikationskanäle würdet Ihr nutzen?*
     -Kommunikationswege transparent machen und kurz halten
     -kein Unterschied zwischen Aktionären und Nicht-Aktionären
 
 Gruppe 3: **Technische Alternativen Pro und Contra**
 
-Welche Vor- und Nachteile gibt es bei einem cloudbasierten System?
+*Welche Vor- und Nachteile gibt es bei einem cloudbasierten System?*
    -Nachteile: -Internetabhängig, -Browserabhängig (funktioniert nicht bei allen gleich gut)
    - Vorteile: -von jedem Gerät darauf zugreifen, keine Software installieren, erleichterte Updates
-   Gibt es Alternativen zu ALMA / SLSP
-     - als wissenschaftliche Bibliothek musste man fast bei SLSP mitmachen
-     -bei alter Lösung bleiben, z.B. Aleph von Ex Libris abgekündigt, ALMA als Nachfolgeprodukt vorgesehen Open-Source Lösungen wie Koha
-   Wie beurteilt ihr die Konfigurationsmöglichkeiten?
-   -Individualisierung möglich, aber einiges nur über Gesamt-IZ, -Aktuell evaluieren Kantonsbibliotheken welches System
+   *3Gibt es Alternativen zu ALMA / SLSP?*
+   - als wissenschaftliche Bibliothek musste man fast bei SLSP mitmachen
+   -bei alter Lösung bleiben, z.B. Aleph von Ex Libris abgekündigt, ALMA als Nachfolgeprodukt vorgesehen Open-Source Lösungen wie Koha
+   *Wie beurteilt ihr die Konfigurationsmöglichkeiten?*
+   -Individualisierung möglich, aber einiges nur über Gesamt-IZ, 
+   -Aktuell evaluieren Kantonsbibliotheken welches System gewählt wird.
 
 
 
