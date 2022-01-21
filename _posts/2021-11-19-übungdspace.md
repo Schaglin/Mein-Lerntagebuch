@@ -1,14 +1,14 @@
-
 ---
-title: "übung zu Tag 5"
+title: "Hausaufgabe zu DSpace"
 date: 2021-11-18
+---
+_Liebes Tagebuch_,
+
 
 ---
 
-**D Space**/ Hausaufgabe
----
 
- **Uebung zur OAI-PMH-Schnittstelle**       (1000-2000 Zeichen)
+ **Aufgabe zur OAI-PMH-Schnittstelle**       
 
 Ich habe die von mir erstellte Publikation von gestern heute laden können in der DSpace Demo über die OAI-PMH-Schnittstelle (Daten erscheinen dort zeitverzögert ca. 1 Tag)
 Da in der Demoversion alle Daten jeden Samstag nachts gelöscht werden, um eine einwandfreie Demo zu garantieren, musste ich es heute Mittag schnell machen.
@@ -64,16 +64,23 @@ Heute ist auch ein schönes Bild vom Skript zu Harry Potter auf DSpace Demo ersc
 ![Screenshot from 2021-11-19 14-47-31](https://user-images.githubusercontent.com/90834735/142634245-859a15df-70ec-4f4b-a62d-5a3b6d14f328.png)
 
 
-mehr zu dieser ÜBUNG_ Import und Export
+mehr zu dieser ÜBUNG_ Import und Export und zu Schnittstellen:
 
-    DSpace bietet auch dateibasierten Import, besonders relevant sind im Kontext von Repositorien aber die Schnittstellen:
-        SWORD ermöglicht die Publikation in DSpace auf anderen Webseiten.
-        OAI-PMH ermöglicht es externen Systemen die in DSpace verzeichneten Metadaten abzurufen.
-    OAI-PMH-Schnittstelle der DSpace-Demo (Daten erscheinen dort zeitverzögert): http://demo.dspace.org/oai/request?verb=ListSets
-    Beispiel für Portal auf Basis von OAI-PMH: Die Bielefeld Academic Search Engine (BASE) “erntet” weltweit OAI-PMH-Schnittstellen und verzeichnet damit weit über 250 Mio. Dokumente.
+DSpace bietet auch dateibasierten Import, besonders relevant sind im Kontext von Repositorien aber die Schnittstellen:
+**SWORD**
+Die Schnittstelle "SWORD" ermöglicht die Publikation in DSpace auf anderen Webseiten aufzurufen.
+SWORD kann Publikationen in einem Repository abzuliefern. Damit kann ein Formular mit Dateiupload auf einer Webseite (ausserhalb der Repository-Webseite) angeboten werden.Um Daten aus dem Repository auf Webseiten anzuzeigen, z.B. eine Publikationsliste, werden andere Schnittstellen wie RSS-Feeds verwendet.
 
-Note:
+**RSS-Feeds** verwenden wir bei der GitHUb Seite.
+Gemäss Wikipedia:
+Rich Site Summary (RSS) sind Dateiformate für Web-Feeds. Sie zeigen Änderungen auf Websites, z. B. auf News-Seiten, Blogs, Audio-/Video-Logs etc. Das Backronym steht aktuell für Really Simple Syndication (etwa sehr einfache Verbreitung), vormals waren bereits andere Bedeutungen gegeben. Es ist wie ein Newsticker.
+Feed, weil füttern, einspeisen von neuen Daten, die der Client über den RSS-Channel abonniert hat. Weil RSS-Dienste werden eimst über spezielle Service-Websites angeboten, songenannte RSS-Channels.
 
-    SWORD ist eine Schnittstelle, um Publikationen in einem Repository abzuliefern. Damit kann ein Formular mit Dateiupload auf einer Webseite (außerhalb der Repository-Webseite) angeboten werden.
-    Um Daten aus dem Repository auf Webseiten anzuzeigen, z.B. eine Publikationsliste, werden andere Schnittstellen wie RSS-Feeds verwendet.
+**OAI-PMH**:
+OAI-PMH ermöglicht es externen Systemen die in DSpace verzeichneten Metadaten abzurufen.
+OAI-PMH-Schnittstelle der DSpace-Demo (Daten erscheinen dort zeitverzögert): http://demo.dspace.org/oai/request?verb=ListSets
+Beispiel für ein Portal auf Basis von OAI-PMH: Die Bielefeld Academic Search Engine (BASE) “erntet” weltweit OAI-PMH-Schnittstellen und verzeichnet damit weit über 250 Mio. Dokumente.
+
+
+
 
