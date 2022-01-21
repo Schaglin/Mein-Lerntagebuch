@@ -1,7 +1,14 @@
-Abschlussartikel
+---
+title: "Abschlussartikel"
+date: 2022-01-31
+---
+_Liebes Tagebuch_,
+   
 
 
-Liebes Tagebuch,
+**Abschlussartikel**
+
+
 
 Was habe ich gelernt?
 
