@@ -1,6 +1,6 @@
 ---
-title: "Hausaufgabe zu DSpace"
-date: 2021-11-18
+title: "übungdspace"
+date: 2021-11-19
 ---
 _Liebes Tagebuch_,
 
