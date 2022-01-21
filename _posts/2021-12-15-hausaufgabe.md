@@ -1,10 +1,13 @@
 Hausaufgabe war es das Suchprogramm VuFind für Bibliotheken von Bibliotheken zu installieren. 
 
 Dazu bekamen wir wieder einen Satz von Shell-Befehlen zur Verfügung, diese konnte man einfach copy/pasten:
-**wget https://github.com/vufind-org/vufind/releases/download/v8.0.2/vufind_8.0.2.deb
-sudo dpkg -i vufind_8.0.2.deb
-sudo apt-get update   -(Nachtrag vom 14.12.21, dank diesem Befehl hat es bei mir dann tatsächlich funktioniert- Vielen Dank dafür 🦖)
-sudo apt-get install -f**
+
+-**wget https://github.com/vufind-org/vufind/releases/download/v8.0.2/vufind_8.0.2.deb
+-sudo dpkg -i vufind_8.0.2.deb**
+
+-**sudo apt-get update   -(Nachtrag vom 14.12.21, dank diesem Befehl hat es bei mir dann tatsächlich funktioniert- Vielen Dank dafür 🦖)**
+
+-**sudo apt-get install -f**
 
 Maria DB mussten wir auch installieren mit Befehl:
 ***sudo /usr/bin/mysql_secure_installation**
@@ -13,9 +16,9 @@ hierbei mussten wir noch einige Angaben mit y (yes) bestätigen.
 dann für den Root das Passwort bestätigen:**sudo mysql -uroot -p -e "UPDATE mysql.user SET plugin='' WHERE User='root'; FLUSH PRIVILEGES;"**
 Ein Neustart war in unserem Fall nicht erforderlich. Es reichte aus, den genannten Befehl einzugeben:**source /etc/profile**
 Um das SOlr zu starten mussten wir vorher noch Dateirechte festlegen fürdas Cache- und das Config-Verzeichnis beim Account des Webservers (www-data).
-**sudo chown -R $USER:$GROUP /usr/local/vufind
-sudo chown -R www-data:www-data /usr/local/vufind/local/cache
-sudo chown -R www-data:www-data /usr/local/vufind/local/config**
+-**sudo chown -R $USER:$GROUP /usr/local/vufind
+-sudo chown -R www-data:www-data /usr/local/vufind/local/cache
+-sudo chown -R www-data:www-data /usr/local/vufind/local/config**
 dann konnten wird das Solr starten und VuFind Konfigurieren mit Befehl:**/usr/local/vufind/solr.sh start**
 Da wir keinen Domainnamen haben. Verwendeten wir localhost. Nun konnte ich den Browser in der virtuellen Maschine (Linux) mit folgender Adresse aufrufen:
 http://localhost/vufind/Install/Home
@@ -69,12 +72,12 @@ sudo gedit /usr/local/vufind/local/config/vufind/NoILS.ini
 
 Nun musste ich nur noch die Auto-Konfigurationen fixen. Das ging auch gut,mithilfe des Videos von Hr. Lohmeier.
 Die schwierigste Auto-Konfiguration war wohl die, wo man in die Config-Datei selbst etwas umschreiben musste nämlich diese
-vorher musst man NoiLs auswählen. Aber eigentlich wollen wir gar keine NoiLS (ist ein ILS Driver).
-von **ils offline zu ils none* abändern, damit es gar keine ILS Driver nimmt:
+vorher musste man NoiLs auswählen. Aber eigentlich wollen wir gar keine Noils (weil ist ein ILS Driver).
+![ils none](https://user-images.githubusercontent.com/90834735/150584450-ed31ccc5-76a5-4b3f-8cf3-c4d88be51116.png)
+daher musste man in die config-Dateie reingehen und manuell abändern und zwar von **ils offline zu ils none* abändern, damit es gar keine ILS Driver nimmt!
 
-![Screenshot from 2021-12-15 10-50-36](https://user-images.githubusercontent.com/90834735/146192793-ee89b8e2-e9f4-4771-bca4-e8d7b119ae7c.png)
 
-demiankatz hat dazu auch ein Video gemacht zu diesen ILS Driver https://www.youtube.com/watch?v=qFbW8u9UQyM
+demiankatz hat dazu auch ein Video gemacht zu diesen ILS Driver, das habe ich angeschaut: https://www.youtube.com/watch?v=qFbW8u9UQyM
 
 als alles gefixt war, sah es dann so aus. Ich freute mich darüber :-).
 ![Screenshot from 2021-12-15 10-51-06](https://user-images.githubusercontent.com/90834735/146193562-01443fb2-7c94-4127-a593-c844d8905d92.png)
