@@ -39,7 +39,7 @@ Bei den Bibliotheken selbst kann auf Drucker, Öffnungszeiten, Budget Anpassunge
 **Primo= Discovery-Lösung von Exlibris, wird über Alma verwaltet**
 Der Vorteil ist, es wird nicht noch ein System für Verwaltung benötigt. Auch ein Vorteil für Benutzer, wenn beim E-book etwas ändere, dann dauert es 2-3 Minuten und es ist dann wieder sichtbar. E-Ressourcen muss ich mich einloggen in der IZ oder suchen.CDI wenn ich ein E-Journal über Gemeinschaft aktiviere, dass in CDI vorhanden ist, dann wird das eingespielt für die Kataloge.Jede IZ kann lokal seine eigene Ansicht haben, alle E-Ressourcen oder lokalen Ressourcen werden so abgebildet.Damit nicht jede View komplett neu aufgebaut werden muss, wird mit einem Master Template gearbeitet, man kann beispielsweise die Farbe, Logo und eigene Texte, lokale Ressourcen oder Texte ändern. Jede eigene IZ kann das machen, aber das Grundgerüst ist von ExLibris gegeben.
 
-Es gab eine LIVE-Demo über: (die fett gedruckten Titel wurden noch genauer angeschaut)
+Es gab eine LIVE-Demo über: 
 
 - **Aufbau und Grundlagen**
 - Recherche in Alma: Jede IZ ( IZ= Institutionszone) hat eigene URL um ALMA über Browser aufzurufen. Suche alle physischen Exemplare mit dem Status "vermisst". Dann diese noch einschränken nur Bibliothek FHNW AG (Windisch).Als Discovery anzeigen lassen, dass man sieht wie es aussieht.
@@ -53,9 +53,7 @@ Vormerkungen: Aus dem Regal nehmen, Exemplare Scannen, Abgelaufene Bestellungen,
 - Erwerbung
 
 - **Erschliessung**
-
 **Das Zentrale Paket ist das Masterpaket als Grundlage für alle Bibliotheken, durch kundenspezifisches Paket können noch Anpassungen gemacht werden (Hilfeseite, Anpassungen).** Aber man kann Konfigurationen machen für einzelne IZ oder einzelne Bibliothek.
-
 - **Konfiguration**: Bibliothek Brugg -Windisch. Pro Bibliothek kann man auf der Bibliotheksebene einstellen, Drucker, Öffnungszeiten etc. Die Öffnungszeiten sind mit den Leihfristen verknüpft. Die FHN will zum Beispiel keine Leihfristen auf den Samstag festlegen, obwohl die Bibliohthek auch am Samstag offen ist. Oder Weihnachtsferien, da sollen die Fristen auch nicht weiterlaufen, sondern erst wieder ab dem 1.1.
 
 Auch eine Liste der physischen Standorte für die gedruckten Medien pro Bibliothek kann hier gefunden werden:
@@ -65,49 +63,29 @@ Zum Beispiel der Book-Return (automatische Rückgabemaschine) kann keine Wiedere
 
 **Theke 1** kann Rückgabe, Neuberechtigungen, kann für studentische Hilfskräfte Berechtigungen reduzieren. Zahlungsinfo hat es keine, weil keine Kasse an dieser Theke 1 haben. Auch welcher Drucker soll Zugriff haben, kann hier definiert werden. RFID ist auch hinterlegt.
 
-**Die meisten Konfiguration (z.B Erwerbung) werden auf der IZ -Ebene (Institutionsebene) gemacht:**
+**AHA-Moment: Die meisten Konfiguration (z.B Erwerbung) werden auf der IZ -Ebene (Institutionsebene) gemacht:**
 -  **_Statistiken_**: Diese Codes sind für alle Bibliotheken, kann man eine Statistik machen.
 -   **_Regeln für Rechnungsprüfung werden auf der Ebene für IZ gelöst_. 
 -   **_Und auch die Lizenzen werden auf der IZ-Ebene gelöst_**
 -   **_Suchkonfiguration_**
 -   **_Metadatenkonfiguration_**
--   **_Konfiguration der Briefe_** (Briefe und Mails für Kunden, Benutzer, an Lieferanten) Briefe sind für alle und ein paar kann man anpassen. Bestellungen, Formulare etc.
-
-
-- **z.B. ein Ausleihbeleg** 
+-   **_Konfiguration der Briefe_** (Briefe und Mails für Kunden, Benutzer, an Lieferanten) Briefe sind für alle und ein paar kann man anpassen. Bestellungen, Formulare etc.- **z.B. ein Ausleihbeleg** 
 -   Sprache kann man auch anpassen. Der Brief wird als xml-File so definiert. Es gibt auch eine Vorschau.
-
-
-**AHA-Moment**: Beim Gastreferat zu ALMA und SLSP waren meine AHA-Momente, dass eben alle Katalogisate über diese Gemeinschaftszone einfach übernommen werden können, ohne dass jede einzelen IZ (Bibliothek) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selber katalogisiert, vom ersten Anwender, der diese eingekauft hat, dann werden die Daten auch übernommen von anderen Bibliotheken (Fremddatenübernahme).
-
-**Archive Space**:
-Da gab es eine Hausaufgabe, Archive Space zu installieren, das funktionierte zum Glück problemlos über die Befehle im Terminal und wurde dann über localhost 8080 (Admin-Oberfläche und 8081 (Benutzer-Oberlfäche), 8082 (OAHI-PHM Schnittstelle-Oberfläche )aufgerufen. Mein AHA-Moment war, dass noch kein Repository drin war, darum die Seite leer angezeigt wurde. ISAD (G) wurde nochmals aufgefrischt, weil das das zentrale System hinter den Archivprogrammen wie Archive Space ist. Beim Archive Space war mein AHA-Erlerbnis, beim Export. Ist der Export von Marc 21 in EAD verlustfrei?. Marc 21 ist nicht verlustfrei in Archivsystemen, weil es eben für Bibliotheken gemacht wurde, es ist ein Format für Bibliotheken und nicht für Archive. Darum fallen auch ein paar Marc 21-Formate dann beim Export in EAD raus! 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**auch die Primo- Ansicht für die Kunden wird auf der Konfiguration bearbeitet:**
+-   
+**auch die Primo- Ansicht (Discovery) für die Kunden wird auf der Konfiguration bearbeitet:**
 - Gelb typisch  für FHWN
 - Lokale Texte von der FHNW Windisch werden genommen.
 - Verlinken auf  E-Ressourcen der FHWN 
 - Weitere Konfigurationen: Registerkarten, Timeout, Standardsprache
+
+**AHA-Moment**: Beim Gastreferat zu ALMA und SLSP waren meine AHA-Momente, dass eben alle Katalogisate über diese Gemeinschaftszone einfach übernommen werden können, ohne dass jede einzelen IZ (Bibliothek) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selber katalogisiert, vom ersten Anwender, der diese eingekauft hat, dann werden die Daten auch übernommen von anderen Bibliotheken (Fremddatenübernahme).
+
 
 
 **Hilfeseite, Homepage , Link kann noch individuell angepasst werden**
 Einzelne Links kann man so anpassen für Homepage auf eigene IZ. und dann diese hochladen. Aber z. B.keine Javascript, da wird alles genommen von SLSP.
 
 **Anpassungen anschauen, Test-Views zuerst machen**
-
 
 Im Alma wurde uns gezeigt: Grundaufbau, Suche, E-Ressourcen über Gemeinschaftszone, Verwaltung der Bibliotheken, Beispiel von übergreifenden Bibliothek.
 
@@ -146,8 +124,6 @@ Es kann direkt ein neuer Bestand erstellt werden.
 **Live- Demo: Beispiele wurden gemacht**
 
 **Beispiel E-Book anlegen/aktivieren**: 
-
-
 Das geht wieder über die Netzwerkzone.Hier können einzelne E-Books aktiviert werden. Wenn man das "Haus" sieht, hat man hat dort bei dem Verlag "Vandenhoeck" schon mal gekauft. Am Schluss einfach auf Button klicken "aktivieren".
 Dann kann man das kontrollieren, wenn jetzt das Haus erscheint= dieser Titel ist jetzt in der IZ Windisch auch verfügbar.
 
