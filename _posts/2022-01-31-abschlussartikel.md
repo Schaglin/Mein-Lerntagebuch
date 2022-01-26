@@ -34,18 +34,20 @@ Ich habe keine Programmiersprache gelernt, was ich auch sehr froh darüber bin.
 
 
 
-AHA-Momente meine Zusammenfassung:
-Tag 1: Die Grafik machte zuerst gar kein Sinn für mich, mit den Erklärungen der Dozenten, erschien es dann logischer, was wir machen in diesem Modul.
+**AHA-Momente meine Zusammenfassung**:
+**Tag 1:** Die Grafik machte zuerst gar kein Sinn für mich, mit den Erklärungen der Dozenten, erschien es dann logischer, was wir machen in diesem Modul.
 ![image](https://user-images.githubusercontent.com/90834735/133661233-4f8b2d76-36a1-4f85-88d5-3cbce8b3bcc0.png)
+Im Terminal habe ich die Basis-Befehle aufgefrischt.
 
-Tag 2:
-Tag 3:
-Tag 4:
-Tag 5:
-Tag 6:
-Tag 7:
-Tag 8:
-Tag 9:
+**Tag 2**: Mein Aha-Moment war am Tag 2,als ich Koha installiert hatte und dann eine eigenen Bibliothek mit Ausleihsystem, Benutzer, Suchfunktionen, Ablauffristen eröffnen konnte unter: http://bibliothek-intra.meine-schule.org/cgi-bin/koha/mainpage.pl
+
+**Tag 3**:
+**Tag 4**:
+**Tag 5**:
+**Tag 6**:
+**Tag 7**:
+**Tag 8**:
+**Tag 9**:
 
 
 
