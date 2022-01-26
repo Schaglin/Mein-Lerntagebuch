@@ -24,6 +24,8 @@ Ich habe Query-Anfragen im Wikidata Query kennengelernt und teils angewendet. Qu
 Ich habe auch gelernt, wie man Config-Dateien konvertiert bei der Übung im VuFind und dann im Browser, die veränderten Suchergebnisse gesehen und diese getestet.
 Das hat mir sogar viel Spass gemacht das Konvertieren und die Suchmaske damit zu verändern!
 Das ganze Vorgehen (siehe Schaubild), über die 9 Tage verteilt wurden auch im Katalog von Marbach angewendet. Es ist also nahe an der Praxis, was wir gemacht haben in diesem Modul.
+Die ganzen Formate (Marc 21, Marc XML, EAD, BibFrame, Dublin Core) wurden nochmals aufgefrischt und man sah dann auch die Unterschiede in der praktischen Anwendung.
+Wir konnten eigene Datensätze anlegen und diese dann auch wieder über die Schnittstelle Ernten ="Harvesten" im VUFind, dass war die finale Übung.
 
 
 
@@ -35,16 +37,34 @@ Ich habe keine Programmiersprache gelernt, was ich auch sehr froh darüber bin.
 
 
 **AHA-Momente meine Zusammenfassung**:
+
 **Tag 1:** Die Grafik machte zuerst gar kein Sinn für mich, mit den Erklärungen der Dozenten, erschien es dann logischer, was wir machen in diesem Modul.
 ![image](https://user-images.githubusercontent.com/90834735/133661233-4f8b2d76-36a1-4f85-88d5-3cbce8b3bcc0.png)
 Im Terminal habe ich die Basis-Befehle aufgefrischt.
 
 **Tag 2**: Mein Aha-Moment war am Tag 2,als ich Koha installiert hatte und dann eine eigenen Bibliothek mit Ausleihsystem, Benutzer, Suchfunktionen, Ablauffristen eröffnen konnte unter: http://bibliothek-intra.meine-schule.org/cgi-bin/koha/mainpage.pl
 
-**Tag 3**:
-**Tag 4**:
-**Tag 5**:
-**Tag 6**:
+**Tag 3**: Beim Tag 3 war sicher interessant zu erfahren, dass alles über die Schnittstelle OAHI-PMH lief. Diese mussten wir für das Bibliothekssystem KOHA aktivieren. Damit gelang es dann die Katalogisate zu übernehmen. So gelingt eben eine Aggegration der Datensätze, und man muss diese so quasi nur einmal eintippen, danach kann man diese übernehmen. (Schnittstelle wurde abgerufen über die Baiss url: <http://bibliothek.meine-schule.org/cgi-bin/koha/oai.pl)
+
+
+**Tag 4**: Da gab es eine Hausaufgabe, Archive Space zu installieren, das funktionierte zum Glück problemlos über die Befehle im Terminal und wurde dann über localhost 8080 (Admin-Oberfläche und 8081  (Benutzer-Oberlfäche), 8082 (OAHI-PHM Schnittstelle-Oberfläche )aufgerufen. Mein AHA-Moment war, dass noch kein Repository drin war, darum die Seite leer angezeigt wurde.
+ISAD (G) wurde nochmals aufgefrischt, weil das das zentrale System hinter den Archivprogrammen wie Archive Space ist.
+Beim Archive Space war mein AHA-Erlerbnis, beim Export. Ist der Export von Marc 21 in EAD verlustfrei?. Marc 21 ist nicht verlustfrei in Archivsystemen, weil es eben für Bibliotheken gemacht wurde, es ist ein Format für Bibliotheken und nicht für Archive. Darum fallen auch ein paar Marc 21-Formate dann beim Export in EAD raus!
+Beim Gastreferat zu ALMA und SLSP waren meine AHA-Momente, dass eben alle Katalogisate über diese Gemeinschaftszone einfach übernommen werden können, ohne dass jede einzelen IZ (Bibliothek) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selber katalogisiert, vom ersten Anwender, der diese eingekauft hat, dann werden die Daten auch übernommen von anderen Bibliotheken (Fremddatenübernahme).
+
+
+**Tag 5**: Es gibt einen goldigen Weg und einen grünen Weg eben mit z.B. DSpace wissenschaftliche Publikationen zu veröffentlichen. Open Data und Open Access wurde erklärt. DSpace wurde in der Demoversion ausprobiert. Ich konnte meine eigene Publikation veröffentlichen. Diese wurde dann aber nach eine Tag wieder gelöscht, weil es nur in der Demoversion gemacht wurde.
+
+**Tag 6**:  Wir haben die Formate und ihre Programme zugeordnet. Für Bibliotheksprogramme gilt Marc 21. Für Archivprogramme gilt EAD . Dublin Core war bei DSpace.
+Wir haben Crosswalks gemacht, das heisst Format in ein anderes Format konvertiert:
+    EAD (Archive Spaces) –> in MARC21
+    MARC21 —>in MARC XML
+    DUBLIN CORE (dspace) –>in MARC21
+    (Koha ist schon in Marc21 darum muss man dort nichts machen)
+
+EAD für Archive MARC21 für Bibliothek. Es ist nicht so einfach EAD in MARC21 verlustfrei zu importieren, wegen den Feldern!
+Als Alternative zu Crosswalks gibt es auch noch XSLT.
+
 **Tag 7**:
 **Tag 8**:
 **Tag 9**:
