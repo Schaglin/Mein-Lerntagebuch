@@ -15,7 +15,19 @@ Was habe ich gelernt?
 
 Was habe ich nicht gelernt?
 
-AHA-Momente Zusammenfassung:
+AHA-Momente meine Zusammenfassung:
+Tag 1:
+Tag 2:
+Tag 3:
+Tag 4:
+Tag 5:
+Tag 6:
+Tag 7:
+Tag 8:
+Tag 9:
+
+
+
 
 
 Vielen Dank für die geduldigen Dozenten.
