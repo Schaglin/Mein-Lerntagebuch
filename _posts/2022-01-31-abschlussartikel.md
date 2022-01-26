@@ -21,7 +21,7 @@ Das waren die Programme: Koha, VuFind, Archive Space, Open Refine. Bei DSpace ha
 Suchindexe wie SolR von VUFind.
 Ich habe Praxiseinblicke bekommen von SLSP/Alma.
 Ich habe Query-Anfragen im Wikidata Query kennengelernt und teils angewendet. Query Builder habe ich ausprobiert.
-Ich habe auch gelernt, wie man Config-Dateien konvertiert bei der Übung im VuFind und dann im Browser, die veränderten Suchergebnisse gesehen und diese getestet.
+Im Terminal haben wir einen Befehl erhalten, der die Config-Datei von VUFInd gelangt (sudo gedit /usr/local/vufind/local/config/vufind/NoILS.ini), diese musste dann zu ils none gändert werden, auch auch die Auto-Konfiguration wurde so gefixt.Ich habe auch gelernt, wie man Config-Dateien manuelle (im Desktop über Ordner des Terminals) konvertiert bei der Übung im VuFind und dann im Browser, die veränderten Suchergebnisse gesehen und diese getestet.
 Das hat mir sogar viel Spass gemacht das Konvertieren und die Suchmaske damit zu verändern!
 Das ganze Vorgehen (siehe Schaubild), über die 9 Tage verteilt wurden auch im Katalog von Marbach angewendet. Es ist also nahe an der Praxis, was wir gemacht haben in diesem Modul.
 Die ganzen Formate (Marc 21, Marc XML, EAD, BibFrame, Dublin Core) wurden nochmals aufgefrischt und man sah dann auch die Unterschiede in der praktischen Anwendung.
