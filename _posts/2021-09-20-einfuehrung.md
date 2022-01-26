@@ -19,13 +19,10 @@ Tagebuch soll helfen sich selber zu reflektieren und **AHA-Momente** zu notieren
 
 **_Modulbeschreibung_**
 
-Die Modulbeschreibung tönt erstmals nützlich und interessant: 
-- Im Modul "BAIN" lernen wir die in Bibliotheken und Archiven eingesetzten **Softwares** **&** **Technologien** kennen. 
-- Funktionsweisen von Bibliothekskatalogen (**bis hin zu Cloud-Konzepten**), von Publikationsplattformen, Repositories etc. werden erläutert. 
-- Verschiedene Suchtechnologien werden analysiert und im Einsatz über unterschiedliche Datenbestände angewandt. Es wird gezeigt, wie **Metadatenstandards und Austauschprotokolle eingesetzt und genutzt werden**. 
-- Nach erfolgreicher Teilnahme am Modul sind oder sollten wir dann in der Lage sein die Funktionsweise spezifischer **Bibliothekssoftware zu verstehen** und die passende Software für eine spezifische Aufgabe auch zu evaluieren.
-- Zudem sollten wir dazu fähig sein, **Suchmaschinen zu konfigurieren** und Bibliothekarische und archivarische **Metadaten** (z.B. MARC, MARCXML, MODS, Dublin Core, EAD, BIBFRAME) **zu modellieren**. Diese Metadaten lassen sich dann mit entsprechenden Protokollen oder Anwendungen übertragen.
-- Ebenfalls sollten wir in der Lage sein, **Crosswalks** zwischen unterschiedlichen **Metadatenformaten zu programmieren**.
+Die Modulbeschreibung tönt erstmals nützlich und interessant. Hier die wichtigsten Stichworte daraus:
+Bibliothekskataloge bis hin zu Cloud-Konzepte kennenlernen, Austauschprotokolle nutzen und einsetzen, Suchmaschinen konfigurieren, Metadaten modellieren,
+Crosswalks zwischen unterschiedlichen Metadatenformaten programmieren. Bibliothekssoftware verstehen.
+
 
 **_Zu mir und meine IT-Kenntnisse_**
 
@@ -45,7 +42,7 @@ Das im Dezember 2020 neu eingeführte **Bibliotheksverwaltungssystem "Alma"**, w
 
 Seit Herbst 2018 arbeite ich als **Pflegehelferin SRK** mit einem 50-Prozent Pensum in einem Altersheim, häufig über das Wochenende plus Montag oder Freitag. Dort müssen wir auch täglich elektronisch Rapportieren. Wir haben dort ebenfalls ein Programm dafür. Das beschränkt sich aber auf Erfassung  und Schreiben des Tagesberichts pro Bewohner und anklicken der Aktivierung/Körperpflege. Das Erfassen der Vitalwerte und die Eintragung der Medikamenteneinnahme wird jedoch von Dipl. Pflegepersonal erfasst.
 
-In diversen Anwendungsprogrammen habe ich bereits Erfahrung gesammelt. Was das Programmieren, Konfigurieren und Modullieren betrifft, welche ich in diesem Kurs an Basics lernen werden, bin ich noch sehr unsicher. Die Shell, diese ist mir immer noch nicht geheur. Nichtdestotrotz versuche ich aber diesen Kurs **positiv anzugehen**. Soeben bin ich am Tutorial für das Markdown am durchgehen https://www.markdowntutorial.com/lesson/1/. Nun bin ich am Header lernen und Links einfügen [go to] (https://dailykitten.com/2021/05/galen/).
+In diversen Anwendungsprogrammen habe ich bereits Erfahrung gesammelt. Was das Programmieren, Konfigurieren und Modulieren betrifft, welche ich in diesem Kurs an Basics lernen werden, bin ich noch sehr unsicher. Die Shell, diese ist mir immer noch nicht geheur. Nichtdestotrotz versuche ich aber diesen Kurs **positiv anzugehen**. Soeben bin ich am Tutorial für das Markdown am durchgehen https://www.markdowntutorial.com/lesson/1/. Nun bin ich am Header lernen und Links einfügen [go to] (https://dailykitten.com/2021/05/galen/).
 
 
 **Tschau und bis bald liebes Tagebuch!**
