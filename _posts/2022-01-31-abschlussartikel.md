@@ -25,7 +25,7 @@ Ich habe auch gelernt, wie man Config-Dateien konvertiert bei der Übung im VuFi
 Das hat mir sogar viel Spass gemacht das Konvertieren und die Suchmaske damit zu verändern!
 Das ganze Vorgehen (siehe Schaubild), über die 9 Tage verteilt wurden auch im Katalog von Marbach angewendet. Es ist also nahe an der Praxis, was wir gemacht haben in diesem Modul.
 Die ganzen Formate (Marc 21, Marc XML, EAD, BibFrame, Dublin Core) wurden nochmals aufgefrischt und man sah dann auch die Unterschiede in der praktischen Anwendung.
-Wir konnten eigene Datensätze anlegen und diese dann auch wieder über die Schnittstelle Ernten ="Harvesten" im VUFind, dass war die finale Übung.
+Wir konnten eigene Datensätze in Koha, Archive Space, DSpace anlegen und diese dann auch wieder über die Schnittstelle Ernten ="Harvesten" im VUFind, dass war die finale Übung.
 
 
 
@@ -58,10 +58,10 @@ Beim Gastreferat zu ALMA und SLSP waren meine AHA-Momente, dass eben alle Katalo
 **Tag 6**:  Wir haben die Formate und ihre Programme zugeordnet. Für Bibliotheksprogramme gilt Marc 21. Für Archivprogramme gilt EAD . Dublin Core war bei DSpace.
 Wir haben Crosswalks gemacht, das heisst Format in ein anderes Format konvertiert das geschah mit dem Programm Marc Edit, welches auch zuerst installiert werden musste.
 
-    - EAD (Archive Spaces) –> in MARC21
-    - MARC21 —>in MARC XML
-    - DUBLIN CORE (dspace) –>in MARC21
-    - (Koha ist schon in Marc21 darum muss man dort nichts machen)
+    - EAD (Archive Spaces) –> in MARC21 ändern
+    - MARC21 —>in MARC XML ändern
+    - DUBLIN CORE (dspace) –>in MARC21 ändern
+    - (Koha ist schon in Marc21, darum muss man dort nichts machen)
 
 EAD für Archive MARC21 für Bibliothek. Es ist nicht so einfach EAD in MARC21 verlustfrei zu importieren, wegen den Feldern!
 Als Alternative zu Crosswalks gibt es auch noch XSLT.
@@ -73,10 +73,10 @@ Es hat den Standard das Schema Marc21 aus dem loc.gov mit der doaj-articel-sampl
 
 Meine weiteren AHA-Moment! Das ; Semikolon davor setzen und die nicht benötigten Suchtherme verschwinden! oder das - Minus davor setzen und ein Stern*, dann gibt es einen Kasten zum anhäkeln. Ich habe auch die Suche geändert von 20 auf 40 und auch die Anpassung der Facetten, auch die Sidebar habe ich verändert gemäss Demian Katz Empfehlungen. Auch eine Checkboox habe ich erstellt. Die Konfiguration der Config-Dateien (searches.ini, facetes.ini ) machte mir sehr Spass, weil ich direkt schauen konnte, was sich im VUFInd verändert hatte bei der Suche (Oberfläche im Browser)!
 
-**Tag 9**:
+**Tag 9**:AHA-Moment: Alles war wir im Modul kennengelernt haben, haben sie in der Praxis auch angewendet am Beispiel von Marbach Katalog!
+Open Refine wurde installiert. Beim Open Refine gibt es Viele Identifier -Viaf Identifiert -ISNI Identifier -All Music Artist ID Identifier -Facebook ID Identifier -YouTube Channel Identifier! Open Refine ist eben gut, um Reconciliation (Fachbegriff für Datenanreicherung) zu machen mit Wikidata. Wikidata ist fast besser ald die GND (Gemeinsame Normadatei), weil eben viele Identifier und Contributor (Mitwirkende) hat, sogar Wikidata Japan gibt es. Ein weitere AHA-Moment: Urheberrechtsfreie Bilder gibt’s auch auf wikidata, weil laufen unter Creative Common Lizenz Das konnte auch im Katalog von Marbach dann eingefügt werden, weil kein Urheberschutz drauf war (Schiller haben sie z.B. ein Bild aus Wikidata genommen).
 
-
-
+So das war mein Abschlussartikel, der alles nochmals zusammenfasste.
 
 
 Vielen Dank für die geduldigen Dozenten.
