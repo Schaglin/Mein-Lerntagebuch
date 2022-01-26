@@ -7,10 +7,11 @@ date: 2021-11-04
 
 **Liebes Tagebuch**
 
+
 Wir hatten heute ein Gastreferat von der FHNW in Windisch. Die Systembibliothekarin (Selina Hodel) hat uns die Grundlagen von Alma erklärt und präsentiert mit einer Live-Demo und Beispielen. Die Leiterin der E-Ressourcen (Charlotte Frauchlinger) hat den gesamten Aufbau der SLSP (Swiss Library Service Plattform) und deren Entwicklung erklärt. Dann gabe es noch "strategische Spielereien" und Fragen wurden geklärt.
 
 **SLSP- Swiss Library Service Plattform**
-Die Idee kam 2014, danach im 2017 erfolgte die intensive Umsetzung,im Jahr 2020 konnte SLSP eingesetzt werden. Durch die SLSP wurde die Einführung von Alma im Dezember 2020 gemacht. Es ist ein nichtgewinnorientieres Unternehmen. Es bildet die Grundlage für das Swisscovery, die nationale Rechercheplattform der Schweiz. Darunter sind 475 Mitgliederbibliotheken vertreten mit 50 Mio Medien. Die SLSP hat 38 Mitarbeitende, 15 Aktionäre und eine Geschäftsleitung und einen Verwaltungsrat.
+Die Idee kam 2014, danach im 2017 erfolgte die intensive Umsetzung,im Jahr 2020 konnte SLSP eingesetzt werden. Durch die SLSP wurde die Einführung von Alma im Dezember 2020 gemacht. Es ist ein nicht-gewinnorientieres Unternehmen. Es bildet die Grundlage für das Swisscovery, die nationale Rechercheplattform der Schweiz. Darunter sind 475 Mitgliederbibliotheken vertreten mit 50 Mio Medien. Die SLSP hat 38 Mitarbeitende, 15 Aktionäre und eine Geschäftsleitung und einen Verwaltungsrat.
 
 
 **ALMA - das Cloudgestützte Bibliothekssystem von Ex-Libris**
@@ -33,7 +34,6 @@ Hier kann man für die einzelnen Bibliotheken indiviuell anpassen z. B. Aktivier
 Bei den Bibliotheken selbst kann auf Drucker, Öffnungszeiten, Budget Anpassungen gemacht werden. Bei den Beständen können Exemplare, Signaturen hinzugefügt werden. Man könnte hier auch einen Campus machen, FHNW hat das aber nicht, sie nehmen alle die gleiche IP- Range.
 
 
-
 ![grafik](https://user-images.githubusercontent.com/90834735/140961441-0b06b854-a620-4608-b94f-894bd1df0fb9.png)
 
 **Primo= Discovery-Lösung von Exlibris, wird über Alma verwaltet**
@@ -43,27 +43,20 @@ Es gab eine LIVE-Demo über: (die fett gedruckten Titel wurden noch genauer ange
 
 - **Aufbau und Grundlagen**
 - Recherche in Alma: Jede IZ ( IZ= Institutionszone) hat eigene URL um ALMA über Browser aufzurufen. Suche alle physischen Exemplare mit dem Status "vermisst". Dann diese noch einschränken nur Bibliothek FHNW AG (Windisch).Als Discovery anzeigen lassen, dass man sieht wie es aussieht.
-
-
 - Ausleihe und Rückgabe: Buch ausleihen, erst wenn bei Windisch in Theke einlogge erst dann kann man es machen.
-
 Kategorien: Ausleihen und Rückgabe, Vormerkungen, Listeraturlisten sind da drin.
 Ausleihe: Bei den Ausleihen sind Benutzerkonfiguration, Mahnungen, Offline Ausleihe hinterlegt. 
 Vormerkungen: Aus dem Regal nehmen, Exemplare Scannen, Abgelaufene Bestellungen, Exemplar-Prozesse überwachen. Strichcode einlesen, Vormerkung, Rückgabe machen.Pro Benutzer: Bestellung, Mahnen, Rechnung, Kaufbestellung, Lieferanten bearbeiten, Kontos bearbeiten.
 
-
-
 - **E-Ressourcen**: Bei E-Ressourcen sind Lizenzen drin, sogenannte Konsortiumlizenzen.Diese können auch im Detail angeschaut/überwacht werden mit Nutzungsbedingungen z. B. Fernleihe, Download erlaubt oder nicht.
-
-
 - Benutzerverwaltung: Hier gibt es Rollenvorlagen für Mitarbeiter z.b Admin Berechtigung ohne Rollen separat zu verteilen.
 - Erwerbung
 
 - **Erschliessung**
 
+**Das Zentrale Paket ist das Masterpaket als Grundlage für alle Bibliotheken, durch kundenspezifisches Paket können noch Anpassungen gemacht werden (Hilfeseite, Anpassungen).** Aber man kann Konfigurationen machen für einzelne IZ oder einzelne Bibliothek.
 
-- **Konfiguration**: Eine Konfiguration kann über die ganze IZ oder nur über einzelne Bibliothek machen.
-Bibliothek Brugg -Windisch. Pro Bibliothek kann man auf der Bibliotheksebene einstellen, Drucker, Öffnungszeiten etc. Die Öffnungszeiten sind mit den Leihfristen verknüpft. Die FHN will zum Beispiel keine Leihfristen auf den Samstag festlegen, obwohl die Bibliohthek auch am Samstag offen ist. Oder Weihnachtsferien, da sollen die Fristen auch nicht weiterlaufen, sondern erst wieder ab dem 1.1.
+- **Konfiguration**: Bibliothek Brugg -Windisch. Pro Bibliothek kann man auf der Bibliotheksebene einstellen, Drucker, Öffnungszeiten etc. Die Öffnungszeiten sind mit den Leihfristen verknüpft. Die FHN will zum Beispiel keine Leihfristen auf den Samstag festlegen, obwohl die Bibliohthek auch am Samstag offen ist. Oder Weihnachtsferien, da sollen die Fristen auch nicht weiterlaufen, sondern erst wieder ab dem 1.1.
 
 Auch eine Liste der physischen Standorte für die gedruckten Medien pro Bibliothek kann hier gefunden werden:
 Jeder Standort hat einen Code, einen Namen, Typ etc. Welche Leihstelle dieser Standort verwaltet werden kann und was sie tun kann.
@@ -85,13 +78,30 @@ Zum Beispiel der Book-Return (automatische Rückgabemaschine) kann keine Wiedere
 -   Sprache kann man auch anpassen. Der Brief wird als xml-File so definiert. Es gibt auch eine Vorschau.
 
 
+**AHA-Moment**: Beim Gastreferat zu ALMA und SLSP waren meine AHA-Momente, dass eben alle Katalogisate über diese Gemeinschaftszone einfach übernommen werden können, ohne dass jede einzelen IZ (Bibliothek) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selber katalogisiert, vom ersten Anwender, der diese eingekauft hat, dann werden die Daten auch übernommen von anderen Bibliotheken (Fremddatenübernahme).
+
+**Archive Space**:
+Da gab es eine Hausaufgabe, Archive Space zu installieren, das funktionierte zum Glück problemlos über die Befehle im Terminal und wurde dann über localhost 8080 (Admin-Oberfläche und 8081 (Benutzer-Oberlfäche), 8082 (OAHI-PHM Schnittstelle-Oberfläche )aufgerufen. Mein AHA-Moment war, dass noch kein Repository drin war, darum die Seite leer angezeigt wurde. ISAD (G) wurde nochmals aufgefrischt, weil das das zentrale System hinter den Archivprogrammen wie Archive Space ist. Beim Archive Space war mein AHA-Erlerbnis, beim Export. Ist der Export von Marc 21 in EAD verlustfrei?. Marc 21 ist nicht verlustfrei in Archivsystemen, weil es eben für Bibliotheken gemacht wurde, es ist ein Format für Bibliotheken und nicht für Archive. Darum fallen auch ein paar Marc 21-Formate dann beim Export in EAD raus! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **auch die Primo- Ansicht für die Kunden wird auf der Konfiguration bearbeitet:**
 - Gelb typisch  für FHWN
 - Lokale Texte von der FHNW Windisch werden genommen.
 - Verlinken auf  E-Ressourcen der FHWN 
 - Weitere Konfigurationen: Registerkarten, Timeout, Standardsprache
 
-**Das Zentrale Paket ist das Masterpaket als Grundlage für alle Bibliotheken, durch kundenspezifisches Paket können noch Anpassungen gemacht werden (Hilfeseite, Anpassungen).**
 
 **Hilfeseite, Homepage , Link kann noch individuell angepasst werden**
 Einzelne Links kann man so anpassen für Homepage auf eigene IZ. und dann diese hochladen. Aber z. B.keine Javascript, da wird alles genommen von SLSP.
@@ -125,12 +135,10 @@ Man katalgoisiert immer noch über RDA im Vergleich zu Aleph ist das noch gleich
 Aber Felder sind anders aber mit Dollar und Buchstaben. Feldinformationen von Marc 21 sieht man gleich, Warnungen, Beispiele,Vorlagen.
 Es kann direkt ein neuer Bestand erstellt werden.
 
-**Frage von Lohmeier Felix*": Wielange Marc 21 noch lebt und Bibframe kommt das nicht noch oder moderne linked data?  
+**Frage: Wielange Marc 21 noch lebt und Bibframe kommt das nicht noch oder moderne linked data?  
 - Antwort: Wahrscheinlich Marc 21 wird im Hintergrund in Bibframe konvertiert wird, aber dass alma immer noch drin ist, aber dann kommt Bibframe drüber..
 - Ja man kann Bibframe nur anzeigen, aber man nutzt Marc 21 noch alles noch auf Marc 21 aufgerichtet.
 - Marc 21 haben wir im Kurs die Hypothese aufgestellt, dass noch lange Bedeutung haben wird. Ja das sei alles noch über Marc 21.
-
-
 
 
 
@@ -148,7 +156,6 @@ Dann kann man das kontrollieren, wenn jetzt das Haus erscheint= dieser Titel ist
 Das geht ,ähnlich wie das E-Book, auch zuerst muss man in die Netzwerkzone dann dort aktivieren. Dann am Schluss wieder in Institutionszone, ob es geklappt hat (Männchen erscheint). Man könnte hier auch noch das Portfolio der Zeitschrift bearbeiten, wenn z.Bsp. die Bandnummer oder das Erschienungsjahr (1999) nicht stimmt. Kann man das ändern. Dann kann man noch bestimmen ob es global oder nur lokal geändert werden soll, das heisst ob es für den Benutzer lokal oder globale Ansicht angezeigt werden soll. Man könnte die 1999 überschreiben, aber bleibt mit Gemeinschaftszone verknüpft.
 
 
-**_AHA-Moment_**--> **Man kann eben die Daten von Gemeinschaftszone oder über Netzwerkzone nutzen, muss man keine eigenen Aufnahmen mehr erstellen für E-Medien. Nur Printmedien werden noch selber katalogisiert, vom ersten Anwender, der diese eingekauft hat, dann werden die Daten auch übernommen von anderen Bibliotheken (Fremddatenübernahme).**
 
 **Beispiel Datenbanken**
 Es gibt verschiedene Datenbanken: Es gibt Volltext, keinen Volltext, Referenzdatenbanken.
@@ -161,8 +168,6 @@ Naxos Music Library = Referenzdatenbank, hat keine Portfolio, hat aber auch CDI 
 **Strategische Spielereien:**
 Es wurden Fragen gestellt betreffend dem Mitteleinsatz (einfachere Fernleihe, monatliche Updates, Mehrwehrt für Nutzer), Performance im Arbeitsbetrieb (gute Internetverbindung braucht es), Motivation und Kommunikation der beteiligten Bibliotheken (alle Bibliotheken ins Boot holen, informieren), wie man den Change begleiten könnte (z.B. Schulungen).  Welche  Vor- und Nachteile es gibt bei einem cloudbasierten System wie bei ALMA und SLSP. Was für Alternativen es gibt, z.b. Koha (Open-Source-Lösung).
 Und die Konfigurationsmöglichkeiten wurden beurteilt, dass eben Individualisierung möglich ist, aber bei SLSP viel über diese Gesamt-IZ läuft.
-
-
 
 
 
