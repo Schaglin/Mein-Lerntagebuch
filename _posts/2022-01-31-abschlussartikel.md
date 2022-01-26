@@ -56,17 +56,23 @@ Beim Gastreferat zu ALMA und SLSP waren meine AHA-Momente, dass eben alle Katalo
 **Tag 5**: Es gibt einen goldigen Weg und einen grünen Weg eben mit z.B. DSpace wissenschaftliche Publikationen zu veröffentlichen. Open Data und Open Access wurde erklärt. DSpace wurde in der Demoversion ausprobiert. Ich konnte meine eigene Publikation veröffentlichen. Diese wurde dann aber nach eine Tag wieder gelöscht, weil es nur in der Demoversion gemacht wurde.
 
 **Tag 6**:  Wir haben die Formate und ihre Programme zugeordnet. Für Bibliotheksprogramme gilt Marc 21. Für Archivprogramme gilt EAD . Dublin Core war bei DSpace.
-Wir haben Crosswalks gemacht, das heisst Format in ein anderes Format konvertiert:
-    EAD (Archive Spaces) –> in MARC21
-    MARC21 —>in MARC XML
-    DUBLIN CORE (dspace) –>in MARC21
-    (Koha ist schon in Marc21 darum muss man dort nichts machen)
+Wir haben Crosswalks gemacht, das heisst Format in ein anderes Format konvertiert das geschah mit dem Programm Marc Edit, welches auch zuerst installiert werden musste.
+
+    - EAD (Archive Spaces) –> in MARC21
+    - MARC21 —>in MARC XML
+    - DUBLIN CORE (dspace) –>in MARC21
+    - (Koha ist schon in Marc21 darum muss man dort nichts machen)
 
 EAD für Archive MARC21 für Bibliothek. Es ist nicht so einfach EAD in MARC21 verlustfrei zu importieren, wegen den Feldern!
 Als Alternative zu Crosswalks gibt es auch noch XSLT.
 
-**Tag 7**:
-**Tag 8**:
+**Tag 7**: Das Programm Open Refine wurde installiert. Mein AHA-Moment war da, dass open refine mit wikidata- Datensätzen angereichert werden kann= Reconciliation ist der Fachbegriff dazu.  MAn könnte eigene Templates schreiben um eben Marc Felder zu füllen. Bis jetzt hatten wir autor, titel, url, issn genommen dazu musste man auch wieder die beispieldatenbank aufrufen. Das Template wurde dann als dojj-article-sample-csv. in xml-Format gespeichert. Nun galt es das selbstgemachte Template zu validieren. Bei der Validierung mit der Shell gab es wieder einen AHA-Moment, ich hätte separaten Ordner machen sollen, weil bei der späteren Validierung hat es dann einfach alle Dokumente genommen, und diese validiert. Der doaj-article-sample-csv.xml hat die Validierung funktioniert, bei den anderen downloads, die im selben Ordern Donwloads waren, hat die Validierug nicht geklappt. Weil ein Dokument war ja von Archive space in Ead- Format, das gibt’s im marc21 nicht dann gibt es eine Fehlermeldung in der SHELL Validierung. 
+Es hat den Standard das Schema Marc21 aus dem loc.gov mit der doaj-articel-sample verglichen.AHA-Moment: So kann man prüfen ob es dem Schema marc21 entspricht, hatten wir im gset sonst immer mit einem Validierungs-tool im Browser gemacht, das war neu für mich, dass man mit dem Terminal auch validieren kann.
+
+**Tag 8**: Hausaufgabe war es das Suchprogramm VuFind  zu installieren. Dazu musste man auch noch Maria DB (eine Datenbank) installieren. Leider klappte die Installation von VUFind nicht auf Anhieb. Dank dem Hinweis von Hr. Lohmeier, dass ich meine Shell updaten soll, das heisst die Paktetverzeichnisse in der Shell updaten soll mit dem Befehl *sudo apt get-update* das  half bei mir tatsächlich. 
+
+Meine weiteren AHA-Moment! Das ; Semikolon davor setzen und die nicht benötigten Suchtherme verschwinden! oder das - Minus davor setzen und ein Stern*, dann gibt es einen Kasten zum anhäkeln. Ich habe auch die Suche geändert von 20 auf 40 und auch die Anpassung der Facetten, auch die Sidebar habe ich verändert gemäss Demian Katz Empfehlungen. Auch eine Checkboox habe ich erstellt. Die Konfiguration der Config-Dateien (searches.ini, facetes.ini ) machte mir sehr Spass, weil ich direkt schauen konnte, was sich im VUFInd verändert hatte bei der Suche (Oberfläche im Browser)!
+
 **Tag 9**:
 
 
