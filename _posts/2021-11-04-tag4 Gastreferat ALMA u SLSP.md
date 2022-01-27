@@ -11,7 +11,7 @@ date: 2021-11-04
 Wir hatten heute ein Gastreferat von der FHNW in Windisch. Die Systembibliothekarin (Selina Hodel) hat uns die Grundlagen von Alma erklärt und präsentiert mit einer Live-Demo und Beispielen. Die Leiterin der E-Ressourcen (Charlotte Frauchlinger) hat den gesamten Aufbau der SLSP (Swiss Library Service Plattform) und deren Entwicklung erklärt. Dann gabe es noch "strategische Spielereien" und Fragen wurden geklärt.
 
 **SLSP- Swiss Library Service Plattform**
-Die Idee kam 2014, danach im 2017 erfolgte die Umsetzung,im Jahr 2020 konnte SLSP eingesetzt werden. Durch die SLSP wurde die Einführung von Alma im Dezember 2020 gemacht. Es ist ein nicht-gewinnorientieres Unternehmen. Es bildet die Grundlage für das Swisscovery, die nationale Rechercheplattform der Schweiz. Darunter sind 475 Mitgliederbibliotheken vertreten mit 50 Mio Medien. Die SLSP hat 38 Mitarbeitende, 15 Aktionäre und eine Geschäftsleitung und einen Verwaltungsrat.
+Die Idee kam 2014, danach im 2017 erfolgte die Umsetzung,im Jahr 2020 konnte SLSP eingesetzt werden. Durch die SLSP wurde die Einführung von Alma im Dezember 2020 gemacht. Es ist ein nicht-gewinnorientieres Unternehmen. Es bildet die Grundlage für das Swisscovery. Darunter sind 475 Mitgliederbibliotheken vertreten mit 50 Mio Medien. 
 
 
 **ALMA - das Cloudgestützte Bibliothekssystem von Ex-Libris**
@@ -44,9 +44,9 @@ Der Vorteil ist, es wird nicht noch ein System für Verwaltung benötigt. Auch e
 
 
 Es gab eine **LIVE-Demo** über:
-- **Aufbau und die Grundlagen**. Für die Recherche in Alma: Jede IZ ( IZ= Institutionszone) hat eigene URL um ALMA über Browser aufzurufen. Suche alle physischen Exemplare mit dem Status "vermisst". Dann diese noch einschränken nur Bibliothek FHNW. Als Discovery anzeigen lassen, dass man sieht wie es aussieht.
+- **Aufbau und die Grundlagen**. Für die Recherche in Alma: Jede IZ ( IZ= Institutionszone) hat eigene URL um ALMA über Browser aufzurufen. Suche alle physischen Exemplare mit dem Status "vermisst". Dann diese noch einschränken nur Bibliothek FHNW. Als Discovery anzeigen lassen.
 
-Zum Aufbau und den Grundlagen gehören auch:
+Zum Aufbau und den Grundlagen gehören:
 - Ausleihe und Rückgabe: Buch ausleihen, muss aber in Theke von FHNW Windisch einloggen, erst dann kann man es machen.
 - Kategorien: Ausleihen und Rückgabe, Vormerkungen, Listeraturlisten sind da drin.
 - Bei den Ausleihen sind Benutzerkonfiguration, Mahnungen, Offline Ausleihe hinterlegt. 
@@ -64,16 +64,10 @@ Das Zentrale Paket ist das Masterpaket als Grundlage für alle Bibliotheken, dur
 - **auch die Primo- Ansicht (Discovery) für die Kunden wird auf der Konfiguration lokal verändert:
 - Discovery ist gelb, das ist typisch für die FHWN und auch die Texte sind lokal angepasst worden.
 - Verlinken auf  E-Ressourcen der FHWN 
-- Weitere Konfigurationen: Registerkarten, Timeout, Standardsprache
--  **_Statistiken_**: Diese Codes sind für alle Bibliotheken, kann man eine Statistik machen.
--   **_Suchkonfiguration_**
--   **_Metadatenkonfiguration_**
--   **_Konfiguration der Briefe_** (Briefe und Mails für Kunden, Benutzer, an Lieferanten) Briefe sind für alle und ein paar kann man anpassen. Bestellungen, Formulare etc.- **z.B. ein Ausleihbeleg** -   Sprache kann man auch anpassen. Der Brief wird als xml-File so definiert. Es gibt auch eine Vorschau.
+- Weitere Konfigurationen: Registerkarten, Timeout, Standardsprache, Statisitk, Suche, Medadaten, Konfiguration der Briefe. z.B. ein Ausleihbeleg** -   Sprache kann man auch anpassen. Der Brief wird als xml-File so definiert. Es gibt auch eine Vorschau.
 
 Auch eine Liste der **physischen Standorte** für die gedruckten Medien pro Bibliothek kann hier gefunden werden: Jeder Standort hat einen Code, einen Namen, Typ etc. Welche Leihstelle dieser Standort verwaltet.
-
 Zum Beispiel der Book-Return (automatische Rückgabemaschine) kann keine Wiedereinstellung vornehmen.
-
 **Beispiel Theke 1** kann Rückgabe, Neuberechtigungen, kann für studentische Hilfskräfte Berechtigungen reduzieren. Zahlungsinfo hat es keine, weil keine Kasse an dieser Theke 1 haben. Auch welcher Drucker soll Zugriff haben, kann hier definiert werden. RFID ist auch hinterlegt.
 
 
@@ -83,7 +77,7 @@ Anpassungen anschauen, Test-Views zuerst machen.
 
 
 
-**Fragerunde:**
+**Fragerunde**
 **AHA-Moment**: Es werden also alle Katalogisate über diese Gemeinschaftszone einfach übernommen, ohne dass jede einzelen IZ (Bibliothek) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selber katalogisiert, vom ersten Anwender, der diese eingekauft hat, dann werden die Daten auch übernommen von anderen Bibliotheken(Fremddatenübernahme).Aus der Fragerunde war  zu vernehmen, dass alles noch in Marc-21 Format ist, und BibFrame noch nicht durchgesetzt. Es wird aber vermutet, dass BibFrame im Hintergrund schon läuft, aber da Alma noch drin ist, ist es noch in Marc21-Format.
 
 
@@ -111,7 +105,7 @@ Naxos Music Library = Referenzdatenbank, hat keine Portfolio, hat aber auch CDI 
 
 
 **Strategische Spielereien:**
-Es wurden Fragen gestellt betreffend dem Mitteleinsatz (einfachere Fernleihe, monatliche Updates, Mehrwehrt für Nutzer), Performance im Arbeitsbetrieb (gute Internetverbindung), Motivation und Kommunikation der beteiligten Bibliotheken (alle Bibliotheken ins Boot holen, informieren), wie man den Change begleiten könnte (z.B. Schulungen).  Welche  Vor- und Nachteile es gibt bei einem cloudbasierten System wie bei ALMA und SLSP. Was für Alternativen es gibt, z.b. Koha (Open-Source-Lösung).
+Es wurden Fragen gestellt betreffend dem Mitteleinsatz (einfachere Fernleihe, monatliche Updates, Mehrwehrt für Nutzer), Performance im Arbeitsbetrieb (gute Internetverbindung), Motivation und Kommunikation der beteiligten Bibliotheken (alle Bibliotheken ins Boot holen, informieren), wie man den Change begleiten könnte (z.B. Schulungen).  Welche  Vor- und Nachteile es gibt bei einem cloudbasierten System wie bei ALMA. Was für Alternativen es gibt, z.b. Koha (Open-Source-Lösung).
 Und die Konfigurationsmöglichkeiten wurden beurteilt, dass eben Individualisierung möglich ist, aber bei SLSP viel über diese Gesamt-IZ läuft.
 
 Tschau, liebes Tagebuch!
