@@ -1,5 +1,5 @@
 ---
-title: "hausaufgabe"
+title: "Hausaufgabe"
 date: 2021-11-19
 ---
 _Liebes Tagebuch_,
@@ -14,7 +14,7 @@ _Liebes Tagebuch_,
 Ich habe die von mir erstellte Publikation von gestern heute laden können in der DSpace Demo über die OAI-PMH-Schnittstelle (Daten erscheinen dort zeitverzögert ca. 1 Tag)
 Da in der Demoversion alle Daten jeden Samstag nachts gelöscht werden, um eine einwandfreie Demo zu garantieren, musste ich es heute Mittag schnell machen.
     
-Dann habe ich unter meiner Community den Link ( http://demo.dspace.org/oai/request?verb=ListSets) geöffnet und den Link 
+Dann habe ich unter meiner Community:[Link](http://demo.dspace.org/oai/request?verb=ListSets) geöffnet und den Link 
 “Records” aufgerufen.
 Ich habe meine Daten im Kasten “Metadata” nun aufrufen können.
 Ich habe den Inhalt kopiert in einen Texteditor und diesen gespeichert unter Dokumente.
@@ -70,7 +70,7 @@ mehr zu dieser ÜBUNG_ Import und Export und zu Schnittstellen:
 DSpace bietet auch dateibasierten Import, besonders relevant sind im Kontext von Repositorien aber die Schnittstellen:
 **SWORD**
 Die Schnittstelle "SWORD" ermöglicht die Publikation in DSpace auf anderen Webseiten aufzurufen.
-SWORD kann Publikationen in einem Repository abzuliefern. Damit kann ein Formular mit Dateiupload auf einer Webseite (ausserhalb der Repository-Webseite) angeboten werden.Um Daten aus dem Repository auf Webseiten anzuzeigen, z.B. eine Publikationsliste, werden andere Schnittstellen wie RSS-Feeds verwendet.
+SWORD kann Publikationen in einem Repository abliefern. Damit kann ein Formular mit Dateiupload auf einer Webseite (ausserhalb der Repository-Webseite) angeboten werden. Um Daten aus dem Repository auf Webseiten anzuzeigen, z.B. eine Publikationsliste, werden andere Schnittstellen wie RSS-Feeds verwendet.
 
 **RSS-Feeds** verwenden wir bei der GitHUb Seite.
 Gemäss Wikipedia:
@@ -80,7 +80,8 @@ Feed, weil füttern, einspeisen von neuen Daten, die der Client über den RSS-Ch
 **OAI-PMH**:
 OAI-PMH ermöglicht es externen Systemen die in DSpace verzeichneten Metadaten abzurufen.
 OAI-PMH-Schnittstelle der DSpace-Demo (Daten erscheinen dort zeitverzögert): http://demo.dspace.org/oai/request?verb=ListSets
-Beispiel für ein Portal auf Basis von OAI-PMH: Die Bielefeld Academic Search Engine (BASE) “erntet” weltweit OAI-PMH-Schnittstellen und verzeichnet damit weit über 250 Mio. Dokumente.
+Diese Schnittstelle OAI-PMH BASE Harvesting von Bielefeld ist enorm effizient!!
+Unterschied Institutionellen und Fachrepositorien sind also viele Dokumente verstreut.Hingegen diese BASE Suchmaschine, vereint die Fachrepositorien, sie hat  darum auch 250 Mio. Fachbeiträge in einem Repository drin!
 
 
 
