@@ -10,11 +10,11 @@ date: 2021-11-04
 
 
 **SLSP- Swiss Library Service Plattform**
-Die Idee kam 2014, danach im 2017 erfolgte die Umsetzung,im Jahr 2020 konnte SLSP eingesetzt werden. Durch die SLSP wurde die Einführung von Alma im Dezember 2020 gemacht. Es ist ein nicht-gewinnorientieres Unternehmen. Es bildet die Grundlage für das Swisscovery. Darunter sind 475 Mitgliederbibliotheken vertreten mit 50 Mio Medien. 
+Durch die SLSP wurde die Einführung von Alma im Dezember 2020 gemacht. Es bildet die Grundlage für das Swisscovery, ist nicht gewinnorientiert. Darunter sind 475 Bibliotheken vertreten mit 50 Mio. Medien. 
 
 
 **ALMA - das Cloudgestützte Bibliothekssystem von Ex-Libris**
-Das Rechenzentrum liegt in Amsterdam. Alma wird betreut durch Ex-Libris. Das heisst, es gibt monatliche Releases von Ex-Libris. Cool ist, dass die einzelnen Institutionen ebenfalls eine Mitsprache- Recht haben durch die Idea Exchange Plattform, können sie ihre Ideen und Vorschläge anbringen zur Verbesserung von Alma. Es ist ein URM (Infified Resource Management System). Alma hat ein ERM (Elektronische Ressourcenverwaltung), einen Link-Resolver, eine Verwaltung der digitalen Bestände, ein ILS (integriertes  Bibliothekssystem) und für das Discovery (also für die Benutzer) gibt es das Primo. Das Primo wird über Alma verwaltet.
+Alma wird betreut durch Ex-Libris, Rechenzentrum liegt in Amsterdam. Es gibt monatliche Releases von Ex-Libris. Cool ist, dass die einzelnen Institutionen ebenfalls eine Mitsprache-Recht haben durch die Idea Exchange Plattform, können sie ihre Ideen anbringen zur Verbesserung von Alma. Es ist ein URM (Infified Resource Management System). Alma hat ein ERM (Elektronische Ressourcenverwaltung), einen Link-Resolver, eine Verwaltung der digitalen Bestände, ein ILS (integriertes  Bibliothekssystem) und für das Discovery (für die Benutzer) gibt es das Primo. Das Primo wird über Alma verwaltet.
 
 Im Alma wurde uns gezeigt: Grundaufbau, Suche, E-Ressourcen über Gemeinschaftszone, Verwaltung der Bibliotheken, Beispiel von übergreifender Bibliothek.
 
@@ -41,7 +41,6 @@ Der Vorteil ist, es wird nicht noch ein System für Verwaltung benötigt. Auch e
 
 Es gab eine **1. LIVE-Demo** über:
 - **Aufbau und die Grundlagen**. Für die Recherche in Alma: Jede IZ ( IZ= Institutionszone) hat eigene URL um ALMA über Browser aufzurufen. Suche alle physischen Exemplare mit dem Status "vermisst". Dann diese noch einschränken nur Bibliothek FHNW. Als Discovery anzeigen lassen.
-
 Zum Aufbau und den Grundlagen gehören auch die Ausleihe und Rückgabe. Pro Benutzer kann eingesehen werden: Bestellung, Mahnen, Rechnung, Kaufbestellung, Lieferanten, Konto bearbeiten. Es gibt auch Vormerkungen, Exemplare Scannen, abgelaufene Bestellungen, Exemplar Prozesse, Strichcode lesen.
 Beim Buch ausleihen, muss aber in Theke von FHNW Windisch einloggen, erst dann kann man es machen.
 
@@ -51,33 +50,29 @@ Beim Buch ausleihen, muss aber in Theke von FHNW Windisch einloggen, erst dann k
 - **Erschliessung**
 Das Zentrale Paket ist das Masterpaket als Grundlage für alle Bibliotheken, durch kundenspezifisches Paket können noch Anpassungen gemacht werden. Aber man kann Konfigurationen machen für einzelne IZ oder Bibliothek.
 
-- **Konfiguration**: Pro Bibliothek kann man auf der Bibliotheksebene (IZ) einstellen, Drucker, Öffnungszeiten etc. Die Öffnungszeiten sind mit den Leihfristen verknüpft. Die FHN will zum Beispiel keine Leihfristen auf den Samstag festlegen, obwohl die Bibliothek am Samstag offen ist. Oder Weihnachtsferien, da sollen die Fristen nicht weiterlaufen, sondern erst wieder ab dem 1.1.
-- **AHA-Moment: Die meisten Konfiguration (z.B Erwerbung, Lizenzen, Regeln für Rechnungsprüfung) werden auf der IZ -Ebene gemacht:**
+- **Konfiguration**: Die Öffnungszeiten sind mit den Leihfristen verknüpft. Die FHN will zum Beispiel keine Leihfristen auf den Samstag festlegen, obwohl die Bibliothek am Samstag offen ist. Oder Weihnachtsferien, da sollen die Fristen nicht weiterlaufen, sondern erst wieder ab dem 1.1.
+- **AHA-Moment: Die meisten Konfiguration (z.B Erwerbung, Lizenzen, Regeln für Rechnungsprüfung, Leihfristen) werden auf der IZ -Ebene gemacht:**
 - **auch die Primo- Ansicht (Discovery) für die Kunden wird auf der Konfiguration lokal verändert:
 - Discovery ist gelb, das ist typisch für die FHWN und auch die Texte sind lokal angepasst worden.
 - Verlinken auf  E-Ressourcen der FHWN 
 - Weitere Konfigurationen: Registerkarten, Timeout, Standardsprache, Statisitk, Suche, Medadaten, Konfiguration der Briefe. z.B. ein Ausleihbeleg** -   Sprache kann man auch anpassen. Der Brief wird als xml-File so definiert. Es gibt auch eine Vorschau.
 
-Auch eine Liste der **physischen Standorte** für die gedruckten Medien pro Bibliothek kann hier gefunden werden: Jeder Standort hat einen Code, einen Namen, Typ etc. Welche Leihstelle dieser Standort verwaltet.
-Zum Beispiel der Book-Return (automatische Rückgabemaschine) kann keine Wiedereinstellung vornehmen.
 
 **Beispiel Theke 1** kann Rückgabe, Neuberechtigungen, kann für studentische Hilfskräfte Berechtigungen reduzieren. Zahlungsinfo hat es keine, weil keine Kasse an dieser Theke 1 haben. Auch welcher Drucker soll Zugriff haben, kann hier definiert werden. RFID ist auch hinterlegt.
 
 
 **Hilfeseite, Homepage , Link kann noch individuell angepasst werden**
-Einzelne Links kann man so anpassen für Homepage auf eigene IZ. und dann diese hochladen. Aber z. B.keine Javascript, da wird alles genommen von SLSP.
+Einzelne Links kann man anpassen für Homepage der eigenen IZ. und dann diese hochladen. Aber z. B.keine Javascript, da wird alles genommen von SLSP.
 Anpassungen anschauen, Test-Views zuerst machen.
-
-
-**AHA-Moment aus Fragerunde**
-Es werden also alle Katalogisate über diese Gemeinschaftszone übernommen, ohne dass jede einzelen IZ (Bibliothek) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selber katalogisiert, vom ersten Anwender, der diese eingekauft hat, dann werden die Daten auch übernommen von anderen Bibliotheken(Fremddatenübernahme).Aus der Fragerunde war zu vernehmen, dass alles noch in Marc-21 Format ist, und BibFrame noch nicht durchgesetzt. Es wird aber vermutet, dass BibFrame im Hintergrund schon läuft, aber da Alma noch drin ist, ist es noch in Marc21-Format.
-
 
 - **Katalogisierung**: (geht über Gemeinschaftszone)
 - Katalogisierung auf der Netzwerkzone (printbestände)
 - e-Ressourcen nur für spezifische Institution zugänglich
 - von WorldCat oder Library of Congress das übernehmen
-**Aber printmedien werden immer noch von Bibliotheken selber katalogisiert, und andere Bibliotheken könne über Gemeinschaftszone übernehmen.**
+
+**AHA-Moment aus Fragerunde**
+Es werden also alle Katalogisate über diese Gemeinschaftszone übernommen, ohne dass jede einzelen IZ (Bibliothek) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selber katalogisiert, vom ersten Anwender, der diese eingekauft hat. Dann werden die Daten auch übernommen von anderen Bibliotheken(Fremddatenübernahme).Aus der Fragerunde war zu vernehmen, dass alles noch in Marc-21 Format ist, und BibFrame noch nicht durchgesetzt. Es wird aber vermutet, dass BibFrame im Hintergrund schon läuft, aber da Alma noch drin ist, ist es noch in Marc21-Format.
+
 
 **Metadateneditor**
 Man katalogisiert immer noch über RDA im Vergleich zu Aleph ist das noch gleich. Aber Felder sind anders aber mit Dollar und Buchstaben. Feldinformationen von Marc 21 sieht man gleich, Warnungen, Beispiele,Vorlagen.Es kann direkt ein neuer Bestand erstellt werden.
@@ -94,10 +89,6 @@ ABI ist ein Aggregator Datenbank, beinhaltet einzelene Portfolios, Volltext-Date
 Naxos Music Library = Referenzdatenbank, hat keine Portfolio, hat aber auch CDI für detailierte Suche, aber dieser Datenbank ist so auf Discovery auffindbar.
 
 
-
-**Strategische Spielereien:**
-Es wurden Fragen gestellt betreffend dem Mitteleinsatz (einfachere Fernleihe, monatliche Updates, Mehrwehrt für Nutzer), Performance im Arbeitsbetrieb (gute Internetverbindung), Motivation und Kommunikation der beteiligten Bibliotheken (alle Bibliotheken ins Boot holen, informieren), wie man den Change begleiten könnte (z.B. Schulungen).  Welche  Vor- und Nachteile es gibt bei einem cloudbasierten System wie bei ALMA. Was für Alternativen es gibt, z.b. Koha (Open-Source-Lösung).
-Und die Konfigurationsmöglichkeiten wurden beurteilt, dass eben Individualisierung möglich ist, aber bei SLSP viel über diese Gesamt-IZ läuft.
 
 Tschau, liebes Tagebuch!
 
