@@ -50,21 +50,24 @@ Hier die Metadata zur erstellten Publikation:
 	<dc:publisher>Kueng</dc:publisher>
 
 	</oai_dc:dc>
+Die ganzen Metadata sind in DC= Dublin Core geschrieben.
 
-die ganzen Metadata sind in DC= Dublin Core geschrieben.
+![metadata zu publikation](https://user-images.githubusercontent.com/90834735/151631100-3382e13c-b64b-45d7-b5e6-eb49544d538d.png)
+
+
 
 
 Heute ist auch ein schönes Bild vom Skript zu Harry Potter auf DSpace Demo erschienen.
 
-
-![Screenshot from 2021-11-19 14-46-27](https://user-images.githubusercontent.com/90834735/142635145-94f3ac6e-cf2b-4c38-a18e-a9344b16f39c.png)
-
+![dspace harry potter](https://user-images.githubusercontent.com/90834735/151631093-5ce30c7d-779d-47e9-a7f0-090cf7047e28.png)
 
 
-![Screenshot from 2021-11-19 14-47-31](https://user-images.githubusercontent.com/90834735/142634245-859a15df-70ec-4f4b-a62d-5a3b6d14f328.png)
+-------------------------
 
 
-mehr zu dieser ÜBUNG_ Import und Export und zu Schnittstellen:
+
+
+mehr zu Import und Export von Metadaten und zu Schnittstellen:
 
 DSpace bietet auch dateibasierten Import, besonders relevant sind im Kontext von Repositorien aber die Schnittstellen:
 **SWORD**
