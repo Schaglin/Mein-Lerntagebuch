@@ -14,7 +14,7 @@ _Liebes Tagebuch_,
 Ich habe die von mir erstellte Publikation von gestern heute laden können in der DSpace Demo über die OAI-PMH-Schnittstelle (Daten erscheinen dort zeitverzögert ca. 1 Tag)
 Da in der Demoversion alle Daten jeden Samstag nachts gelöscht werden, um eine einwandfreie Demo zu garantieren, musste ich es heute Mittag schnell machen.
     
-Dann habe ich unter meiner Community:[Link](http://demo.dspace.org/oai/request?verb=ListSets) geöffnet und den Link 
+Dann habe ich unter meiner [Community](http://demo.dspace.org/oai/request?verb=ListSets) geöffnet und den Link 
 “Records” aufgerufen.
 Ich habe meine Daten im Kasten “Metadata” nun aufrufen können.
 Ich habe den Inhalt kopiert in einen Texteditor und diesen gespeichert unter Dokumente.
