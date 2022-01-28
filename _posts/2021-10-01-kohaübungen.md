@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------------------------
-**Übungen im Koha**
-Ich habe schon mal vorgegriffen und die Übung aus Kapitel 3 und 4 gemacht. Hier meine Screenshots dazu:
+**üben im Koha**
+Ich habe schon mal vorgegriffen und die Kapitel 3 und 4 gemacht. Hier meine Screenshots dazu:
 
 
-**in ÜBUNG 3 muss man mal das Administrative klären**:
+**in Kapitel 3 muss man mal das Administrative klären**:
 ![Screenshot from 2021-09-30 12-24-33](https://user-images.githubusercontent.com/90834735/150386474-1d37bc9f-3a2b-4817-80ad-1715d6946e9f.png)
 ![Screenshot from 2021-09-30 14-41-36](https://user-images.githubusercontent.com/90834735/150386814-2bfe53f3-538f-48cd-b0a3-b04077e8304b.png)
 
@@ -95,7 +95,7 @@ Zum Schluss noch das ändern:
 
 ----------------------------------------------------
 
-nun noch die übung 4 ein erstes Buch kann erfasst werden!
+aus Kapitel 4 ein erstes Buch kann erfasst werden!
 
 
 Ich habe das Beispielbuch genommen "Irgendwie anders" von Cave Kathryns
