@@ -5,10 +5,9 @@ date: 2021-11-04
 ---
 
 
-**Liebes Tagebuch**
+**_Liebes Tagebuch_**
 
 
-Wir hatten heute ein Gastreferat von der FHNW in Windisch. Die Systembibliothekarin (Selina Hodel) hat uns die Grundlagen von Alma erklärt und präsentiert mit einer Live-Demo und Beispielen. Die Leiterin der E-Ressourcen (Charlotte Frauchlinger) hat den gesamten Aufbau der SLSP (Swiss Library Service Plattform) und deren Entwicklung erklärt. Dann gabe es noch "strategische Spielereien" und Fragen wurden geklärt.
 
 **SLSP- Swiss Library Service Plattform**
 Die Idee kam 2014, danach im 2017 erfolgte die Umsetzung,im Jahr 2020 konnte SLSP eingesetzt werden. Durch die SLSP wurde die Einführung von Alma im Dezember 2020 gemacht. Es ist ein nicht-gewinnorientieres Unternehmen. Es bildet die Grundlage für das Swisscovery. Darunter sind 475 Mitgliederbibliotheken vertreten mit 50 Mio Medien. 
@@ -18,9 +17,6 @@ Die Idee kam 2014, danach im 2017 erfolgte die Umsetzung,im Jahr 2020 konnte SLS
 Das Rechenzentrum liegt in Amsterdam. Alma wird betreut durch Ex-Libris. Das heisst, es gibt monatliche Releases von Ex-Libris. Cool ist, dass die einzelnen Institutionen ebenfalls eine Mitsprache- Recht haben durch die Idea Exchange Plattform, können sie ihre Ideen und Vorschläge anbringen zur Verbesserung von Alma. Es ist ein URM (Infified Resource Management System). Alma hat ein ERM (Elektronische Ressourcenverwaltung), einen Link-Resolver, eine Verwaltung der digitalen Bestände, ein ILS (integriertes  Bibliothekssystem) und für das Discovery (also für die Benutzer) gibt es das Primo. Das Primo wird über Alma verwaltet.
 
 Im Alma wurde uns gezeigt: Grundaufbau, Suche, E-Ressourcen über Gemeinschaftszone, Verwaltung der Bibliotheken, Beispiel von übergreifender Bibliothek.
-
-
-![grafik](https://user-images.githubusercontent.com/90834735/140959464-6b462add-cd3a-4309-879c-ce573bc0c1d1.png)
 
 **_ALMA Topologie_**
 
@@ -43,18 +39,14 @@ Für E-Ressourcen muss ich mich einloggen in der IZ oder suchen,über CDI kann i
 Der Vorteil ist, es wird nicht noch ein System für Verwaltung benötigt. Auch ein Vorteil für Benutzer, wenn beim E-book etwas ändere, dann dauert es 2-3 Minuten und es ist dann wieder sichtbar. 
 
 
-Es gab eine **LIVE-Demo** über:
+Es gab eine **1. LIVE-Demo** über:
 - **Aufbau und die Grundlagen**. Für die Recherche in Alma: Jede IZ ( IZ= Institutionszone) hat eigene URL um ALMA über Browser aufzurufen. Suche alle physischen Exemplare mit dem Status "vermisst". Dann diese noch einschränken nur Bibliothek FHNW. Als Discovery anzeigen lassen.
 
-Zum Aufbau und den Grundlagen gehören:
-- Ausleihe und Rückgabe: Buch ausleihen, muss aber in Theke von FHNW Windisch einloggen, erst dann kann man es machen.
-- Kategorien: Ausleihen und Rückgabe, Vormerkungen, Listeraturlisten sind da drin.
-- Bei den Ausleihen sind Benutzerkonfiguration, Mahnungen, Offline Ausleihe hinterlegt. 
-- Vormerkungen: Aus dem Regal nehmen, Exemplare Scannen, Abgelaufene Bestellungen, Exemplar-Prozesse überwachen. Strichcode einlesen, Vormerkung, Rückgabe machen.
-- Pro Benutzer: Bestellung, Mahnen, Rechnung, Kaufbestellung, Lieferanten bearbeiten, Kontos bearbeiten.
+Zum Aufbau und den Grundlagen gehören auch die Ausleihe und Rückgabe. Pro Benutzer kann eingesehen werden: Bestellung, Mahnen, Rechnung, Kaufbestellung, Lieferanten, Konto bearbeiten. Es gibt auch Vormerkungen, Exemplare Scannen, abgelaufene Bestellungen, Exemplar Prozesse, Strichcode lesen.
+Beim Buch ausleihen, muss aber in Theke von FHNW Windisch einloggen, erst dann kann man es machen.
 
 - **E-Ressourcen**: Bei E-Ressourcen sind Lizenzen drin, sogenannte Konsortiumlizenzen.Diese können auch im Detail berwacht werden mit Nutzungsbedingungen z. B. Fernleihe, Download erlaubt oder nicht.
-- Benutzerverwaltung: Hier gibt es Rollenvorlagen für Mitarbeiter z.b Admin Berechtigung ohne Rollen separat zu verteilen.
+- Benutzerverwaltung: Hier gibt es Rollenvorlagen für Mitarbeiter z.B Admin Berechtigung ohne Rollen separat zu verteilen.
 
 - **Erschliessung**
 Das Zentrale Paket ist das Masterpaket als Grundlage für alle Bibliotheken, durch kundenspezifisches Paket können noch Anpassungen gemacht werden. Aber man kann Konfigurationen machen für einzelne IZ oder Bibliothek.
@@ -68,6 +60,7 @@ Das Zentrale Paket ist das Masterpaket als Grundlage für alle Bibliotheken, dur
 
 Auch eine Liste der **physischen Standorte** für die gedruckten Medien pro Bibliothek kann hier gefunden werden: Jeder Standort hat einen Code, einen Namen, Typ etc. Welche Leihstelle dieser Standort verwaltet.
 Zum Beispiel der Book-Return (automatische Rückgabemaschine) kann keine Wiedereinstellung vornehmen.
+
 **Beispiel Theke 1** kann Rückgabe, Neuberechtigungen, kann für studentische Hilfskräfte Berechtigungen reduzieren. Zahlungsinfo hat es keine, weil keine Kasse an dieser Theke 1 haben. Auch welcher Drucker soll Zugriff haben, kann hier definiert werden. RFID ist auch hinterlegt.
 
 
@@ -76,9 +69,8 @@ Einzelne Links kann man so anpassen für Homepage auf eigene IZ. und dann diese 
 Anpassungen anschauen, Test-Views zuerst machen.
 
 
-
-**Fragerunde**
-**AHA-Moment**: Es werden also alle Katalogisate über diese Gemeinschaftszone einfach übernommen, ohne dass jede einzelen IZ (Bibliothek) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selber katalogisiert, vom ersten Anwender, der diese eingekauft hat, dann werden die Daten auch übernommen von anderen Bibliotheken(Fremddatenübernahme).Aus der Fragerunde war  zu vernehmen, dass alles noch in Marc-21 Format ist, und BibFrame noch nicht durchgesetzt. Es wird aber vermutet, dass BibFrame im Hintergrund schon läuft, aber da Alma noch drin ist, ist es noch in Marc21-Format.
+**AHA-Moment aus Fragerunde**
+Es werden also alle Katalogisate über diese Gemeinschaftszone übernommen, ohne dass jede einzelen IZ (Bibliothek) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selber katalogisiert, vom ersten Anwender, der diese eingekauft hat, dann werden die Daten auch übernommen von anderen Bibliotheken(Fremddatenübernahme).Aus der Fragerunde war zu vernehmen, dass alles noch in Marc-21 Format ist, und BibFrame noch nicht durchgesetzt. Es wird aber vermutet, dass BibFrame im Hintergrund schon läuft, aber da Alma noch drin ist, ist es noch in Marc21-Format.
 
 
 - **Katalogisierung**: (geht über Gemeinschaftszone)
@@ -91,8 +83,7 @@ Anpassungen anschauen, Test-Views zuerst machen.
 Man katalogisiert immer noch über RDA im Vergleich zu Aleph ist das noch gleich. Aber Felder sind anders aber mit Dollar und Buchstaben. Feldinformationen von Marc 21 sieht man gleich, Warnungen, Beispiele,Vorlagen.Es kann direkt ein neuer Bestand erstellt werden.
 
 
-
-**Live- Demo:**
+**2. Live- Demo:**
 Wie man ein E-Book, eine Zeitschrift anlegen kann. Das geht alles über die Netwerkzone, die man aktivieren muss.
 
 
