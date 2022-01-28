@@ -5,7 +5,6 @@ date: 2021-11-19
 _Liebes Tagebuch_,
 
 
----
 
 **Dspace**
 
@@ -14,7 +13,7 @@ _Liebes Tagebuch_,
 Ich habe die von mir erstellte Publikation von gestern heute laden können in der DSpace Demo über die OAI-PMH-Schnittstelle (Daten erscheinen dort zeitverzögert ca. 1 Tag)
 Da in der Demoversion alle Daten jeden Samstag nachts gelöscht werden, um eine einwandfreie Demo zu garantieren, musste ich es heute Mittag schnell machen.
     
-Dann habe ich unter meiner [Community](http://demo.dspace.org/oai/request?verb=ListSets) geöffnet und den Link 
+Dann habe ich die Schnittstelle geöffnet und bin unter meiner Community [BAIN übung_18_11_21](http://demo.dspace.org/oai/request?verb=ListSets) und habe den Link 
 “Records” aufgerufen.
 Ich habe meine Daten im Kasten “Metadata” nun aufrufen können.
 Ich habe den Inhalt kopiert in einen Texteditor und diesen gespeichert unter Dokumente.
@@ -78,8 +77,8 @@ Rich Site Summary (RSS) sind Dateiformate für Web-Feeds. Sie zeigen Änderungen
 Feed, weil füttern, einspeisen von neuen Daten, die der Client über den RSS-Channel abonniert hat. Weil RSS-Dienste werden eimst über spezielle Service-Websites angeboten, songenannte RSS-Channels.
 
 **OAI-PMH**:
-OAI-PMH ermöglicht es externen Systemen die in DSpace verzeichneten Metadaten abzurufen.
-OAI-PMH-Schnittstelle der DSpace-Demo (Daten erscheinen dort zeitverzögert): http://demo.dspace.org/oai/request?verb=ListSets
+OAI-PMH ermöglicht es eben die erfassten Metadaten aus DSpace zu holen.
+OAI-PMH-Schnittstelle der DSpace-Demo (ein Tag später sind online): http://demo.dspace.org/oai/request?verb=ListSets
 Diese Schnittstelle OAI-PMH BASE Harvesting von Bielefeld ist enorm effizient!!
 Unterschied Institutionellen und Fachrepositorien sind also viele Dokumente verstreut.Hingegen diese BASE Suchmaschine, vereint die Fachrepositorien, sie hat  darum auch 250 Mio. Fachbeiträge in einem Repository drin!
 
