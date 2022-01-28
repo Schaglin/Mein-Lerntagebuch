@@ -8,15 +8,13 @@ date: 2021-11-04
 **_Liebes Tagebuch_**
 
 
-
 **SLSP- Swiss Library Service Plattform**
 Durch die SLSP wurde die Einführung von Alma im Dezember 2020 gemacht. Es bildet die Grundlage für das Swisscovery, ist nicht gewinnorientiert. Darunter sind 475 Bibliotheken vertreten mit 50 Mio. Medien. 
 
 
 **ALMA - das Cloudgestützte Bibliothekssystem von Ex-Libris**
-Alma wird betreut durch Ex-Libris, Rechenzentrum liegt in Amsterdam. Es gibt monatliche Releases von Ex-Libris. Cool ist, dass die einzelnen Institutionen ebenfalls eine Mitsprache-Recht haben durch die Idea Exchange Plattform, können sie ihre Ideen anbringen zur Verbesserung von Alma. Es ist ein URM (Infified Resource Management System). Alma hat ein ERM (Elektronische Ressourcenverwaltung), einen Link-Resolver, eine Verwaltung der digitalen Bestände, ein ILS (integriertes  Bibliothekssystem) und für das Discovery (für die Benutzer) gibt es das Primo. Das Primo wird über Alma verwaltet.
+Alma wird betreut durch Ex-Libris. Es gibt monatliche Releases von Ex-Libris. Cool ist, dass die einzelnen Institutionen ebenfalls eine Mitsprache-Recht haben durch die Idea Exchange Plattform, können sie ihre Ideen anbringen zur Verbesserung von Alma. Es ist ein URM (Infified Resource Management System). Alma hat ein ERM (Elektronische Ressourcenverwaltung), einen Link-Resolver, eine Verwaltung der digitalen Bestände, ein ILS (integriertes  Bibliothekssystem) und für das Discovery (für die Benutzer) gibt es das Primo. Das Primo wird über Alma verwaltet.
 
-Im Alma wurde uns gezeigt: Grundaufbau, Suche, E-Ressourcen über Gemeinschaftszone, Verwaltung der Bibliotheken, Beispiel von übergreifender Bibliothek.
 
 **_ALMA Topologie_**
 
@@ -29,7 +27,7 @@ In der Netzwerkzone werden die einzelnen TItel der Werke/E-Medien aufgenommen un
 
 **Institutionszone (IZ)**
 Hier kann man für die einzelnen Bibliotheken indiviuell anpassen z. B. Aktivierungen, Konfigurationen.
-Bei den Bibliotheken selbst kann auf Drucker, Öffnungszeiten, Budget Anpassungen gemacht werden. Bei den Beständen können Exemplare, Signaturen hinzugefügt werden. Man könnte hier auch einen Campus machen, FHNW hat das aber nicht, sie nehmen alle die gleiche IP- Range.
+Bei den Bibliotheken selbst kann auf Drucker, Öffnungszeiten, Budget Anpassungen gemacht werden. Bei den Beständen können Exemplare, Signaturen hinzugefügt werden. FHNW hat kein Campus, sie nehmen alle die gleiche IP- Range.
 Für E-Ressourcen muss ich mich einloggen in der IZ oder suchen,über CDI kann ich ein Journal über die Gemeinschaftszone aktivieren, dass in CDI vorhanden ist, das wird das eingespielt für die Kataloge. Jede IZ kann lokal seine eigene Ansicht haben. Damit nicht jede IZ ein eigenes View aufbauen muss, wir mit einem Master Template gearbeitet. Man kann z.B. die Farbe, Logo, eigene Texte, lokale Ressourcen oder Texte ändern. Jede IZ kann das machen individuell, aber das Grundgerüst ist von der ExLibris vorgegeben.
 
 
@@ -47,15 +45,10 @@ Beim Buch ausleihen, muss aber in Theke von FHNW Windisch einloggen, erst dann k
 - **E-Ressourcen**: Bei E-Ressourcen sind Lizenzen drin, sogenannte Konsortiumlizenzen.Diese können auch im Detail berwacht werden mit Nutzungsbedingungen z. B. Fernleihe, Download erlaubt oder nicht.
 - Benutzerverwaltung: Hier gibt es Rollenvorlagen für Mitarbeiter z.B Admin Berechtigung ohne Rollen separat zu verteilen.
 
-- **Erschliessung**
-Das Zentrale Paket ist das Masterpaket als Grundlage für alle Bibliotheken, durch kundenspezifisches Paket können noch Anpassungen gemacht werden. Aber man kann Konfigurationen machen für einzelne IZ oder Bibliothek.
-
-- **Konfiguration**: Die Öffnungszeiten sind mit den Leihfristen verknüpft. Die FHN will zum Beispiel keine Leihfristen auf den Samstag festlegen, obwohl die Bibliothek am Samstag offen ist. Oder Weihnachtsferien, da sollen die Fristen nicht weiterlaufen, sondern erst wieder ab dem 1.1.
-- **AHA-Moment: Die meisten Konfiguration (z.B Erwerbung, Lizenzen, Regeln für Rechnungsprüfung, Leihfristen) werden auf der IZ -Ebene gemacht:**
-- **auch die Primo- Ansicht (Discovery) für die Kunden wird auf der Konfiguration lokal verändert:
-- Discovery ist gelb, das ist typisch für die FHWN und auch die Texte sind lokal angepasst worden.
-- Verlinken auf  E-Ressourcen der FHWN 
-- Weitere Konfigurationen: Registerkarten, Timeout, Standardsprache, Statisitk, Suche, Medadaten, Konfiguration der Briefe. z.B. ein Ausleihbeleg** -   Sprache kann man auch anpassen. Der Brief wird als xml-File so definiert. Es gibt auch eine Vorschau.
+- **Erschliessung**: läuft über Ex-Libris-Masterpaket, kann aber auch wieder konfiguriert werden auf IZ-Ebene für die einzelne Bibliothek.
+ 
+- **AHA!: Die meisten Konfigurationen (z.B Erwerbung, Erschliessung, Lizenzen, Regeln für Rechnungsprüfung, Leihfristen mit Öffnungszeiten verknüpft) werden auf der IZ -Ebene gemacht:**
+- **auch die Primo- Ansicht (Discovery) für die Kunden wird auf der Konfiguration lokal verändert z.B. Farbe, Links.
 
 
 **Beispiel Theke 1** kann Rückgabe, Neuberechtigungen, kann für studentische Hilfskräfte Berechtigungen reduzieren. Zahlungsinfo hat es keine, weil keine Kasse an dieser Theke 1 haben. Auch welcher Drucker soll Zugriff haben, kann hier definiert werden. RFID ist auch hinterlegt.
@@ -70,8 +63,10 @@ Anpassungen anschauen, Test-Views zuerst machen.
 - e-Ressourcen nur für spezifische Institution zugänglich
 - von WorldCat oder Library of Congress das übernehmen
 
-**AHA-Moment aus Fragerunde**
-Es werden also alle Katalogisate über diese Gemeinschaftszone übernommen, ohne dass jede einzelen IZ (Bibliothek) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selber katalogisiert, vom ersten Anwender, der diese eingekauft hat. Dann werden die Daten auch übernommen von anderen Bibliotheken(Fremddatenübernahme).Aus der Fragerunde war zu vernehmen, dass alles noch in Marc-21 Format ist, und BibFrame noch nicht durchgesetzt. Es wird aber vermutet, dass BibFrame im Hintergrund schon läuft, aber da Alma noch drin ist, ist es noch in Marc21-Format.
+**AHA-Moment**
+Es werden alle Katalogisate über diese Gemeinschaftszone übernommen, ohne dass jede einzelen IZ (Bibliothek) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selber katalogisiert, vom ersten Anwender, der diese eingekauft hat. Dann werden die Daten auch übernommen von anderen Bibliotheken(Fremddatenübernahme).
+
+Aus der Fragerunde erfuhr ich, dass alles in Marc-21 Format ist, und sich BibFrame noch nicht durchgesetzt. Es wird aber vermutet, dass BibFrame im Hintergrund schon läuft, aber da Alma noch drin ist, ist es noch in Marc21-Format.
 
 
 **Metadateneditor**
@@ -84,9 +79,8 @@ Wie man ein E-Book, eine Zeitschrift anlegen kann. Das geht alles über die Netw
 
 **Beispiel Datenbanken**
 Es gibt Volltext, keinen Volltext, Referenzdatenbanken.
-ABI ist ein Aggregator Datenbank, beinhaltet einzelene Portfolios, Volltext-Datenbank kann man im Primo absuchen. Journals kann man via Swisscovery so suchbar machen.
-"**CDI*:ist integriert. Das heisst gibt eine detailliertere Suche: _Wenn es ein E-Journal ist, können ihre einzelne Artikel über CDI gesucht werden_.*
-Naxos Music Library = Referenzdatenbank, hat keine Portfolio, hat aber auch CDI für detailierte Suche, aber dieser Datenbank ist so auf Discovery auffindbar.
+ABI ist ein Aggregator Datenbank, beinhaltet Portfolios, Volltext-Datenbank kann man im Primo absuchen. Journals kann man via Swisscovery so suchbar machen.
+"**CDI**:ist integriert= Detail-Suche.Wenn es ein E-Journal ist, können ihre einzelne Artikel über CDI gesucht werden.*z.B. Naxos Music Library = Referenzdatenbank, hat keine Portfolio, hat aber auch CDI für detailierte Suche, aber dieser Datenbank ist so auf Discovery auffindbar.
 
 
 
