@@ -15,8 +15,8 @@ Ich habe sogar ein paar Erfolgserlebnisse gehabt beim Installieren der Programme
 
 
 **Was habe ich gelernt?**
-Ich habe gelernt, Befehle im Terminal einzugeben, meist mit Copy/Paste. Ich verstehe die Befehle auch und was sie tun.
-Ich habe diverse Programme kennengelernt  und wie diese angewendet und installiert werden mithilfe dem Terminal.
+
+Ich habe diverse Programme kennengelernt  und wie diese angewendet und installiert werden mithilfe von Befehlen in dem Terminal.
 Das waren die Programme: Koha, VuFind, Archive Space, Open Refine. Bei DSpace haben wir nur eine Demoversion genomme, ohne Installation.
 Suchindexe wie SolR von VUFind.
 Ich habe Praxiseinblicke bekommen von SLSP/Alma.
