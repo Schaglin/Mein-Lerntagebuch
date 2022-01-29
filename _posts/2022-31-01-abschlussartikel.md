@@ -1,6 +1,6 @@
 ---
 title: "abschlussartikel"
-date: 2022-01-31
+date: 2022-31-01
 ---
 _Liebes Tagebuch_,
    
