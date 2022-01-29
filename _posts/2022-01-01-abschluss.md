@@ -9,9 +9,9 @@ _Liebes Tagebuch_,
 **Abschlussartikel**
 
 Zuerst hatte ich Angst vor diesem Modul. Weil ich schlechte Erfahrungen mit dem Terminal gemacht habe beim Modul Aris, wo wir das letzte Mal mit dem Terminal gearbeitet haben.
-Zum Glück war aber das Modul nicht so schlimm und es gab viel Hilfestellunge und die Befehler waren alle fein säuberlich notiert und funktionierten grösstenteils.
+Zum Glück war aber das Modul nicht so schlimm und es gab viel Hilfestellunge und die Befehle für das Terminal waren alle fein säuberlich notiert und funktionierten grösstenteils.
 
-Ich habe sogar ein paar Erfolgserlebnisse gehabt beim Installieren der Programme (Archive Space, VuFind).
+Ich habe sogar ein paar Erfolgserlebnisse gehabt beim Installieren  und ausprobieren der Programme (Koha, Archive Space, VuFind) und beim Konfigurieren von VuFind gehabt.
 
 
 **Was habe ich gelernt?**
