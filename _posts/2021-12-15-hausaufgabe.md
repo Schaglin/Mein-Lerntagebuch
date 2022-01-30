@@ -5,7 +5,7 @@ Dazu bekamen wir wieder einen Satz von Shell-Befehlen zur Verfügung, diese konn
 - **wget https://github.com/vufind-org/vufind/releases/download/v8.0.2/vufind_8.0.2.deb
 - sudo dpkg -i vufind_8.0.2.deb**
 
-- **sudo apt-get update   -(Nachtrag vom 14.12.21, dank diesem Befehl hat es bei mir dann tatsächlich funktioniert- Vielen Dank dafür 🦖)**
+- **sudo apt-get update   -(🦖)**
 
 - **sudo apt-get install -f**
 
@@ -80,7 +80,7 @@ application.config.php komme ich nicht rein, weil es keine directory ist. weiss 
 bei demiankatz war es ganz eine andere ordnung und ich finde auch keine config dateien, bei ihm waren diese ja schon ohne befehle ersichtlich als texteditordateien  .
 ![Screenshot from 2021-12-15 17-24-10](https://user-images.githubusercontent.com/90834735/146225086-3cb109ee-8c24-42d0-8f0b-d2fe2bc585ab.png)
 
-über die Shell habe ich es dann ufgegeben, ich habe einen Tipp bekommen von Barbora, die auch diesen Kurs besucht. Nun versuche ich meine Glück manuell über den Ordnern zu konfigurerien.
+über die Shell habe ich es dann aufgegeben, ich habe einen Tipp bekommen von Barbora, die auch diesen Kurs besucht. Nun versuche ich meine Glück manuell über den Ordnern zu konfigurerien.
 
 ![Screenshot from 2021-12-15 18-12-08](https://user-images.githubusercontent.com/90834735/146233490-a77c58aa-b1e9-4652-8fc7-320f9e7170cb.png)
 
