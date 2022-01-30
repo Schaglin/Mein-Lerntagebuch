@@ -2,12 +2,12 @@ Hausaufgabe war es das Suchprogramm VuFind für Bibliotheken von Bibliotheken zu
 
 Dazu bekamen wir wieder einen Satz von Shell-Befehlen zur Verfügung, diese konnte man einfach copy/pasten:
 
--**wget https://github.com/vufind-org/vufind/releases/download/v8.0.2/vufind_8.0.2.deb
--sudo dpkg -i vufind_8.0.2.deb**
+- **wget https://github.com/vufind-org/vufind/releases/download/v8.0.2/vufind_8.0.2.deb
+- sudo dpkg -i vufind_8.0.2.deb**
 
--**sudo apt-get update   -(Nachtrag vom 14.12.21, dank diesem Befehl hat es bei mir dann tatsächlich funktioniert- Vielen Dank dafür 🦖)**
+- **sudo apt-get update   -(Nachtrag vom 14.12.21, dank diesem Befehl hat es bei mir dann tatsächlich funktioniert- Vielen Dank dafür 🦖)**
 
--**sudo apt-get install -f**
+- **sudo apt-get install -f**
 
 Maria DB mussten wir auch installieren mit Befehl:
 ***sudo /usr/bin/mysql_secure_installation**
@@ -25,35 +25,11 @@ http://localhost/vufind/Install/Home
 Jetzt sollte VuFind bereits aufrufbar sein, und die Auto-Konfigurationen sollten sichtbar sein.
 Leider hatte ich nur eine leere Seite mit. Browser nicht findbar.
 
-so versuchte ich dann die vorgeschlagene Fehlerbehebung Nr. 1, weil es mir das VUFind im Browser gar nicht angezeigt hatte:
-Fehlerbehebung
-
-Falls etwas schief geht, können die folgenden Befehle helfen die Installation teilweise oder ganz zurückzusetzen.
-Fall 1: Auto Configuration ist nicht mehr erreichbar
-
-    Problem: Die Seite “Auto Configuration” unter http://localhost/vufind/Install/Home war schon einmal aufrufbar, aber kann nun nicht mehr geladen werden.
-
-    Ursache: Die Konfiguration ist defekt und kann von VuFind nicht mehr gelesen werden.
-
-    Lösung:
-
-        Die lokale Konfiguration (im Verzeichnis /usr/local/vufind/local/) manuell löschen.
-
-        sudo rm /usr/local/vufind/local/config/vufind/config.ini
-
-        Datenbank und Nutzer löschen (bei der folgenden Abfrage das Root-Passwort für MariaDB eingeben, das oben festgelegt wurde)
-
-        sudo mysql -uroot -p -e "DROP DATABASE IF EXISTS vufind; DROP USER IF EXISTS vufi
 
 **Zur Installation**:
-bei mir klappte es leider nicht auf Anhieb.
-Jedoch gab es dann Hilfevideos von Hr. Lohmeier, die man anschauen konnte.
-
-**Mein AHA-Moment**: Und der Befehl: **sudo apt get-update** half bei mir tatsächlich. Der Befehl war gut um die Pakteverzeichnisse zu aktualisieren. ICh kannte den Befehl eigentlich schon 
-aus dem Unterricht zu Aris im Frühling 2020, dort mussten wir oft die Verzeichnisse updaten. Jedoch ist es mir leider nicht mehr in den Sinn gekommen.
-Es erscheint eine Fehlermeldung, dass noch nicht alle von VuFind benötigten Pakete installiert sind.
-Zunächst aktualisieren wir das Paketverzeichnis (Nachtrag 14.12.):
-Endlich hat es mir auf den Browser Port 80 nun die VuFInd Oberfläche angezeigt.
+bei mir klappte es leider nicht auf Anhieb auch nach Fehlerbehebung Nr. 1. klappte es noch nicht.
+Jedoch gab es dann Hilfevideos von Hr. Lohmeier, die man anschauen konnte. Erst nach dem Befehl: **sudo apt get-update** gelang es mir.
+Aus dem Unterricht zu Aris im Frühling 2020, kannte ich eigentlich den Befehl schon, dort mussten wir oft die Verzeichnisse updaten. Jedoch ist es mir leider nicht mehr in den Sinn gekommen.
 
 Ich hatte Freude, weil ich vorher mehrere Versuche und auch die vorgeschlagenen Fehlerbehebungen ausprobiert habe, und schon fast am verzweifeln war.
 
@@ -89,11 +65,6 @@ Ein Youtube Video erklärt von demiankatz, der Meister in VuFind: https://www.yo
 Wer hat eigentlich VUFind entwickelt? War das dieser demiankatz? als beim Harvester Vufind war auf jeden Fall der Daminakatz involiert, wie ich gerade in den Dateien im Editor herausgefunden habe..
 
 
-Hier gab es bei mir auch einen **AHA-Moment!** Das ; Semikolon davor setzen und die nicht benötigten Suchtherme verschwinden!
-oder das - Minus davor setzen und ein Stern*, dann gibt es einen Kasten zum anhäkeln. Ich versuchte es nachzumachen. ich war mir jedoch unsicher wieder.
-Mit ls habe ich mal alle Verzeichnisse angeschaut, und festgestellt, dass ich 3 Versionen von VuFind daraufhabe. Das deckte sich auch mit meinen Ordnern.
-
-
 Der Demiankatz war jetzt im Ordner /usr/local/vufind drin, um überhaupt dann nacher mit den Befehlen die config-Dateien abzufrufen.
 Also musste ich auch in diesen Ordner kommen. Ich versuchte nun mit der Commandozeile Cd in diesen /usr/local/vufind reinzukommen.
 ![Screenshot from 2021-12-15 15-41-13](https://user-images.githubusercontent.com/90834735/146207073-1436cade-1843-46b4-9ad4-a9f0a178330e.png)
@@ -124,7 +95,6 @@ Die vorgeschlagenen Konfigurationen von DemianKatz aus dem Video zu "Searching u
 - 40 Resultate anzeigen lassen, anstatt nur 20 Suchresultate
 - Namen der Suchtherme ändern zum Beipsiel anstatt Autor zu "Person who created" ändern. (aber man müsse aufpassen, wenn ich Sprache ändere, sollte es automatisch auch wieder richtig übersetzen?)
 
-nun habe ich die Anzahl von *20 auf 40 erhöht für die Suchresultate bezogen*. nun bin ich gespannt, ob es meine Änderungen genommen hat und schaue im vufind im Browser.
 ![Screenshot from 2021-12-15 18-24-29](https://user-images.githubusercontent.com/90834735/146235080-9ec96984-149b-44c8-90f7-610e5681d436.png)
 
 **Meine AHA-Moment** Ja es sieht gut aus, vorher erschienen nur 20 Suchresultate und nun erscheinen tatsächlich 40 Suchresultate, die ich vorher konfiguriert habe!
@@ -132,9 +102,6 @@ nun habe ich die Anzahl von *20 auf 40 erhöht für die Suchresultate bezogen*. 
 
 ich habe es noch mit 100 ausprobiert, ob es jetzt wirklich funktioniert hat und es hat funktioniert. das freute mich sehr !🦖
 ![Screenshot from 2021-12-15 18-38-12](https://user-images.githubusercontent.com/90834735/146237080-a759a9e3-9fff-4a62-9445-acfc1254bc7e.png)
-
-
-
 
 
 - Reihenfolge ändern der Suchtherme z.b. Titel vor Autor , konnte man einfach mit copy/paste machen. nun schaue ich im vufind ob es tatsächlich geändert hat oder nicht
@@ -159,7 +126,7 @@ ja es hat sogar geklappt!
 
 
 **Bei den Facetten**
-Ich möchte nun den Instructor und die Building für die Narrow Search rausnehmen, so wie es Demiankatz vorschlägt, dazu muss ich nur die Semikolon davor setzten und das ganze wird nicht mehr grün angezeigt und somit auch in der Narrwo Search nicht mehr angezeigt.
+Ich möchte nun den Instructor und die Building für die Narrow Search rausnehmen, so wie es Demiankatz vorschlägt:
 ;Institution wegnehmen, in Config-Datei einfach das Semikolon (;)davor schreiben
 ;Building wegnehmen, in Config-Datei einfach das Semikolon (;) davor schreiben
 
