@@ -10,25 +10,25 @@ Dazu bekamen wir wieder einen Satz von Shell-Befehlen zur Verfügung, diese konn
 - **sudo apt-get install -f**
 
 Maria DB mussten wir auch installieren mit Befehl:
-***sudo /usr/bin/mysql_secure_installation**
+**sudo /usr/bin/mysql_secure_installation**
 mussten wir ein neues Passwort festlegen, Maria DB ist = My Sql 
 hierbei mussten wir noch einige Angaben mit y (yes) bestätigen.
 dann für den Root das Passwort bestätigen:**sudo mysql -uroot -p -e "UPDATE mysql.user SET plugin='' WHERE User='root'; FLUSH PRIVILEGES;"**
 Ein Neustart war in unserem Fall nicht erforderlich. Es reichte aus, den genannten Befehl einzugeben:**source /etc/profile**
-Um das SOlr zu starten mussten wir vorher noch Dateirechte festlegen fürdas Cache- und das Config-Verzeichnis beim Account des Webservers (www-data).
+Um das SOlr zu starten mussten wir vorher noch Dateirechte festlegen für das Cache- und das Config-Verzeichnis beim Account des Webservers (www-data).
 -**sudo chown -R $USER:$GROUP /usr/local/vufind
 -sudo chown -R www-data:www-data /usr/local/vufind/local/cache
 -sudo chown -R www-data:www-data /usr/local/vufind/local/config**
 dann konnten wird das Solr starten und VuFind Konfigurieren mit Befehl:**/usr/local/vufind/solr.sh start**
 Da wir keinen Domainnamen haben. Verwendeten wir localhost. Nun konnte ich den Browser in der virtuellen Maschine (Linux) mit folgender Adresse aufrufen:
-http://localhost/vufind/Install/Home
+(http://localhost/vufind/Install/Home)
 Jetzt sollte VuFind bereits aufrufbar sein, und die Auto-Konfigurationen sollten sichtbar sein.
 Leider hatte ich nur eine leere Seite mit. Browser nicht findbar.
 
 
 **Zur Installation**:
 bei mir klappte es leider nicht auf Anhieb auch nach Fehlerbehebung Nr. 1. klappte es noch nicht.
-Jedoch gab es dann Hilfevideos von Hr. Lohmeier, die man anschauen konnte. Erst nach dem Befehl: **sudo apt get-update** gelang es mir.
+Jedoch gab es dann Hilfevideos von Hr. Lohmeier, die man anschauen konnte. Erst nach dem Hinweis von Hr. Lohmeier auf Befehl: **sudo apt get-update** gelang es mir.
 Aus dem Unterricht zu Aris im Frühling 2020, kannte ich eigentlich den Befehl schon, dort mussten wir oft die Verzeichnisse updaten. Jedoch ist es mir leider nicht mehr in den Sinn gekommen.
 
 Ich hatte Freude, weil ich vorher mehrere Versuche und auch die vorgeschlagenen Fehlerbehebungen ausprobiert habe, und schon fast am verzweifeln war.
@@ -46,7 +46,7 @@ sudo gedit /usr/local/vufind/local/config/vufind/NoILS.ini
 
     In Zeile 3 ils-offline in ils-none ändern und speichern.
 
-Nun musste ich nur noch die Auto-Konfigurationen fixen. Das ging auch gut,mithilfe des Videos von Hr. Lohmeier.
+Nun musste ich nur noch die Auto-Konfigurationen fixen. Das ging auch gut, mithilfe des Videos von Hr. Lohmeier.
 Die schwierigste Auto-Konfiguration war wohl die, wo man in die Config-Datei selbst etwas umschreiben musste nämlich diese
 vorher musste man NoiLs auswählen. Aber eigentlich wollen wir gar keine Noils (weil ist ein ILS Driver).
 ![ils none](https://user-images.githubusercontent.com/90834735/150584450-ed31ccc5-76a5-4b3f-8cf3-c4d88be51116.png)
@@ -61,9 +61,7 @@ als alles gefixt war, sah es dann so aus. Ich freute mich darüber :-).
 
 
 **Übung: Konfigurationen anpassen / Searching and Facet Settings**
-Ein Youtube Video erklärt von demiankatz, der Meister in VuFind: https://www.youtube.com/watch?v=qFbW8u9UQyM
-Wer hat eigentlich VUFind entwickelt? War das dieser demiankatz? als beim Harvester Vufind war auf jeden Fall der Daminakatz involiert, wie ich gerade in den Dateien im Editor herausgefunden habe..
-
+Ein Youtube Video erklärt von demiankatz, der Meister in VuFind, der auch im Editor erscheint: https://www.youtube.com/watch?v=qFbW8u9UQyM
 
 Der Demiankatz war jetzt im Ordner /usr/local/vufind drin, um überhaupt dann nacher mit den Befehlen die config-Dateien abzufrufen.
 Also musste ich auch in diesen Ordner kommen. Ich versuchte nun mit der Commandozeile Cd in diesen /usr/local/vufind reinzukommen.
@@ -79,41 +77,39 @@ ich versuche es weiter... ist ja Hausaufgabe...
 
 weiter Versuche hier, ich komme einfach nicht in das richtige Verzeichnis rein!!
 application.config.php komme ich nicht rein, weil es keine directory ist. weiss nicht mal ob das das richtige verzeichnis ist.
-bei demiankatz war es ganz eine andere ordnung und ich finde auch keine config dateien, bei ihm waren diese ja schon ohne befehle ersichtlich als texteditordateien oder so etwas Ähnliches.
+bei demiankatz war es ganz eine andere ordnung und ich finde auch keine config dateien, bei ihm waren diese ja schon ohne befehle ersichtlich als texteditordateien  .
 ![Screenshot from 2021-12-15 17-24-10](https://user-images.githubusercontent.com/90834735/146225086-3cb109ee-8c24-42d0-8f0b-d2fe2bc585ab.png)
 
-über die Shell habe ich es danna ufgegeben, ich habe einen Tipp bekommen von Barbora, die auch diesen Kurs besucht. Nun versuche ich meine Glück manuell über den Ordnern zu konfigurerien.
+über die Shell habe ich es dann ufgegeben, ich habe einen Tipp bekommen von Barbora, die auch diesen Kurs besucht. Nun versuche ich meine Glück manuell über den Ordnern zu konfigurerien.
 
 ![Screenshot from 2021-12-15 18-12-08](https://user-images.githubusercontent.com/90834735/146233490-a77c58aa-b1e9-4652-8fc7-320f9e7170cb.png)
 
 
-
-
-Die vorgeschlagenen Konfigurationen von DemianKatz aus dem Video zu "Searching und  Facet Settings" habe ich einmal hier notiert.
+Die vorgeschlagenen Konfigurationen von DemianKatz aus dem Video zu "Searching und  Facet Settings" .
 
 **Beim Searching**:
 - 40 Resultate anzeigen lassen, anstatt nur 20 Suchresultate
-- Namen der Suchtherme ändern zum Beipsiel anstatt Autor zu "Person who created" ändern. (aber man müsse aufpassen, wenn ich Sprache ändere, sollte es automatisch auch wieder richtig übersetzen?)
+- Namen der Suchtherme ändern zum Beipsiel anstatt Autor zu "Person who created" ändern. (übersetzt es richtig, hätte man noch prüfen sollen)
 
 ![Screenshot from 2021-12-15 18-24-29](https://user-images.githubusercontent.com/90834735/146235080-9ec96984-149b-44c8-90f7-610e5681d436.png)
 
 **Meine AHA-Moment** Ja es sieht gut aus, vorher erschienen nur 20 Suchresultate und nun erscheinen tatsächlich 40 Suchresultate, die ich vorher konfiguriert habe!
 ![Screenshot from 2021-12-15 18-29-44](https://user-images.githubusercontent.com/90834735/146236011-f4fb85b4-7775-45d1-a0ac-ac38f10a7f99.png)
 
-ich habe es noch mit 100 ausprobiert, ob es jetzt wirklich funktioniert hat und es hat funktioniert. das freute mich sehr !🦖
+ich habe es noch mit 100 ausprobiert, es funktionierte, dass freute mich sehr !🦖
 ![Screenshot from 2021-12-15 18-38-12](https://user-images.githubusercontent.com/90834735/146237080-a759a9e3-9fff-4a62-9445-acfc1254bc7e.png)
 
 
-- Reihenfolge ändern der Suchtherme z.b. Titel vor Autor , konnte man einfach mit copy/paste machen. nun schaue ich im vufind ob es tatsächlich geändert hat oder nicht
+- Reihenfolge ändern der Suchtherme z.b. Titel vor Autor 
 ![Screenshot from 2021-12-15 18-43-20](https://user-images.githubusercontent.com/90834735/146238202-af949680-c7e3-46f6-92de-3a64cbd35c0c.png)
 
-der Autor habe ich gmäss Demiankatz auch noch geändert zu "Person who created this stuff" das hat mir Spass gemacht die Verzeichnisse umzuändern, wie es mir beliebt.:-)
+
 ![Screenshot from 2021-12-15 18-48-09](https://user-images.githubusercontent.com/90834735/146239810-38f3ce84-659d-47ee-8679-4f4c228550ea.png)
-ja es hat sogar geklappt!
+
 ![Screenshot from 2021-12-15 18-50-15](https://user-images.githubusercontent.com/90834735/146239027-738fce42-df6f-4ca2-9b54-6519b06d646e.png)
 
 
--**default top recommended = top facettes** würde der demiankatz auch rausnehmen mit semikolon, aber das finde ich zwar noch gut, nehme sie jetzt einfach für die übung raus und zwar auch wieder mit dem Semikolon davor.
+-**default top recommended = top facettes** würde der demiankatz auch rausnehmen mit semikolon davor schreiben
 ![Screenshot from 2021-12-15 19-14-22](https://user-images.githubusercontent.com/90834735/146244502-082fd588-3380-47ba-9adf-6b0e498ae634.png)
 
 **Vorher**
@@ -128,8 +124,7 @@ ja es hat sogar geklappt!
 **Bei den Facetten**
 Ich möchte nun den Instructor und die Building für die Narrow Search rausnehmen, so wie es Demiankatz vorschlägt:
 ;Institution wegnehmen, in Config-Datei einfach das Semikolon (;)davor schreiben
-;Building wegnehmen, in Config-Datei einfach das Semikolon (;) davor schreiben
-
+;Building wegnehmen "
 
 Dazu ändere ich die Config-Datei namens **"facetes.ini"**
 ![Screenshot from 2021-12-15 19-14-22](https://user-images.githubusercontent.com/90834735/146242479-ec4194f8-0bce-4bac-bc49-e934d57c2052.png)
@@ -140,15 +135,12 @@ Dazu ändere ich die Config-Datei namens **"facetes.ini"**
 **Nachher**: jetzt sind die Institution und das Gebäude enfernt oder deaktiviert in den Resultaten:
 ![Screenshot from 2021-12-15 19-03-30](https://user-images.githubusercontent.com/90834735/146241350-87d0e6cc-7b3e-4fcc-9970-c92750e432ec.png)
 
-**Suggested Topics**in der Sidebar bei Narrow Search: Demiankatz, meint es sei noch nützlich diese in der Sidebar zu erscheinen lassen. 
-Das ändere ich es auch wieder und es erscheint in der sidebar bei der Narrow Search.
+**Suggested Topics**in der Sidebar bei Narrow Search:
 ![Screenshot from 2021-12-15 19-43-59](https://user-images.githubusercontent.com/90834735/146247047-988e61af-e129-4445-bc35-b9415dbc40ef.png)
 
 ![Screenshot from 2021-12-15 19-45-27](https://user-images.githubusercontent.com/90834735/146246510-acfd1fa4-05ed-40c9-a457-1f7f4acd474f.png)
 
-
-
-- alle anzeigen wo keinen Autor haben, ich möchte alle Suchresultate rausnehmen, die keinen Autor haben, das kann ich hier sogar mit einer Checkbox machen. Dazu muss ich
+-**Checkbox**: alle anzeigen wo keinen Autor haben, ich möchte alle Suchresultate rausnehmen, die keinen Autor haben, das kann ich hier sogar mit einer Checkbox machen. Dazu muss ich
 
  das Script umändern: **-Autor:*= " No author" *
  ![Screenshot from 2021-12-15 20-08-11](https://user-images.githubusercontent.com/90834735/146249560-9ed85e3f-07ca-4109-9763-ab0e11156d33.png)
@@ -158,15 +150,9 @@ Das ändere ich es auch wieder und es erscheint in der sidebar bei der Narrow Se
 
 
 **YAML für Advanced Searched und Homepage ändern**
-für advanced searched sei das gemäss demiankatz
-hier kann man sogar Checkboxen erstellen zum Beispiel: ich möchte Formate selbst auswählen durch anklicken z. b . Bücher, Zeitschriften, ...
-und davon soll es 10 Formate zur Auswahl haben.
 So konnte man auch die Homepage anpassen zum Beispiel Sprache ändern oder Browser by Format
 **bei den searchaspects**: bei Yaml könne man auch die Wichtigkeit ändern z.b  der erste Autor ist viel wichtiger als der zweite Autor, also kann man den boosten.
 er hat aus den ursprünglichen 300 dann 3000 gemacht, um  die Wichtigkeit zu erhöhen.autor fuller hat er auf auf 1500 geboostet, so dass er wichtiger erscheint.
-
-zum Schluss habe ich noch die Suche ein wenig ausprobiert mit advanced Search bekam ich zuerst gar keine Treffer (limit nur German und das Jahr grenzte ich ein 1990- 2020), da musste ich die Suche öffnen und ohne Limitierungen bekam ich 3 Treffer, jedoch ist das ja nur eine Beispieldatenbank.
-
 
 
 
