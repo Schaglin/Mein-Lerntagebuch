@@ -62,18 +62,20 @@ als alles gefixt war, sah es dann so aus. Ich freute mich darüber :-).
 Ein Youtube Video erklärt von Demian Katz, der Meister in VuFind, der auch im Editor erscheint: https://www.youtube.com/watch?v=qFbW8u9UQyM
 
 Der Demiankatz war jetzt im Ordner /usr/local/vufind drin, um überhaupt dann nacher mit den Befehlen die config-Dateien abzufrufen.
-Also musste ich auch in diesen Ordner kommen. Ich versuchte nun mit der Commandozeile Cd in diesen /usr/local/vufind reinzukommen.
+Also musste ich auch in diesen Order reinzukommen über die Commandozeile.
+![reinkommen](https://user-images.githubusercontent.com/90834735/151765594-e2b29ebc-7ac4-4729-a7e4-fb2356b6d66b.png)
+
 Gemäss Demiankatz wäre der Befehl zum ändern der Search-Config-Dateien so gewesen, leider hat es nicht funktioniert.
-![Screenshot from 2021-12-15 16-07-58](https://user-images.githubusercontent.com/90834735/146213450-505b7373-8c8a-4ef9-872a-49ade46d2f1e.png)
 
-ich versuche es weiter...
-![Screenshot from 2021-12-15 16-56-44](https://user-images.githubusercontent.com/90834735/146220478-c198ee89-eb11-471d-b84a-2614b4719fcb.png)
+ich versuche es weiter![weitere versuche](https://user-images.githubusercontent.com/90834735/151765697-69234703-34a3-48df-9bcf-625a38d9927d.png)
 
 
-weiter Versuche hier, ich komme einfach nicht in das richtige Verzeichnis rein!!
-application.config.php komme ich nicht rein, weil es keine directory ist. 
 
-![Screenshot from 2021-12-15 17-24-10](https://user-images.githubusercontent.com/90834735/146225086-3cb109ee-8c24-42d0-8f0b-d2fe2bc585ab.png)
+
+weiter Versuche hier, application.config.php komme ich nicht rein, weil es keine directory ist. 
+![versuche](https://user-images.githubusercontent.com/90834735/151765760-39c282f8-2dcf-4f12-a6bb-48c60969033c.png)
+
+
 
 über die Shell habe ich es dann aufgegeben, ich habe einen Tipp bekommen von Barbora, die auch diesen Kurs besucht. Nun versuche ich meine Glück manuell über den Ordnern zu konfigurieren.
 
@@ -85,33 +87,26 @@ Die vorgeschlagenen Konfigurationen von DemianKatz aus dem Video zu "Searching u
 **Beim Searching**:
 - 40 Resultate anzeigen lassen, anstatt nur 20 Suchresultate
 - Namen der Suchtherme ändern zum Beipsiel anstatt Autor zu "Person who created" ändern. (übersetzt es richtig, hätte man noch prüfen sollen)
+![40 suchresultate](https://user-images.githubusercontent.com/90834735/151765872-0661544c-8573-44c6-bbc1-f11c0a6a1d12.png)
 
-![Screenshot from 2021-12-15 18-24-29](https://user-images.githubusercontent.com/90834735/146235080-9ec96984-149b-44c8-90f7-610e5681d436.png)
 
 **Meine AHA-Moment** Ja es sieht gut aus, vorher erschienen nur 20 Suchresultate und nun erscheinen tatsächlich 40 Suchresultate, die ich vorher konfiguriert habe!
-![Screenshot from 2021-12-15 18-29-44](https://user-images.githubusercontent.com/90834735/146236011-f4fb85b4-7775-45d1-a0ac-ac38f10a7f99.png)
+
 
 ich habe es noch mit 100 ausprobiert, es funktionierte, dass freute mich sehr !🦖
-![Screenshot from 2021-12-15 18-38-12](https://user-images.githubusercontent.com/90834735/146237080-a759a9e3-9fff-4a62-9445-acfc1254bc7e.png)
+![100 resultate](https://user-images.githubusercontent.com/90834735/151765934-34acdb10-148f-416b-8885-d524669b9d62.png)
+
+
 
 
 - Reihenfolge ändern der Suchtherme z.b. Titel vor Autor 
 ![Screenshot from 2021-12-15 18-43-20](https://user-images.githubusercontent.com/90834735/146238202-af949680-c7e3-46f6-92de-3a64cbd35c0c.png)
 
-
-![Screenshot from 2021-12-15 18-48-09](https://user-images.githubusercontent.com/90834735/146239810-38f3ce84-659d-47ee-8679-4f4c228550ea.png)
-
-![Screenshot from 2021-12-15 18-50-15](https://user-images.githubusercontent.com/90834735/146239027-738fce42-df6f-4ca2-9b54-6519b06d646e.png)
+*Person who created this stuff" anstatt "author"
+![person who created this stuff](https://user-images.githubusercontent.com/90834735/151766034-91f0fff8-97b0-4cac-9bc4-8f7ae569cbb7.png)
 
 
--**default top recommended = top facettes** würde der demiankatz auch rausnehmen-dafür muss man Semikolon davor schreiben.
-![Screenshot from 2021-12-15 19-14-22](https://user-images.githubusercontent.com/90834735/146244502-082fd588-3380-47ba-9adf-6b0e498ae634.png)
-
-**Vorher**
-![Screenshot from 2021-12-15 19-28-39](https://user-images.githubusercontent.com/90834735/146244647-946d8457-308e-479e-90ac-025804d20f23.png)
-
-**Nachher**
-![Screenshot from 2021-12-15 19-29-08](https://user-images.githubusercontent.com/90834735/146244617-24a2d9c2-0dd0-457c-aa32-733fe77bc8a5.png)
+**default top recommended= top facettes**-das würde der Demian Katz rausnehmen- dafür muss man Semikolon davor schreiben.
 
 - Demian Katz möchte nun auch noch die OCLC Nummer zu den Suchthermen hinzufügen. Das lasse ich jetzt weg.
 
@@ -122,32 +117,34 @@ Ich möchte nun den Instructor und die Building für die Narrow Search rausnehme
 ;Building wegnehmen "
 
 Dazu ändere ich die Config-Datei namens **"facetes.ini"**
-![Screenshot from 2021-12-15 19-14-22](https://user-images.githubusercontent.com/90834735/146242479-ec4194f8-0bce-4bac-bc49-e934d57c2052.png)
-
 
 **Vorher:** hier war die Institution und das Building noch bei Narrow Search drin:
-![Screenshot from 2021-12-15 19-02-54](https://user-images.githubusercontent.com/90834735/146241189-7c08d2e7-cb46-477c-9d6e-f4d3ed5155fe.png)
-**Nachher**: jetzt sind die Institution und das Gebäude enfernt oder deaktiviert in den Resultaten:
-![Screenshot from 2021-12-15 19-03-30](https://user-images.githubusercontent.com/90834735/146241350-87d0e6cc-7b3e-4fcc-9970-c92750e432ec.png)
+![narrow search](https://user-images.githubusercontent.com/90834735/151767228-284d5a1b-45a0-4ff7-9264-478037349658.png)
 
-**Suggested Topics**in der Sidebar bei Narrow Search:
-![Screenshot from 2021-12-15 19-43-59](https://user-images.githubusercontent.com/90834735/146247047-988e61af-e129-4445-bc35-b9415dbc40ef.png)
+
+**Nachher**: jetzt sind die Institution und das Gebäude enfernt oder deaktiviert in den Resultaten:
+![narrow search angepasst](https://user-images.githubusercontent.com/90834735/151767240-0693b8b5-f855-4519-adc6-a5b448b3909d.png)
+
+
+**Suggested Toppics: in der Sidebar bei Narrow Search ändern**
+![suggested](https://user-images.githubusercontent.com/90834735/151767342-fcc98504-6068-4855-890a-5a2c030593e9.png)
+
 
 ![Screenshot from 2021-12-15 19-45-27](https://user-images.githubusercontent.com/90834735/146246510-acfd1fa4-05ed-40c9-a457-1f7f4acd474f.png)
 
--**Checkbox**: alle anzeigen wo keinen Autor haben, ich möchte alle Suchresultate rausnehmen, die keinen Autor haben, das kann ich hier sogar mit einer Checkbox machen. Dazu muss ich
-
- das Script umändern: **-Autor:*= " No author" *
- ![Screenshot from 2021-12-15 20-08-11](https://user-images.githubusercontent.com/90834735/146249560-9ed85e3f-07ca-4109-9763-ab0e11156d33.png)
+-**Checkbox**: alle anzeigen wo keinen Autor haben, ich möchte alle Suchresultate rausnehmen, die keinen Autor haben, das kann ich hier sogar mit einer Checkbox machen. Dazu muss ich das Script umändern: **-Autor:*= " No author" *
+ ![no autor](https://user-images.githubusercontent.com/90834735/151767485-b7808fe5-d3ff-4240-8eb0-2934cf712085.png)
+ 
+ **Checkbox**: ![checkbox](https://user-images.githubusercontent.com/90834735/151767806-8c1b2f5a-4f47-4a72-a4ea-fddc2f360dab.png)
  
 - jetzt kommen alle Medien mit keinem Autor vor. Ich kann einfach das **Häklein anklicken. Es hat geklappt ☑️**
+-
 ![Screenshot from 2021-12-15 20-05-49](https://user-images.githubusercontent.com/90834735/146249464-e0798254-616d-4005-9250-560302f269e8.png)
 
 
 **YAML für Advanced Searched und Homepage ändern**
-So konnte man auch die Homepage anpassen zum Beispiel Sprache ändern oder Browser by Format
-**bei den searchaspects**: bei Yaml könne man auch die Wichtigkeit ändern z.b  der erste Autor ist viel wichtiger als der zweite Autor, also kann man den boosten.
-er hat aus den ursprünglichen 300 dann 3000 gemacht, um  die Wichtigkeit zu erhöhen.autor fuller hat er auf auf 1500 geboostet, so dass er wichtiger erscheint.
+So konnte man auch die Homepage anpassen zum Beispiel Sprache ändern oder Browser by Format.
+**bei den search aspects**: bei Yaml könne man auch die Wichtigkeit ändern z.b  der erste Autor ist viel wichtiger als der zweite Autor, also kann man den boosten.Katz hat aus den ursprünglichen 300 dann 3000 gemacht, um  die Wichtigkeit zu erhöhen.autor fuller hat er auf auf 1500 geboostet, so dass er wichtiger erscheint.
 
 
 
