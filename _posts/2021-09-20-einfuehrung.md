@@ -8,7 +8,7 @@ _Liebes Tagebuch_,
 Es kann losgehen!
 
 Ich erwarte von diesem Kurs, dass ich auf die **technischen Anforderungen** herangeführt werde, welche **in der Welt im Bereich _Bibliothekswesen_ da draussen** erwartet werden. 
-Ich studiere im 7. Semester Teilzeit "Bibliotheksmanagement" und hoffe dann ein wenig Einblick zu bekommen, wie das jetzt geht mit einem Bibliotheksprogramm und wie die Metadaten von einem Programm in das nächste genommen werden können. Konkret wäre interessant zu erfahren, wie sich diese Metadaten (Titel, Autor, Verlag...) eines einzelnen Mediums (z. b. Buch) kopieren lassen. Das heisst **über welche Schnittstellen**, Repositories oder über Cloud-Systeme oder was es da sonst noch gibt usw..Während dem Praktika in einer öffentlichen Bibliothek habe ich erfahren, dass die meisten Medien in der Schweiz alle von der SBD-Bibliotheksservice katalogisiert/ einmal erfasst werden und diese Metadaten dann von den öffentlichen Bibliotheken übernommen werden können. Wichtig scheint mir, technische Einblicke zu bekommen, so dass ich mit den Informatikern ein wenig reden kann, dabei hilft dieser Kurs sicher. 
+Ich studiere im 7. Semester Teilzeit "Bibliotheksmanagement" und hoffe dann ein wenig Einblick zu bekommen, wie das jetzt geht mit einem Bibliotheksprogramm und wie die Metadaten von einem Programm in das nächste genommen werden können. Konkret wäre interessant zu erfahren, wie sich diese Metadaten (Titel, Autor, Verlag...) eines einzelnen Mediums (z.B. Buch) kopieren lassen. Das heisst **über welche Schnittstellen**, Repositories oder über Cloud-Systeme oder was es da sonst noch gibt usw..Während dem Praktika in einer öffentlichen Bibliothek habe ich erfahren, dass die meisten Medien in der Schweiz alle von der SBD-Bibliotheksservice katalogisiert/ einmal erfasst werden und diese Metadaten dann von den öffentlichen Bibliotheken übernommen werden können. Wichtig scheint mir, technische Einblicke zu bekommen, so dass ich mit den Informatikern ein wenig reden kann, dabei hilft dieser Kurs sicher. 
 
 
 **_Zu mir und meine IT-Kenntnisse_**
@@ -29,7 +29,7 @@ Das im Dezember 2020 neu eingeführte **Bibliotheksverwaltungssystem "Alma"**, w
 
 Seit Herbst 2018 arbeite ich als **Pflegehelferin SRK** mit einem 50-Prozent Pensum in einem Altersheim, häufig über das Wochenende plus Montag oder Freitag. Dort müssen wir auch täglich elektronisch Rapportieren.
 
-In diversen Anwendungsprogrammen habe ich bereits Erfahrung gesammelt. Was das Programmieren, Konfigurieren und Modulieren betrifft, welche ich in diesem Kurs an Basics lernen werden, bin ich noch sehr unsicher. Die Shell, diese ist mir immer noch nicht geheur. Nichtdestotrotz versuche ich aber diesen Kurs **positiv anzugehen**. Soeben bin ich am Tutorial für das Markdown am durchgehen https://www.markdowntutorial.com/lesson/1/. Nun bin ich am Header lernen und Links einfügen [go to] (https://dailykitten.com/2021/05/galen/).
+Was das Programmieren, Konfigurieren und Modulieren betrifft, welche ich in diesem Kurs an Basics lernen werden, bin ich noch sehr unsicher. Die Shell, diese ist mir immer noch nicht geheur. Nichtdestotrotz versuche ich aber diesen Kurs **positiv anzugehen**. Soeben bin ich am Tutorial für das Markdown am durchgehen https://www.markdowntutorial.com/lesson/1/. Nun bin ich am Header lernen und Links einfügen [go to](https://dailykitten.com/2021/05/galen/).
 
 
 **Tschau und bis bald liebes Tagebuch!**
