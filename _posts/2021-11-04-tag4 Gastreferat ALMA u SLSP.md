@@ -15,7 +15,7 @@ Durch die SLSP (Swiss Library Service Plattform) wurde die Einführung von Alma 
 **Gemeinschaftszone (GZ)**
 Hier werden die E-Ressourcen, Normdaten verwaltet und hier findet sich die ALMA-Community.
 In der GZ können alle Metadaten für die Katalogisierung übernommen werden.
-**Katalogisierung**AHA-Moment:** Es werden alle Katalogisate über diese GZ übernommen, ohne dass jede einzelne Bibliothek (IZ) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selbst katalogisiert, vom ersten Anwender, der diese eingekauft hat. Dann werden die Daten auch übernommen von anderen Bibliotheken(Fremddatenübernahme). Die E-Ressourcen seien über WorldCat oder Library of Congress zugänglich.
+**Aha**:** Es werden alle Katalogisate über diese GZ übernommen, ohne dass jede einzelne Bibliothek (IZ) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selbst katalogisiert, vom ersten Anwender, der diese eingekauft hat. Dann werden die Daten auch übernommen von anderen Bibliotheken(Fremddatenübernahme). Die E-Ressourcen seien über WorldCat oder Library of Congress zugänglich.
 
 **Netzwerkzone (NZ)**
 In dieser Zone werden die einzelnen Titel der Werke/E-Medien aufgenommen und es finden sich Konsortiallizenzen. Hier sind alle SLSP- Bibliotheken unter einem Dach.
@@ -39,7 +39,7 @@ Der Vorteil ist, es wird nicht noch ein System für Verwaltung benötigt. Auch e
 
 - **Erschliessung**: läuft über Ex-Libris-Masterpaket, kann aber auch wieder konfiguriert werden auf IZ-Ebene für die einzelne Bibliothek.
  
-**Theke 1** kann Rückgabe, Neuberechtigungen, kann für studentische Hilfskräfte Berechtigungen reduzieren. Zahlungsinfo hat es keine, weil keine Kasse an dieser Theke 1 haben. Auch welcher Drucker soll Zugriff haben, kann hier definiert werden. RFID ist auch hinterlegt.
+**Theke 1** kann Rückgabe, Neuberechtigungen, kann für studentische Hilfskräfte Berechtigungen reduzieren. Zahlungsinfo hat es keine, weil keine Kasse an dieser Theke 1 haben. Auch welcher Drucker soll Zugriff haben. RFID ist hinterlegt.
 
 **Hilfeseite, Homepage , Link kann noch individuell angepasst werden über IZ**
 
@@ -47,6 +47,7 @@ Aus der Fragerunde erfuhr ich, dass alles in Marc-21 Format ist, und sich BibFra
 
 **Metadateneditor** 
 Man katalogisiert immer noch über RDA im Vergleich zu Aleph. Aber Felder sind anders mit Dollar und Buchstaben = Marc21. Man sehe aber Vorlagen, Warnungen. Es kann direkt ein neuer Bestand erstellt werden.
+
 Es gab noch eine zweite Live- Demo über wie man ein E-Book, eine Zeitschrift anlegen kann. Das geht alles über die Netwerkzone, die man aktivieren muss.
 
 **Datenbanken**:Es gibt Volltext, keinen Volltext, Referenzdatenbanken.
