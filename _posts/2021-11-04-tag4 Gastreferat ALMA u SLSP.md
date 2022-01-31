@@ -15,7 +15,7 @@ Durch die SLSP (Swiss Library Service Plattform) wurde die Einführung von Alma 
 **Gemeinschaftszone (GZ)**
 Hier werden die E-Ressourcen, Normdaten verwaltet und hier findet sich die ALMA-Community.
 In der GZ können alle Metadaten für die Katalogisierung übernommen werden.
-**Aha**:** Es werden alle Katalogisate über diese GZ übernommen, ohne dass jede einzelne Bibliothek (IZ) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selbst katalogisiert, vom ersten Anwender, der diese eingekauft hat. Dann werden die Daten auch übernommen von anderen Bibliotheken(Fremddatenübernahme). Die E-Ressourcen seien über WorldCat oder Library of Congress zugänglich.
+**Aha**: Es werden alle Katalogisate über diese GZ übernommen, ohne dass jede einzelne Bibliothek (IZ) E-Medien selbst katalogisieren muss. Nur Printmedien werden noch selbst katalogisiert, vom ersten Anwender, der diese eingekauft hat. Dann werden die Daten auch übernommen von anderen Bibliotheken(Fremddatenübernahme). Die E-Ressourcen seien über WorldCat oder Library of Congress zugänglich.
 
 **Netzwerkzone (NZ)**
 In dieser Zone werden die einzelnen Titel der Werke/E-Medien aufgenommen und es finden sich Konsortiallizenzen. Hier sind alle SLSP- Bibliotheken unter einem Dach.
