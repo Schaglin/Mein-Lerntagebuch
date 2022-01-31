@@ -1,4 +1,6 @@
-Hausaufgabe war es das Suchprogramm VuFind für Bibliotheken von Bibliotheken zu installieren. 
+**Hausaufgabe für Tag 7**
+
+Es war Hausaufgabe das Suchprogramm VuFind für Bibliotheken von Bibliotheken zu installieren. 
 
 Dazu bekamen wir wieder einen Satz von Shell-Befehlen zur Verfügung, diese konnte man einfach copy/pasten:
 
@@ -15,7 +17,7 @@ mussten wir ein neues Passwort festlegen, Maria DB ist = My Sql
 hierbei mussten wir noch einige Angaben mit y (yes) bestätigen.
 dann für den Root das Passwort bestätigen:**sudo mysql -uroot -p -e "UPDATE mysql.user SET plugin='' WHERE User='root'; FLUSH PRIVILEGES;"**
 Ein Neustart war in unserem Fall nicht erforderlich. Es reichte aus, den genannten Befehl einzugeben:**source /etc/profile**
-Um das SOlr zu starten mussten wir vorher noch Dateirechte festlegen für das Cache- und das Config-Verzeichnis beim Account des Webservers (www-data).
+Um das Solr zu starten mussten wir vorher noch Dateirechte festlegen für das Cache- und das Config-Verzeichnis beim Account des Webservers (www-data).
 -**sudo chown -R $USER:$GROUP /usr/local/vufind
 -sudo chown -R www-data:www-data /usr/local/vufind/local/cache
 -sudo chown -R www-data:www-data /usr/local/vufind/local/config**
@@ -76,11 +78,11 @@ ich versuche es weiter... ist ja Hausaufgabe...
 
 
 weiter Versuche hier, ich komme einfach nicht in das richtige Verzeichnis rein!!
-application.config.php komme ich nicht rein, weil es keine directory ist. weiss nicht mal ob das das richtige verzeichnis ist.
-bei demiankatz war es ganz eine andere ordnung und ich finde auch keine config dateien, bei ihm waren diese ja schon ohne befehle ersichtlich als texteditordateien  .
+application.config.php komme ich nicht rein, weil es keine directory ist. 
+
 ![Screenshot from 2021-12-15 17-24-10](https://user-images.githubusercontent.com/90834735/146225086-3cb109ee-8c24-42d0-8f0b-d2fe2bc585ab.png)
 
-über die Shell habe ich es dann aufgegeben, ich habe einen Tipp bekommen von Barbora, die auch diesen Kurs besucht. Nun versuche ich meine Glück manuell über den Ordnern zu konfigurerien.
+über die Shell habe ich es dann aufgegeben, ich habe einen Tipp bekommen von Barbora, die auch diesen Kurs besucht. Nun versuche ich meine Glück manuell über den Ordnern zu konfigurieren.
 
 ![Screenshot from 2021-12-15 18-12-08](https://user-images.githubusercontent.com/90834735/146233490-a77c58aa-b1e9-4652-8fc7-320f9e7170cb.png)
 
@@ -109,7 +111,7 @@ ich habe es noch mit 100 ausprobiert, es funktionierte, dass freute mich sehr !�
 ![Screenshot from 2021-12-15 18-50-15](https://user-images.githubusercontent.com/90834735/146239027-738fce42-df6f-4ca2-9b54-6519b06d646e.png)
 
 
--**default top recommended = top facettes** würde der demiankatz auch rausnehmen mit semikolon davor schreiben
+-**default top recommended = top facettes** würde der demiankatz auch rausnehmen-dafür muss man Semikolon davor schreiben.
 ![Screenshot from 2021-12-15 19-14-22](https://user-images.githubusercontent.com/90834735/146244502-082fd588-3380-47ba-9adf-6b0e498ae634.png)
 
 **Vorher**
@@ -118,7 +120,7 @@ ich habe es noch mit 100 ausprobiert, es funktionierte, dass freute mich sehr !�
 **Nachher**
 ![Screenshot from 2021-12-15 19-29-08](https://user-images.githubusercontent.com/90834735/146244617-24a2d9c2-0dd0-457c-aa32-733fe77bc8a5.png)
 
-- demiankatz möchte nun auch noch die OCLC Nummer zu den Suchthermen hinzufügen. das lasse ich jetzt weg.
+- Demian Katz möchte nun auch noch die OCLC Nummer zu den Suchthermen hinzufügen. Das lasse ich jetzt weg.
 
 
 **Bei den Facetten**
