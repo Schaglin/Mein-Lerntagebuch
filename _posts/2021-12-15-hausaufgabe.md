@@ -138,7 +138,7 @@ Dazu ändere ich die Config-Datei namens **"facetes.ini"**
  **Checkbox**: ![checkbox](https://user-images.githubusercontent.com/90834735/151767806-8c1b2f5a-4f47-4a72-a4ea-fddc2f360dab.png)
  
 - jetzt kommen alle Medien mit keinem Autor vor. Ich kann einfach das **Häklein anklicken. Es hat geklappt ☑️**
--
+
 ![Screenshot from 2021-12-15 20-05-49](https://user-images.githubusercontent.com/90834735/146249464-e0798254-616d-4005-9250-560302f269e8.png)
 
 
