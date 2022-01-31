@@ -4,12 +4,13 @@ Es war Hausaufgabe das Suchprogramm VuFind für Bibliotheken zu installieren.
 
 Dazu bekamen wir wieder einen Satz von Shell-Befehlen zur Verfügung:
 
-- **wget https://github.com/vufind-org/vufind/releases/download/v8.0.2/vufind_8.0.2.deb
-- sudo dpkg -i vufind_8.0.2.deb**
+- wget https://github.com/vufind-org/vufind/releases/download/v8.0.2/vufind_8.0.2.deb
+
+- sudo dpkg -i vufind_8.0.2.deb
 
 - **sudo apt-get update   -(🦖)**
 
-- **sudo apt-get install -f**
+- sudo apt-get install -f
 
 Maria DB mussten wir auch wieder installieren mit Befehl:
 **sudo /usr/bin/mysql_secure_installation**
@@ -30,7 +31,7 @@ Leider hatte ich nur eine leere Seite mit. Browser nicht findbar.
 
 
 **Zur Installation**:
-bei mir klappte es leider nicht auf Anhieb auch nach Fehlerbehebung Nr. 1. klappte es noch nicht.
+bei mir klappte es leider nicht auf Anhieb auch nach Fehlerbehebung Nummer 1., klappte es immer noch nicht.
 Jedoch gab es dann Hilfevideos von Hr. Lohmeier, die man anschauen konnte. Erst nach dem Hinweis von Hr. Lohmeier auf Befehl: **sudo apt get-update** gelang es mir.
 Aus dem Unterricht zu Aris im Frühling 2020, kannte ich eigentlich den Befehl schon, dort mussten wir oft die Verzeichnisse updaten. Jedoch ist es mir leider nicht mehr in den Sinn gekommen.
 
