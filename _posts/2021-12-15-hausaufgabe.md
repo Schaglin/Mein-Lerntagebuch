@@ -21,7 +21,8 @@ Um das Solr zu starten mussten wir vorher noch Dateirechte festlegen für das Ca
     -**sudo chown -R $USER:$GROUP /usr/local/vufind
     -sudo chown -R www-data:www-data /usr/local/vufind/local/cache
     -sudo chown -R www-data:www-data /usr/local/vufind/local/config**
-dann konnten wird das Solr starten und VuFind Konfigurieren mit Befehl:**/usr/local/vufind/solr.sh start**
+
+Dann konnten wird das Solr starten und VuFind Konfigurieren mit Befehl:**/usr/local/vufind/solr.sh start**
 Da wir keinen Domainnamen haben. Verwendeten wir localhost. Nun konnte ich den Browser in der virtuellen Maschine (Linux) mit folgender Adresse aufrufen:
 (http://localhost/vufind/Install/Home)
 Jetzt sollte VuFind bereits aufrufbar sein, und die Auto-Konfigurationen sollten sichtbar sein.
