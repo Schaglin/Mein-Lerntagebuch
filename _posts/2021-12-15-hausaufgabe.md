@@ -1,6 +1,6 @@
 **Hausaufgabe für Tag 7**
 
-Es war Hausaufgabe das Suchprogramm VuFind für Bibliotheken von Bibliotheken zu installieren. 
+Es war Hausaufgabe das Suchprogramm VuFind für Bibliotheken zu installieren. 
 
 Dazu bekamen wir wieder einen Satz von Shell-Befehlen zur Verfügung:
 
