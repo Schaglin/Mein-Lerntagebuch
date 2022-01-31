@@ -2,7 +2,7 @@
 
 Es war Hausaufgabe das Suchprogramm VuFind für Bibliotheken von Bibliotheken zu installieren. 
 
-Dazu bekamen wir wieder einen Satz von Shell-Befehlen zur Verfügung, diese konnte man einfach copy/pasten:
+Dazu bekamen wir wieder einen Satz von Shell-Befehlen zur Verfügung:
 
 - **wget https://github.com/vufind-org/vufind/releases/download/v8.0.2/vufind_8.0.2.deb
 - sudo dpkg -i vufind_8.0.2.deb**
@@ -11,16 +11,16 @@ Dazu bekamen wir wieder einen Satz von Shell-Befehlen zur Verfügung, diese konn
 
 - **sudo apt-get install -f**
 
-Maria DB mussten wir auch installieren mit Befehl:
+Maria DB mussten wir auch wieder installieren mit Befehl:
 **sudo /usr/bin/mysql_secure_installation**
-mussten wir ein neues Passwort festlegen, Maria DB ist = My Sql 
-hierbei mussten wir noch einige Angaben mit y (yes) bestätigen.
-dann für den Root das Passwort bestätigen:**sudo mysql -uroot -p -e "UPDATE mysql.user SET plugin='' WHERE User='root'; FLUSH PRIVILEGES;"**
+mussten wir ein neues Passwort festlegen, Maria DB ist = My Sql. Hierbei mussten wir noch einige Angaben mit y (yes) bestätigen.
+Dann für den Root das Passwort bestätigen:**sudo mysql -uroot -p -e "UPDATE mysql.user SET plugin='' WHERE User='root'; FLUSH PRIVILEGES;"**
 Ein Neustart war in unserem Fall nicht erforderlich. Es reichte aus, den genannten Befehl einzugeben:**source /etc/profile**
 Um das Solr zu starten mussten wir vorher noch Dateirechte festlegen für das Cache- und das Config-Verzeichnis beim Account des Webservers (www-data).
--**sudo chown -R $USER:$GROUP /usr/local/vufind
--sudo chown -R www-data:www-data /usr/local/vufind/local/cache
--sudo chown -R www-data:www-data /usr/local/vufind/local/config**
+
+    -**sudo chown -R $USER:$GROUP /usr/local/vufind
+    -sudo chown -R www-data:www-data /usr/local/vufind/local/cache
+    -sudo chown -R www-data:www-data /usr/local/vufind/local/config**
 dann konnten wird das Solr starten und VuFind Konfigurieren mit Befehl:**/usr/local/vufind/solr.sh start**
 Da wir keinen Domainnamen haben. Verwendeten wir localhost. Nun konnte ich den Browser in der virtuellen Maschine (Linux) mit folgender Adresse aufrufen:
 (http://localhost/vufind/Install/Home)
@@ -40,22 +40,18 @@ Die Security konnte man einfach mit fix darauf klicken und es wurde repariert.
 Bei der Datenbank muss ein neues Passwort vergeben sowie das zuvor oben im Abschnitt “MariaDB Passwort für root” eingegeben werden.
 Wir haben kein Bibliothekssystem, daher wählen wir NoILS. Dann wird aber trotzdem noch “Failed” angezeigt und wenn wir nochmal auf “Fix” klicken erscheint die folgende Meldung:
 
-    (…) You may need to edit the file at /usr/vufind/local/config/vufind/NoILS.ini
 
-    Datei im Texteditor (gedit) mit Administratorrechten öffnen
-
-sudo gedit /usr/local/vufind/local/config/vufind/NoILS.ini
+    sudo gedit /usr/local/vufind/local/config/vufind/NoILS.ini
 
     In Zeile 3 ils-offline in ils-none ändern und speichern.
 
-Nun musste ich nur noch die Auto-Konfigurationen fixen. Das ging auch gut, mithilfe des Videos von Hr. Lohmeier.
 Die schwierigste Auto-Konfiguration war wohl die, wo man in die Config-Datei selbst etwas umschreiben musste nämlich diese
 vorher musste man NoiLs auswählen. Aber eigentlich wollen wir gar keine Noils (weil ist ein ILS Driver).
 ![ils none](https://user-images.githubusercontent.com/90834735/150584450-ed31ccc5-76a5-4b3f-8cf3-c4d88be51116.png)
 daher musste man in die config-Dateie reingehen und manuell abändern und zwar von **ils offline zu ils none* abändern, damit es gar keine ILS Driver nimmt!
 
 
-demiankatz hat dazu auch ein Video gemacht zu diesen ILS Driver, das habe ich angeschaut: https://www.youtube.com/watch?v=qFbW8u9UQyM
+Demian Katz hat dazu auch ein Video gemacht zu diesen ILS Driver, das habe ich angeschaut: https://www.youtube.com/watch?v=qFbW8u9UQyM
 
 als alles gefixt war, sah es dann so aus. Ich freute mich darüber :-).
 ![Screenshot from 2021-12-15 10-51-06](https://user-images.githubusercontent.com/90834735/146193562-01443fb2-7c94-4127-a593-c844d8905d92.png)
@@ -63,17 +59,14 @@ als alles gefixt war, sah es dann so aus. Ich freute mich darüber :-).
 
 
 **Übung: Konfigurationen anpassen / Searching and Facet Settings**
-Ein Youtube Video erklärt von demiankatz, der Meister in VuFind, der auch im Editor erscheint: https://www.youtube.com/watch?v=qFbW8u9UQyM
+Ein Youtube Video erklärt von Demian Katz, der Meister in VuFind, der auch im Editor erscheint: https://www.youtube.com/watch?v=qFbW8u9UQyM
 
 Der Demiankatz war jetzt im Ordner /usr/local/vufind drin, um überhaupt dann nacher mit den Befehlen die config-Dateien abzufrufen.
 Also musste ich auch in diesen Ordner kommen. Ich versuchte nun mit der Commandozeile Cd in diesen /usr/local/vufind reinzukommen.
-![Screenshot from 2021-12-15 15-41-13](https://user-images.githubusercontent.com/90834735/146207073-1436cade-1843-46b4-9ad4-a9f0a178330e.png)
-
-
 Gemäss Demiankatz wäre der Befehl zum ändern der Search-Config-Dateien so gewesen, leider hat es nicht funktioniert.
 ![Screenshot from 2021-12-15 16-07-58](https://user-images.githubusercontent.com/90834735/146213450-505b7373-8c8a-4ef9-872a-49ade46d2f1e.png)
 
-ich versuche es weiter... ist ja Hausaufgabe...
+ich versuche es weiter...
 ![Screenshot from 2021-12-15 16-56-44](https://user-images.githubusercontent.com/90834735/146220478-c198ee89-eb11-471d-b84a-2614b4719fcb.png)
 
 
