@@ -1,5 +1,5 @@
 **üben im Archive Space**
----------------------------------
+
 
 
 **Import**
@@ -7,24 +7,24 @@ Man solle eine "raw xml file" sollte nun als EAD-DAtei importiert werden, und au
 Das habe ich dann auch gemacht.
 ![background](https://user-images.githubusercontent.com/90834735/151774371-6600fdaa-1c1b-44a7-aa10-0004115a497d.png)
 
-
-
+"**Background-Job has completed**" 
 Dieser "Background" habe ich nun auch wieder zu meinem Beispieldossier erfasst.
 ![newbackground](https://user-images.githubusercontent.com/90834735/151774420-df986d9b-f45f-4f92-87a7-3f54fde7fd1f.png)
-
-
+![beispieldossier](https://user-images.githubusercontent.com/90834735/151778238-e1a88520-ec94-4beb-a001-61e2a65b89a2.png)
 
 diese  _"a raw XML file"_ sollte nun in EAD importiert werden:
-![import](https://user-images.githubusercontent.com/90834735/151774456-73643e9e-cdf4-4586-96f2-250277ce8a06.png)
-
-![beispieldossier](https://user-images.githubusercontent.com/90834735/151774476-fb15df8c-5f1d-41f3-a817-dcc1533e43f7.png)
 
 
-Dann konnte man überprüfen, ob es geklappt hat und es erschienen " **DONE**" (gruen) unter new Modified Records "**Die American Assocation of Industrial Editors (AAIE) Records**"
+Dann konnte man überprüfen, ob es geklappt hat und es erschienen " **DONE**" (grün) unter new Modified Records
+"**Die American Assocation of Industrial Editors (AAIE) Records**"
+![import](https://user-images.githubusercontent.com/90834735/151777531-b41f1c50-7768-4760-94fa-f985bcc8bc07.png)
 
-"**Background-Job has completed**":
 
-![completed](https://user-images.githubusercontent.com/90834735/151774527-e97f2a46-c55d-4567-819e-a12e23baaf9f.png)
+
+
+
+
+
 
 
 ------------------------------
