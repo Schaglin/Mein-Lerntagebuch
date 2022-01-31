@@ -4,45 +4,38 @@
 **Import**
 Man solle eine "raw xml file" sollte nun als EAD-DAtei importiert werden, und auf die virutelle Festplatte gedownloaded werden um sie als " Background" anzulegen.
 Das habe ich dann auch gemacht.
-
-![Screenshot from 2021-11-15 19-06-39](https://user-images.githubusercontent.com/90834735/141852032-1ae02510-ac68-4e00-9cfc-4787f530277a.png)
-
+![background](https://user-images.githubusercontent.com/90834735/151774371-6600fdaa-1c1b-44a7-aa10-0004115a497d.png)
 
 
-![Screenshot from 2021-11-15 18-58-36](https://user-images.githubusercontent.com/90834735/141849676-dc819417-d19b-405f-acbc-ed3bc0a9b607.png)
 
 Dieser "Background" habe ich nun auch wieder zu meinem Beispieldossier erfasst.
-![Screenshot from 2021-11-15 19-09-27](https://user-images.githubusercontent.com/90834735/141849803-d5824b0f-5865-4947-a503-3f1445d6b8cf.png)
-
+![newbackground](https://user-images.githubusercontent.com/90834735/151774420-df986d9b-f45f-4f92-87a7-3f54fde7fd1f.png)
 
 
 
 diese  _"a raw XML file"_ sollte nun in EAD importiert werden:
+![import](https://user-images.githubusercontent.com/90834735/151774456-73643e9e-cdf4-4586-96f2-250277ce8a06.png)
 
-![Screenshot from 2021-11-15 19-06-07](https://user-images.githubusercontent.com/90834735/141850291-e7fb5ab4-4dc1-4b81-8865-bc49791913d9.png)
+![beispieldossier](https://user-images.githubusercontent.com/90834735/151774476-fb15df8c-5f1d-41f3-a817-dcc1533e43f7.png)
+
 
 Dann konnte man überprüfen, ob es geklappt hat und es erschienen " **DONE**" (gruen) unter new Modified Records "**Die American Assocation of Industrial Editors (AAIE) Records**"
-![Screenshot from 2021-11-15 19-06-07](https://user-images.githubusercontent.com/90834735/141850291-e7fb5ab4-4dc1-4b81-8865-bc49791913d9.png)
 
 "**Background-Job has completed**":
 
+![completed](https://user-images.githubusercontent.com/90834735/151774527-e97f2a46-c55d-4567-819e-a12e23baaf9f.png)
 
 
 ------------------------------
 
 
 
-![Screenshot from 2021-11-15 22-06-56](https://user-images.githubusercontent.com/90834735/141854142-8c1039cd-6a2b-4288-8a4e-88aa845b3943.png)
-![Screenshot from 2021-11-15 22-06-02](https://user-images.githubusercontent.com/90834735/141854154-a5d4970d-4d7f-42de-b6c7-5762790b1737.png)
-
-
-![Screenshot from 2021-11-15 19-09-34](https://user-images.githubusercontent.com/90834735/141851163-07b9cd25-962e-465d-b53b-84fc43aab275.png)
-
 Diese AAIE Records musste nun heruntergeladen werden und als .json abgespeichert werden.
-![Screenshot from 2021-11-15 22-05-59](https://user-images.githubusercontent.com/90834735/141854711-e694aeaf-7535-4bba-8d19-286c44105ccc.png)
+![AIE](https://user-images.githubusercontent.com/90834735/151774588-003c16ca-5142-4e08-b5b2-77dac40eccfd.png)
+
 
 Meine *Downloads*:   die Datei erschien aber nur in xml, kam nicht in json!!
-![Screenshot from 2021-11-15 19-06-07](https://user-images.githubusercontent.com/90834735/141850291-e7fb5ab4-4dc1-4b81-8865-bc49791913d9.png)
+
 
 
 
@@ -51,12 +44,12 @@ Vergleich mit Archive Space und der Ansicht von html:
 ------------------------------------------------------------
 
 
-
 Man sah, dass Archive Space die EAD-Felder selbstständig ausgefüllt hatte und auch ein ID - Identifier, der ja so wichtig ist für die eindeutige Verifzierung erschien bwz. ob das Dokument integer und authentisch ist. Das heisst nicht abgeändert oder irgendwie modifiziert wurde ohne Befugnis.
-![Screenshot from 2021-11-15 22-08-36](https://user-images.githubusercontent.com/90834735/141854131-66973f5f-2169-4ad7-ab0b-eaa44140213a.png)
+
 
 Finding Aid Data:
-![Screenshot from 2021-11-15 20-05-04](https://user-images.githubusercontent.com/90834735/141860096-c7324923-e86b-4b25-99da-e8362fc01652.png)
+
+![finding aid](https://user-images.githubusercontent.com/90834735/151774660-0d3b1c8b-2aab-429e-8cb8-9add6e137807.png)
 
 
 ----------------------------------------------------------------
@@ -65,11 +58,12 @@ Finding Aid Data:
 Viel übersichtlicher so wie es in Archive Space dargestellt wird. aber das Feld:**"Geschenk von Samuel V. Kennedy, 1980 " <subfield code="a">Gift of Samuel V. Kennedy , 1980.</subfield> findet sich unter einer anderen Stelle wieder.Viel detaillierter und es war unter Acquisitation (Erwerbung) und Subnotes (Notizen) vermerkt. 
 Mein AHA-Moment: jetzt ist es mir klar, diese AAIE Records  waren ein Geschenk von Samuel V. Kennedy im Jahr 1980, so wurden diese erworben. Das finde ich doch noch einen wichtigen Hinweis für Archivare!!
 
-in ***HTML**: 
-![Screenshot from 2021-11-15 22-29-13](https://user-images.githubusercontent.com/90834735/141856395-c2b22e3d-ba28-4e12-8f7b-f9ac90a9410e.png)
+in ***HTML**: ![html](https://user-images.githubusercontent.com/90834735/151774722-aabab553-af47-4183-b414-0f6759019c80.png)
 
-in ****ARCHIVE SPACE**
-![Screenshot from 2021-11-15 22-43-07](https://user-images.githubusercontent.com/90834735/141858100-349b7e11-0bf6-4c40-ba86-f87eed2756d4.png)
+
+
+in ****ARCHIVE SPACE**:![archive space](https://user-images.githubusercontent.com/90834735/151774748-72a48fe2-4469-410e-b853-53afdbd66f69.png)
+
 
 
 
