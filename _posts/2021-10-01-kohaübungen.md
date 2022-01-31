@@ -1,6 +1,5 @@
 
 **üben im Koha**
--------------------
 
 
 Ich habe schon mal vorgegriffen und die Kapitel 3 und 4 gemacht. Hier meine Screenshots dazu:
