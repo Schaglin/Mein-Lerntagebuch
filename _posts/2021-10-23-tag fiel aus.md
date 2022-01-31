@@ -7,35 +7,40 @@ date: 2021-10-23
 
 **Liebes Tagebuch**
 
-Die Hausaufgaben waren:    
-
-**Installation Archives Space**
+Die Hausaufgaben war:   **Installation von Archivprogramm "Archives Space"**
 
 Bevor wir **_Archives Space_** installieren konnten, mussten wir zuerst die Shell updaten mit dem Befehl **sudo apt update** und dann die **_Java 8_** herunterladen mit dem Befehl: **_sudo apt install openjdk-8-jre-headless_** mithilfe unserer Shell. 
+![done](https://user-images.githubusercontent.com/90834735/151770751-c172047d-1694-400d-9ff8-586d1cd8eed5.png)
+
 
 Danach konnten wir die Befehle _wget https://github.com/archivesspace/archivesspace/releases/download/v3.1.0/archivesspace-v3.1.0.zip_
  copy/pasten und das Archive Space downloaden und den Ordern unzippen mit dem Befehl: unzip -q archivesspace-v3.1.0.zip.
-  ![Screenshot from 2021-10-22 12-29-48](https://user-images.githubusercontent.com/90834735/138442383-2013b95e-a524-44b2-b53b-b74ac0714f0b.png)
-  ![Screenshot from 2021-10-22 12-42-06](https://user-images.githubusercontent.com/90834735/138442405-295e17ca-7b8c-43f2-b3df-523bfc3763e6.png)
+ 
+  ![unzippen](https://user-images.githubusercontent.com/90834735/151770725-58635dca-3f79-4f16-a5f0-cf0538aaa0c8.png)
 
+  
 **_Die Installation lief problemlos, was mich sehr freute_ :-)**
 
 Das Archive Space konnte mit dem Befehl: _archivesspace/archivesspace.sh_ gestartet werden und wir konnte dann über die URL aufgerufen werden:
 
-    http://localhost:8080/ – Administrationsoberfläche / “Staff Interface”      (admin)
-    
-![Screenshot from 2021-10-22 12-52-25](https://user-images.githubusercontent.com/90834735/138442423-65aac93d-d268-437a-9d8c-d54213a544e8.png)v
-    
-   
-    http://localhost:8081/ – Benutzungsoberfläche / “Public Interface”        (public)
+Adminoberfläche:
+    http://localhost:8080/ – “Staff Interface”      (admin)
+    ![welcome](https://user-images.githubusercontent.com/90834735/151770494-a4de8042-ff91-4d4c-a6d5-38593d20aae6.png)
 
-![Screenshot from 2021-10-22 12-57-27](https://user-images.githubusercontent.com/90834735/138442818-9d804219-5c95-4491-999f-d862000370f5.png)
 
     
-    http://localhost:8082/ – OAI-PMH Schnittstelle
+Benutzeroberfläche:  
+    http://localhost:8081/ – “Public Interface”        (public)
+![8081archive space](https://user-images.githubusercontent.com/90834735/151770523-7c35ada7-2506-48e7-bd60-c8a7118ab838.png)
 
-![Screenshot from 2021-10-22 12-51-37](https://user-images.githubusercontent.com/90834735/138442418-c98cb2cb-7de3-492b-bf23-100a53f342ef.png)
 
 
-**AHA-Moment**: Dann habe ich erstaunt festgestellt, dass die public Seite noch gar keine Einträge drin hat! Beim Nachlesen habe ich erfahren, dass die public - Seite erst verfügbar ist, wenn über die admin-Seite ein **_Repository_** angelegt wurde.
+OAHI-PMH Schnittstelle-Oberfläche:   
+    http://localhost:8082/ – OAI-PMH 
+![schnittstelle8082](https://user-images.githubusercontent.com/90834735/151770546-66105a34-bcc1-4ec4-80bb-13704b2c4cb1.png)
+
+
+
+
+**AHA-Moment**: Dann habe ich erstaunt festgestellt, dass die public-Seite noch gar keine Einträge drin hat! Beim Nachlesen habe ich erfahren, dass die public - Seite erst verfügbar ist, wenn über die admin-Seite ein **_Repository_** angelegt wurde.
 
